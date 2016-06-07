@@ -3,8 +3,6 @@ layout: none
 search: exclude
 sidebar:
 - mydoc_sidebar
-- product1_sidebar
-- product2_sidebar
 ---
 
 {% for sidebar in page.sidebar %}

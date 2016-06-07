@@ -1,5 +1,8 @@
 {% include custom/sidebarconfigs.html %}
 
+<a href="{{ "/" | prepend: site.baseurl  }}">
+    <img src="{{ "/images/pulp_logo.png" | prepend: site.baseurl  }}" alt="Pulp logo">
+</a>
 <ul id="mysidebar" class="nav">
     <li class="sidebarTitle">{{sidebar[0].product}} {{sidebar[0].version}}</li>
     {% for entry in sidebar %}

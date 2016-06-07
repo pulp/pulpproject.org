@@ -5,23 +5,22 @@ entries:
   levels: one
   folders:
 
-  - title: Products
+  - title: Pulp
     output: web
     folderitems:
     - title: Home
       url: /
       output: web
       type: homepage
-    - title: News
-      url: /news/
+    - title: Documentation
+      url: /docs/
       output: web
-    - title: Theme instructions
-      url: /mydoc_introduction/
+    - title: Demo
+      url: /demo/
       output: web
-    - title: Product 1
-      url: /p1_landing_page/
+    - title: Blog
+      url: /blog/
       output: web
-    - title: Product 2
-      url: /p2_landing_page/
-      output: web
-
+    - title: Help
+      url: /help/
+      output: web, pdf

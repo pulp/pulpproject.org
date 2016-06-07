@@ -1,0 +1,45 @@
+# Pulp manages and hosts software packages and repositories
+# This is a demo of Pulp managing RPM content
+# Pulp does similar things for Python, Puppet, OSTree, and Docker content
+
+tmux
+
+# Make a repo and sync some rpms from a remote repo
+pulp-admin login -u admin -p admin
+pulp-admin rpm repo create --repo-id zoo --feed https://repos.fedorapeople.org/repos/pulp/pulp/fixtures/rpm/
+pulp-admin rpm repo sync run --repo-id zoo
+pulp-admin rpm repo list --repo-id zoo
+
+
+# Copy content between repos
+pulp-admin rpm repo create --repo-id tested
+pulp-admin rpm repo copy rpm --match name=tiger --from-repo-id zoo --to-repo-id tested
+
+# Upload my own content too!
+ls
+pulp-admin rpm repo uploads rpm --repo-id tested -f python3-selenium-2.53.4-1.fc23.noarch.rpm
+pulp-admin rpm repo list --repo-id tested
+
+# Publish this repo
+pulp-admin rpm repo publish run --repo-id tested
+
+
+# Make Pulp repositories available to a host
+sudo pulp-consumer -u admin -p admin register --consumer-id c1
+sudo pulp-consumer rpm bind --repo-id tested
+cat /etc/yum.repos.d/pulp.repo
+
+# Normal yum/dnf client commands work
+sudo dnf install zebra -y
+
+# Trigger remote software updates
+pulp-admin rpm consumer package update run --consumer-id c1
+
+# Trigger specific package installs/uninstalls
+pulp-admin rpm consumer package install run --consumer-id c1 -n zebra
+rpm -qa | grep zebra
+pulp-admin rpm consumer package uninstall run --consumer-id c1 -n zebra
+rpm -qa | grep zebra
+
+# Normal client operations work
+sudo dnf install zebra

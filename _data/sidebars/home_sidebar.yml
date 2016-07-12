@@ -23,4 +23,7 @@ entries:
       output: web
     - title: Help
       url: /help/
-      output: web, pdf
+      output: web
+    - title: Get Involved
+      url: /get_involved/
+      output: web

@@ -14,7 +14,7 @@ homepage: true
 
 Pulp is a platform for managing repositories of software packages and making it available to a
 large numbers of consumers. Pulp can locally mirror all or part of a repository, host your own
-software packages in a repositories, and manage many types of content from multiple sources in one
+software packages in repositories, and manage many types of content from multiple sources in one
 place.
 
 Pulp has a [REST API](http://docs.pulpproject.org/dev-guide/integration/rest-api/index.html) and

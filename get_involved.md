@@ -7,7 +7,7 @@ toc: false
 
 ## Beta or Release Candidate Testing
 
-Test Beta or Release Candidate of upcoming Pulp releases is a great way to get involved.
+Testing a Beta or Release Candidate of an upcoming Pulp release is a great way to get involved.
 Announcements of Beta and RCs happen through [pulp-list](https://www.redhat.com/archives/pulp-list/).
 
 ## Contribute as a Developer

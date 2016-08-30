@@ -23,10 +23,8 @@ management.
 
 Pulp is free and open-source, and we invite you to [join us on GitHub](https://github.com/pulp/).
 
+<h2 class="page-header">Supported Types</h2>
 <div class="row">
-    <div class="col-lg-12">
-        <h2 class="page-header">Supported Types</h2>
-    </div>
     <div class="col-lg-12">
         <ul id="myTab" class="nav nav-tabs nav-justified">
             <li class="active"><a href="#rpm" data-toggle="tab"><i class="fa fa-cube"></i> RPM</a>

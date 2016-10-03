@@ -19,7 +19,8 @@ Look in the docs for an answer at [docs.pulpproject.org](https://docs.pulpprojec
 
 Look to see if the current bug or feature exists on the [Pulp issues tracker](https://pulp.plan.io/issues?set_filter=1).
 
-See bugs confirmed this week and what versions they affect [Weekly Bug Trends](https://pulp.plan.io/projects/pulp/wiki/Weekly_Bug_Trends).
+See bugs confirmed this week and what versions they affect with the [Weekly Bug Report](https://pulp.plan.io/projects/pulp/wiki/Weekly_Bug_Trends).
+
 
 Think you've found a bug, [file it](https://pulp.plan.io/projects/pulp/issues/new).
 

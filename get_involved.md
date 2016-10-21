@@ -8,12 +8,16 @@ toc: false
 ## Beta or Release Candidate Testing
 
 Testing a Beta or Release Candidate of an upcoming Pulp release is a great way to get involved.
-Announcements of Beta and RCs happen through [pulp-list](https://www.redhat.com/archives/pulp-list/).
+Announcements of Beta and RCs happen through
+[pulp-list](https://www.redhat.com/mailman/listinfo/pulp-list).
 
 ## Contribute as a Developer
 
 See the [developers guide](http://docs.pulpproject.org/dev-guide/contributing/index.html) for how
 to contribute code fixes.
+
+Join the [pulp-dev](https://www.redhat.com/mailman/listinfo/pulp-dev) mailing list for discussion about
+Pulp itself.
 
 ## Bug Triage
 

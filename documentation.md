@@ -21,6 +21,8 @@ Pulp 2.10.1 [docs.pulpproject.org/en/2.10/testing/](http://docs.pulpproject.org/
 
 Pulp 3.0 [docs.pulpproject.org/en/3.0/nightly/](http://docs.pulpproject.org/en/3.0/nightly/)
 
+Pulp 2.12 [docs.pulpproject.org/en/2.12/nightly/](http://docs.pulpproject.org/en/2.12/nightly/)
+
 Pulp 2.11 [docs.pulpproject.org/en/2.11/nightly/](http://docs.pulpproject.org/en/2.11/nightly/)
 
 Pulp 2.10 [docs.pulpproject.org/en/2.10/nightly/](http://docs.pulpproject.org/en/2.10/nightly/)

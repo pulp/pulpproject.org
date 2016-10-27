@@ -17,6 +17,9 @@ entries:
   - title: Tags
     output: web
     folderitems:
+    - title: Demo
+      url: /tag_demo/
+      output: web
     - title: Docker
       url: /tag_docker/
       output: web

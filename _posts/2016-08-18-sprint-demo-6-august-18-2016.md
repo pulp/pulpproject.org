@@ -1,11 +1,10 @@
 ---
-title: 'Sprint Demo 6 &#8212; August 18, 2016'
-date: 2016-08-18T18:28:49+00:00
+title: Sprint Demo 6
 author: Brian Bouterse
 layout: post
 permalink: /2016/08/18/sprint-demo-6-august-18-2016/
-categories:
-  - Uncategorized
+tags:
+  - demo
 ---
 See some of the great features going into Pulp 2.10 and 2.11. This is a sprint demo of Sprint 6,
 which is the third sprint of 2.10 work and includes some 2.11 work.

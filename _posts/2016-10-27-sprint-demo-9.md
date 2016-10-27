@@ -1,6 +1,8 @@
 ---
 title: Sprint 9 Demo
 author: Brian Bouterse
+tags:
+  - demo
 ---
 The Sprint 9 demo is available, which highlights 2.11 features and 3.0 work.
 

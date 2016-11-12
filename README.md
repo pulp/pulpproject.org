@@ -23,3 +23,4 @@ from your host system by connecting to Vagrant via ssh with a tunnel for port 40
 ## Updating Dependencies
 
 Updating the dependencies of a build environment is done with: `bundle update github-pages`
+

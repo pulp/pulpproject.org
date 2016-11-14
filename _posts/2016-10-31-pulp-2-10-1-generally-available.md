@@ -1,5 +1,8 @@
 ---
-title: Pulp 2.10.1 Generally Available
+title: Pulp 2.10.1 ROLLED BACK
+# blog post was originally at this permalink; it's defined explicitly here so that
+# anything referencing the original GA announcement sees the rollback notice.
+permalink: /2016/10/31/pulp-2-10-1-generally-available/
 author: Sean Myers
 tags:
   - release
@@ -8,6 +11,14 @@ tags:
 categories:
   - Releases
 ---
+## <span style="color: red;">ROLLED BACK</span>
+
+> Pulp 2.10.1 was found to have multiple fatal flaws, most
+> notably [this issue](https://pulp.plan.io/issues/2378). As a result, the
+> release was rolled back. At this time, pending future release announcements,
+> the currently available release of Pulp is 2.10.0, with Pulp 2.10.2 coming
+> as soon as possible. Our apologies for the inconvenience.
+
 Pulp 2.10.1 (<span style="color: darkorange" title="Happy Halloween!">Spooky Edition</span>)
 is now Generally Available in the stable repositories:
 

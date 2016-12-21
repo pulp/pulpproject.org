@@ -1,6 +1,7 @@
 ---
 title: Sprint 9 Demo
 author: Brian Bouterse
+layout: post
 tags:
   - demo
   - 3.0
@@ -19,4 +20,5 @@ Pulp 3 tasking system converted to Django models (9:48)
 
 Pulp Fixtures (13:27)
 
+<iframe src="https://player.vimeo.com/video/189172600" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 [Pulp Sprint Demo 9](https://vimeo.com/groups/pulp/videos/189172600) from [Brian Bouterse](https://vimeo.com/user53392398) on [Vimeo](https://vimeo.com).

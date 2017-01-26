@@ -875,12 +875,22 @@ span.soft {
     #mysidebar {
         position: relative;
     }
+    img#logo {
+        position: relative;
+    }
 }
 
 @media (min-width: 1000px) {
 
     ul#mysidebar {
         width: 225px;
+        margin-top: 180px;
+    }
+
+    img#logo {
+      margin-left: 30px;
+      margin-right: 30px;
+      position: fixed;
     }
 }
 

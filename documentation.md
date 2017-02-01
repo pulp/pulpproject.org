@@ -12,13 +12,14 @@ The latest stable documentation is located at [docs.pulpproject.org](http://docs
 
 ## Release Candidate or Beta
 
-* [Pulp 2.12 (Testing)](http://docs.pulpproject.org/en/2.12/testing/)
+* No testing releases available.
 
 
 ## Nightly
 
 * [Latest Nightly](http://docs.pulpproject.org/en/nightly/)
 * [Pulp 3.0](http://docs.pulpproject.org/en/3.0/nightly/)
+* [Pulp 2.12](http://docs.pulpproject.org/en/2.13/nightly/)
 * [Pulp 2.12](http://docs.pulpproject.org/en/2.12/nightly/)
 * [Pulp 2.11](http://docs.pulpproject.org/en/2.11/nightly/)
 * [Pulp 2.10](http://docs.pulpproject.org/en/2.10/nightly/)
@@ -26,6 +27,7 @@ The latest stable documentation is located at [docs.pulpproject.org](http://docs
 
 ## Older, Stable
 
+* [Pulp 2.11](http://docs.pulpproject.org/en/2.11/)
 * [Pulp 2.10](http://docs.pulpproject.org/en/2.10/)
 * [Pulp 2.9](http://docs.pulpproject.org/en/2.9/)
 * [Pulp 2.8](http://docs.pulpproject.org/en/2.8/)

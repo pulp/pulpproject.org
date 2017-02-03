@@ -25,4 +25,4 @@ Bug triage happens weekly in IRC. Come and participate in real-time. See the
 [triage process](http://docs.pulpproject.org/dev-guide/contributing/bugs.html#triage-process) for
 more details.
 
-You can also read through the [triage archives](https://pulpadmin.fedorapeople.org/triage/pulp-dev/2016/?C=N;O=D)
+You can also read through the [triage archives](https://pulpadmin.fedorapeople.org/triage/pulp-dev/?C=N;O=D)

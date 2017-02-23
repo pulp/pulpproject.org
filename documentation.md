@@ -19,7 +19,7 @@ The latest stable documentation is located at [docs.pulpproject.org](http://docs
 
 * [Latest Nightly](http://docs.pulpproject.org/en/nightly/)
 * [Pulp 3.0](http://docs.pulpproject.org/en/3.0/nightly/)
-* [Pulp 2.12](http://docs.pulpproject.org/en/2.13/nightly/)
+* [Pulp 2.13](http://docs.pulpproject.org/en/2.13/nightly/)
 * [Pulp 2.12](http://docs.pulpproject.org/en/2.12/nightly/)
 * [Pulp 2.11](http://docs.pulpproject.org/en/2.11/nightly/)
 * [Pulp 2.10](http://docs.pulpproject.org/en/2.10/nightly/)

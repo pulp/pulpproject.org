@@ -263,10 +263,12 @@ We could store the PEPs in Redmine. Why aren't we using Redmine?
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Upsides:
+
 * It would keep every comment and the proposal itself on one webpage.
 * It would be kept along with bugs and stories
 
 Downsides:
+
 * Redmine isn't great for long, structured documents. For instance linking between sections is hard.
 * Redmine's long conversations become difficult to read
 * Comments don't support threading well.
@@ -293,12 +295,14 @@ What about using Github for discussion?
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Upsides:
+
 * It keeps comments in one place, with the proposal document
 * You can leave comments line-by-line
 * It supports threading pretty well
 * You could use github voting.
 
 Downside:
+
 * This is very developer focused. Everyone knows how use emails and a web browser. Not everyone
   knows how to use Github review.
 * It breaks up the document which makes it practically less readable

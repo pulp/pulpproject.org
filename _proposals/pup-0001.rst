@@ -6,16 +6,18 @@ author: Brian Bouterse
 Summary
 =======
 
-This proposal is designed to
+This proposal provides a structured process to propose, track, discuss, and decide on process
+changes for the Pulp project and community.
 
 Motivation
 ==========
 
 As initially [raised on the pulp-dev list](https://www.redhat.com/archives/pulp-dev/2017-February/msg00014.html),
-Pulp lacks a process to propose, track, and decide on changes that affect the Pulp community.
+Pulp lacks a process to propose, track, discuss, and decide on changes that affect the Pulp
+community.
 
 This is a problem that has been addressed by many communities. The process outlined in this document
-is inspired by processes in the Foreman, Python, and Django communities.
+is inspired by processes in the Python, Django, and Foreman communities.
 
 
 What are these called?
@@ -48,48 +50,93 @@ show all proposals in different states (active, approved, rejected, abandoned). 
 viewable via pulpproject.org in a dedicated area.
 
 
-Proposal Lifecycle
-==================
+Proposal Process
+================
 
-Before Proposing
-^^^^^^^^^^^^^^^^
+The overall process is: Pre-proposal -> Authoring -> Announcement ->  Discussion and Feedback ->
+Revision -> Voting -> Decision
 
-Discussing an idea via the list prior to writing a formal proposal is encouraged. This is designed
-to save the author time by gathering feedback quickly before writing a concrete, detailed proposal.
+Most of the process is facilitated using either the pulp-list or pulp-dev mailing lists. The
+following guidelines identify how they should.
+
+* For changes impacting users, [pulp-list](https://www.redhat.com/mailman/listinfo/pulp-list) is the
+  appropriate place.
+* For changes impacting developers, [pulp-dev](https://www.redhat.com/mailman/listinfo/pulp-dev) is
+  the appropriate place.
+
+Pre-Proposal
+^^^^^^^^^^^^
+
+Discussing an idea via the appropriate mailing list prior to writing a formal proposal is
+encouraged. This is intended to save the author time by gathering feedback quickly before writing a
+concrete, detailed proposal.
+
+
+Authoring
+^^^^^^^^^
+
+One or more authors create the proposal as a pull request against
+[the pulpproject.org repo](http://github.com/pulp/pulpproject.org/) using the next sequential
+proposal number. The proposal is a single file, e.g. `pup-0022.rst`. A core dev is expected to
+merge any proposal with adequate clarity and in the expected format.
+
 
 Announcement
 ^^^^^^^^^^^^
 
-Once a proposal is merged to the proposals area, an announcement would be sent to pulp-dev, which
-would include a very brief introduction and a link to the proposal in its web viewable form.
+Once a proposal is merged to the proposals area, an announcement would be sent to the appropriate
+list, which would include a very brief introduction and a link to the proposal in its web viewable
+form.
+
 
 Discussion and Feedback
 ^^^^^^^^^^^^^^^^^^^^^^^
 
-General discussion would occur on the announcement thread via pulp-dev. Threaded e-mail readers
-should make this conversation format easy to follow, while keeping the one proposal document in-tact
-and easy to read.
+General discussion would occur on the announcement thread on the appropriate mailing list. Threaded
+e-mail readers should make this conversation format easy to follow, while keeping the proposal
+document in-tact and easy to read.
 
 
 Revision
 ^^^^^^^^
 
-Revision would occur as additional pull requests against the active proposal. This allows the full
-history of a proposal to always be maintained. This is how Python does it. This also allows
-edits/updates to come with a commit message indicating the concerns addressed or improvements.
-Collaboration is also easy with a collaborator sending revisions to the author as a patch or a new
-PR against the proposal.
+Revision would occur as additional pull requests against the active proposal. This allows the
+changelog of a proposal to always be maintained. This is how Python does it. This also allows
+edits/updates to come with a commit message indicating the concerns addressed or improvements
+including links to responses via the archive. Collaboration is also easy with a collaborator sending
+revisions to the author as a patch or a new pull request against the proposal.
 
 
-Expressing Support/Concern
-^^^^^^^^^^^^^^^^^^^^^^^^^^
+Voting
+^^^^^^
 
-The +1, +0, -0, -1 [feedback process of the Django community](https://docs.djangoproject.com/en/dev/internals/contributing/bugs-and-features/#how-we-make-decisions)
-would be used. These would be sent as responses via the pulp-dev mailing list. A -1 feedback must
-come with a statement of objective concerns explaining what harm will come from adopting the
-proposal. -1 feedback should not be used to express subjective preferences. Note that votes can come
-from anyone, not just core devs. This is directly modeled after the Django process [3] who modeled
-their process after the Python and Apache communities.
+The +1, +0, -0, -1 feedback process is used, with votes sent as responses via the
+announcement/discussion mailing list. The voting has the following meanings:
+
+* +1: "I love the idea and I’m strongly committed to it."
+* +0: "Sounds OK to me."
+* -0: "I’m not thrilled, but I won’t stand in the way."
+* -1: "I strongly disagree and would be very unhappy to see the idea turn into reality." This type
+  of feedback must come with a statement of objective concerns explaining what harm will come from
+  adopting the proposal. Also, -1 feedback should not be used to express subjective preferences.
+
+Note that votes can come from anyone, not just core devs. This is directly modeled after [the
+Django process](https://docs.djangoproject.com/en/dev/internals/contributing/bugs-and-features/#how-we-make-decisions)
+who modeled their process after the Python and Apache communities.
+
+
+Deciding
+^^^^^^^^
+
+* If an obvious consensus arises via voting, the proposal is ratified. This is a bit vague, but it
+  works for the Django community.
+* Discussion on the thread can confirm if consensus is obvious or not.
+* Votes come from anyone, not just core devs
+* A -1 from a core dev is considered a veto vote and will block ratification until the vote is
+  recast.
+* Core devs are expected to consider and echo serious feedback from the community especially any -1
+  votes from community members.
+* Consensus is not always possible. If obvious consensus is not reached, then the core devs decide.
 
 
 Proposal Requirements
@@ -99,7 +146,10 @@ This is a modified version of [the Foreman template](https://github.com/theforem
 
 ::
 
-    Proposal Name: <name goes here>
+    ---
+    title: <title goes here>
+    author: <author or authors named>
+    ---
 
     Summary
     =======
@@ -112,22 +162,26 @@ This is a modified version of [the Foreman template](https://github.com/theforem
 
     Why are we doing this? What problem is it designed to solve? What is the expected outcome?
 
+
     Detailed Design
     ===============
 
     This is the bulk of the RFC. Explain the design in enough detail for somebody familiar with the
     project to understand, and for somebody familiar with the codebase to implement. This should get
-    into specifics and corner-cases, and include examples of how the feature is used.
+    into specifics and corner cases, and include examples of how the feature is used.
+
 
     Drawbacks
     =========
 
     Why should we not do this?
 
+
     Alternatives
     ============
 
     What other designs have been considered? What is the impact of not doing this?
+
 
     Unresolved Questions
     ====================
@@ -146,20 +200,6 @@ than 10 calendar days from the initial announcement. Longer periods are also OK,
 via the list based on feedback via the list. I think using calendar days is better than business
 days because the whole world treats calendar days the same. I suggest 10 because sometimes people go
 offline for a whole week. Longer than 10 days and I think the process could become too slow.
-
-
-Deciding Yes/No
-^^^^^^^^^^^^^^^
-
-* If an obvious consensus arises via voting, the proposal is ratified. This is a bit vague, but it
-  works for the Django community.
-* Discussion can occur to confirm if consensus is obvious or not.
-* Votes come from anyone, not just core devs
-* A -1 from a core dev is considered a veto vote and will block ratification until the vote is
-  recast.
-* Core devs are expected to consider and echo serious feedback from the community especially any -1
-  votes from community members.
-* Consensus is not only possible. If obvious consensus is not reached, then the core devs decide.
 
 
 Why Approve/Reject This Way?
@@ -205,3 +245,69 @@ Examples
 * This proposal
 * All the PEPs in both [web](https://www.python.org/dev/peps/) and
   [raw](https://github.com/python/peps) form.
+
+
+Drawbacks
+=========
+
+* The history is in two places: the commit history and separately the mailing list archive.
+* Initial creation and revisions require merging by a core dev versus having it live as a PR at all
+  times.
+* Mailing lists can be hard to follow.
+
+
+Alternatives
+============
+
+We could store the PEPs in Redmine. Why aren't we using Redmine?
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Upsides:
+* It would keep every comment and the proposal itself on one webpage.
+* It would be kept along with bugs and stories
+
+Downsides:
+* Redmine isn't great for long, structured documents. For instance linking between sections is hard.
+* Redmine's long conversations become difficult to read
+* Comments don't support threading well.
+* History of Redmine edits is not as clear as a git commit history.
+* Not as beautiful as a web-viewable archive of decisions
+
+
+What about leaving it as a pull request for longer?
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Upsides:
+
+* Anyone can create and maintain a proposal with complete self-service until it needs to be merged.
+
+Downsides:
+
+* This is very developer focused. Everyone knows how use emails and a web browser. Not everyone
+  knows how to use Github review.
+* The proposal never being merged to a Pulp repo may cause us to loose access to previous proposals.
+* Maintaining a numbered record of Proposals is more difficult.
+
+
+What about using Github for discussion?
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Upsides:
+* It keeps comments in one place, with the proposal document
+* You can leave comments line-by-line
+* It supports threading pretty well
+* You could use github voting.
+
+Downside:
+* This is very developer focused. Everyone knows how use emails and a web browser. Not everyone
+  knows how to use Github review.
+* It breaks up the document which makes it practically less readable
+* It can be hard to see comments over time with new versions collapsing the comments when they
+  become "outdated".
+
+
+Unresolved Questions
+====================
+
+What are we calling it? (PUP, PCP, <your idea here>)
+Is 10 calendar days the right decision making time default.

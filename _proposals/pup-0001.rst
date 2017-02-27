@@ -77,8 +77,8 @@ Authoring
 
 One or more authors create the proposal as a pull request against
 [the pulpproject.org repo](http://github.com/pulp/pulpproject.org/) using the next sequential
-proposal number. The proposal is a single file, e.g. `pup-0022.rst`. A core dev is expected to
-merge any proposal with adequate clarity and in the expected format.
+proposal number. The proposal is a single file, e.g. `pup-0022.rst`. A core dev [#f1]_ is expected
+to merge any proposal with adequate clarity and in the expected format.
 
 
 Announcement
@@ -113,14 +113,13 @@ Voting
 The +1, +0, -0, -1 feedback process is used, with votes sent as responses via the
 announcement/discussion mailing list. The voting has the following meanings:
 
-* +1: "I love the idea and I’m strongly committed to it."
-* +0: "Sounds OK to me."
-* -0: "I’m not thrilled, but I won’t stand in the way."
-* -1: "I strongly disagree and would be very unhappy to see the idea turn into reality." This type
-  of feedback must come with a statement of objective concerns explaining what harm will come from
-  adopting the proposal. Also, -1 feedback should not be used to express subjective preferences.
+* +1: "Will benefit the project and should definitely be adopted."
+* +0: "Might benefit the project and is acceptable."
+* -0: "Might not be the right choice but is acceptable."
+* -1: "Not the right choice and should definitely not be adopted." This type of feedback must come
+  with a statement of objective concerns explaining what harm will come from adopting the proposal.
 
-Note that votes can come from anyone, not just core devs. This is directly modeled after [the
+Note that votes can come from anyone, not just core devs [#f1]_. This is directly modeled after [the
 Django process](https://docs.djangoproject.com/en/dev/internals/contributing/bugs-and-features/#how-we-make-decisions)
 who modeled their process after the Python and Apache communities.
 
@@ -131,12 +130,13 @@ Deciding
 * If an obvious consensus arises via voting, the proposal is ratified. This is a bit vague, but it
   works for the Django community.
 * Discussion on the thread can confirm if consensus is obvious or not.
-* Votes come from anyone, not just core devs
-* A -1 from a core dev is considered a veto vote and will block ratification until the vote is
-  recast.
-* Core devs are expected to consider and echo serious feedback from the community especially any -1
+* Votes come from anyone, not just core devs [#f1]_.
+* A -1 from a core dev [#f1]_ is considered a veto vote and will block ratification until the vote
+  is recast.
+* Core devs are expected to consider and echo serious feedback from the community, especially any -1
   votes from community members.
-* Consensus is not always possible. If obvious consensus is not reached, then the core devs decide.
+* Consensus is not always possible. If obvious consensus is not reached, then the core devs [#f1]_
+  decide.
 
 
 Proposal Requirements
@@ -182,6 +182,9 @@ This is a modified version of [the Foreman template](https://github.com/theforem
 
     What other designs have been considered? What is the impact of not doing this?
 
+    Be creative here. Brainstorm with others. No idea is too outlandish to mention. Include ideas
+    that are "obviously" bad; even one sentence about why something was ruled out is valuable.
+
 
     Unresolved Questions
     ====================
@@ -205,10 +208,11 @@ offline for a whole week. Longer than 10 days and I think the process could beco
 Why Approve/Reject This Way?
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-* It treats community decision making (not just core dev decision making) as a first class principle
-* It works for the best communities we know of (Django, Python, Apache, etc)
-* It allows people to be as involved or not as they way
-* It allows serious concerns to not be dismissed (due to a -1 veto vote from core dev)
+* It treats community decision making (not just core dev [#f1]_ decision making) as a first class
+  principle.
+* It works for the best communities we know of (Django, Python, Apache, etc).
+* It allows people to be as involved or not as they want.
+* It allows serious concerns to not be dismissed (due to a -1 veto vote from core dev [#f1]_).
 
 
 Approval
@@ -216,8 +220,9 @@ Approval
 
 * The proposal index is updated moving it from an active section to an approved area. This is
   similar to the index of PEPs for Python.
-* A post-approval announcement should be sent in the same thread as the initial announcement and
-  discussion, preferably with the link to the approved proposal visible via pulpproject.org
+* A post-approval announcement should be sent in a new thread that is different from the initial
+  announcement and discussion thread. It should include a link to the approved proposal. A new
+  thread is used because many users will tune-out on a thread that receives many replies.
 
 
 Rejected or Abandoned Proposals
@@ -251,8 +256,8 @@ Drawbacks
 =========
 
 * The history is in two places: the commit history and separately the mailing list archive.
-* Initial creation and revisions require merging by a core dev versus having it live as a PR at all
-  times.
+* Initial creation and revisions require merging by a core dev [#f1]_ versus having it live as a PR
+  at all times.
 * Mailing lists can be hard to follow.
 
 
@@ -315,3 +320,9 @@ Unresolved Questions
 
 What are we calling it? (PUP, PCP, <your idea here>)
 Is 10 calendar days the right decision making time default.
+
+
+Footnotes
+=========
+
+.. [#f1] A core dev is anyone with the commit bit to the [platform repo](https://github.com/pulp/pulp/).

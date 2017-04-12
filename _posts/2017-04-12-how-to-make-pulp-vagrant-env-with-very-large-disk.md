@@ -1,6 +1,5 @@
 ---
 title: How to make a Pulp Vagrant env with a very large disk
-layout: post
 author: Dennis Kliban
 ---
 Vagrant has significantly lowered the barrier to starting on Pulp development. However, when I

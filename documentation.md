@@ -7,7 +7,7 @@ toc: false
 
 ## Current, Stable
 
-The latest, stable documentation is located at [docs.pulpproject.org](http://docs.pulpproject.org)
+The latest stable documentation is located at [docs.pulpproject.org](http://docs.pulpproject.org)
 
 
 ## Release Candidate or Beta

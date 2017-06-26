@@ -6,3 +6,4 @@ allowed-tags:
   - Docker
   - OSTree
   - Release
+  - Pulpqe

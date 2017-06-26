@@ -41,3 +41,6 @@ entries:
     - title: RPM
       url: /tag_rpm/
       output: web
+    - title: PulpQE
+      url: /tag_pulpqe/
+      output: web

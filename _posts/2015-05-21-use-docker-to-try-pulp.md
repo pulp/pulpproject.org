@@ -15,7 +15,6 @@ Using Docker, you can now easily and quickly stand up a demo deployment of Pulp.
     $ wget https://raw.githubusercontent.com/pulp/packaging/docker/dockerfiles/centos/start.sh
     $ sudo source start.sh /path/to/lots/of/storage/
     
-    
 
 The [README](https://github.com/pulp/packaging/tree/docker/dockerfiles/centos) explains a variety of security and other concerns that prevent this containerization of pulp from being production-worthy. But it is a great way to try Pulp for the first time, try a new release, or experiment with new features in a throw-away environment.
 

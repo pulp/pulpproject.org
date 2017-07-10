@@ -8,7 +8,7 @@ tags:
 The power of Jenkins
 ----------------
 
-I first was exposed to Jenkins while working for a open source software
+I first was exposed to Jenkins while working for an open source software
 project out of my university that wanted to use continuous integration as a
 part of their workflow. While services like [Travis](https://travis-ci.org/)
 and [Semaphore](https://semaphoreci.com/) can be
@@ -35,7 +35,7 @@ be able to generate Jenkins jobs based on templates. This allows the use of
 variables so that you might test multiple versions against multiple OSes, or
 vary other conditions while allowing yourself to share common steps and code
 among jobs. Moreover, these assets should be under version control and stored
-in some local other than the machine Jenkins is running on. The good news is,
+in some location other than the machine Jenkins is running on. The good news is,
 this tool already exists!
 
 [Jenkins Job Builder](https://docs.openstack.org/infra/jenkins-job-builder/),

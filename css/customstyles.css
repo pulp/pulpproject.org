@@ -885,6 +885,7 @@ span.soft {
     ul#mysidebar {
         width: 225px;
         margin-top: 180px;
+        position: fixed;
     }
 
     img#logo {

@@ -123,3 +123,7 @@ has no way of knowing about this or informing you of the error.
 Furthermore, this may be a case where in a local install of Jenkins you would
 have to modify this data for testing purposes, and then switch it back to the
 correct data for your official Jenkins instance.
+
+Video Demo
+----------------
+[![Alt text](https://img.youtube.com/vi/2MpwYRIqINU/0.jpg)](https://www.youtube.com/watch?v=2MpwYRIqINU)

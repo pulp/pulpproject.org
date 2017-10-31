@@ -45,7 +45,7 @@ to your Jenkins instance.
 
 PulpQE stores the YAML files and scripts used to generate the pulp jenkins jobs
 with jenkins-job-builder in the
-[pulp_packaging](https://github.com/pulp/pulp_packaging) repo.
+[pulp-ci](https://github.com/pulp/pulp-ci) repo.
 
 While working on changes to these files, it is desirable to be able to try
 them out locally, so I decided to give it a shot!
@@ -85,12 +85,12 @@ Then, I needed to set up a configuration file for jenkins-job-builder.
     > EOF
 
 With those pieces in place, I cloned the
-[pulp_packaging](https://github.com/pulp/pulp_packaging) repo and tried to
+[pulp-ci](https://github.com/pulp/pulp-ci) repo and tried to
 upload a job to my local Jenkins instance.
 
     cd $HOME
-    git clone https://github.com/pulp/pulp_packaging
-    cd pulp_packaging
+    git clone https://github.com/pulp/pulp-ci
+    cd pulp-ci
     jenkins-jobs --conf $HOME/jjb.ini --ignore-cache update ci/jobs pulp-installer
 
 Happily, I was greeted with the messages:

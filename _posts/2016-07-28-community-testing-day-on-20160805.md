@@ -55,8 +55,8 @@ Here are some instructions for you to install or update your Pulp.
   dnf install -y git vim ansible python-dnf libselinux-python
   mkdir code
   cd code
-  git clone https://github.com/pulp/pulp_packaging
-  cd pulp_packaging
+  git clone https://github.com/pulp/pulp-ci
+  cd pulp-ci
   echo localhost > hosts
   ansible-playbook -i hosts --connection local -e pulp_version='2.9' \
       ci/ansible/pulp_server.yaml

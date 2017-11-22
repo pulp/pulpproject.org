@@ -12,10 +12,10 @@ homepage: true
   </p>
 </div>
 
-Pulp is a platform for managing repositories of software packages and making it available to a
-large numbers of consumers. Pulp can locally mirror all or part of a repository, host your own
-software packages in repositories, and manage many types of content from multiple sources in one
-place.
+Pulp is an open-source platform for managing repositories of software packages and making it
+available to a large numbers of consumers. Pulp can locally mirror all or part of a repository, host
+your own software packages in repositories, and manage many types of content from multiple sources
+in one place.
 
 Pulp has a [REST API](http://docs.pulpproject.org/dev-guide/integration/rest-api/index.html) and
 [command line interface](http://docs.pulpproject.org/user-guide/admin-client/index.html) for

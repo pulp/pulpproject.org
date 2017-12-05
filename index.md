@@ -8,7 +8,7 @@ homepage: true
 
 <div style="width:70%;text-align:center;margin:0 auto;margin-bottom:60px;">
   <p>
-    <h2>Pulp makes it easy to fetch, upload, host, publish, and apply software packages.</h2>
+    <h2>Fetch, Upload, Organize, and Distribute Software Packages.</h2>
   </p>
 </div>
 

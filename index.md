@@ -17,8 +17,8 @@ large numbers of consumers. Pulp can locally mirror all or part of a repository,
 software packages in repositories, and manage many types of content from multiple sources in one
 place.
 
-Pulp has a [REST API](http://docs.pulpproject.org/dev-guide/integration/rest-api/index.html) and
-[command line interface](http://docs.pulpproject.org/user-guide/admin-client/index.html) for
+Pulp has a [REST API](https://docs.pulpproject.org/dev-guide/integration/rest-api/index.html) and
+[command line interface](https://docs.pulpproject.org/user-guide/admin-client/index.html) for
 management.
 
 Pulp is free and open-source, and we invite you to [join us on GitHub](https://github.com/pulp/).

@@ -22,6 +22,7 @@ The latest stable documentation is located at [docs.pulpproject.org](http://docs
 
 ## Older, Stable
 
+* [Pulp 2.15](http://docs.pulpproject.org/en/2.15/)
 * [Pulp 2.14](http://docs.pulpproject.org/en/2.14/)
 * [Pulp 2.13](http://docs.pulpproject.org/en/2.13/)
 * [Pulp 2.12](http://docs.pulpproject.org/en/2.12/)

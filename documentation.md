@@ -12,7 +12,7 @@ The latest stable documentation is located at [docs.pulpproject.org](http://docs
 
 ## Release Candidate or Beta
 
-* [2.16.0 Beta 1](https://docs.pulpproject.org/en/2.16/testing/)
+* [2.16.0 Release Candidate 1](https://docs.pulpproject.org/en/2.16/testing/)
 
 
 ## Nightly

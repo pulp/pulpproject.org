@@ -7,7 +7,7 @@ toc: false
 
 ## Current, Stable
 
-The latest stable documentation is located at [docs.pulpproject.org](http://docs.pulpproject.org)
+See the latest Pulp docs at [docs.pulpproject.org](http://docs.pulpproject.org)
 
 
 ## Release Candidate or Beta
@@ -20,7 +20,7 @@ The latest stable documentation is located at [docs.pulpproject.org](http://docs
 * [Pulp 3.0](http://docs.pulpproject.org/en/3.0/nightly/)
 
 
-## Older, Stable
+## Older
 
 * [Pulp 2.15](http://docs.pulpproject.org/en/2.15/)
 * [Pulp 2.14](http://docs.pulpproject.org/en/2.14/)

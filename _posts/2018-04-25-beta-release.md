@@ -16,7 +16,6 @@ getting started with the [file plugin](https://github.com/pulp/pulp_file/blob/ma
 Pulp 3 concepts and changes are covered in our [overview documentation](https://docs.pulpproject.org/en/3.0/nightly/overview/index.html).
 If you find problems or have features you’d like to request please [file an issue](https://docs.pulpproject.org/en/3.0/nightly/bugs-features.html)
 
-
 ## Pulp 3 Highlighted New Features
 
 - Relational database. We designed Pulp 3 to be SQL agnostic, it was developed with SQLite and
@@ -26,7 +25,6 @@ If you find problems or have features you’d like to request please [file an is
 - Promotion and rollback are fast, synchronous calls.
 - Auto-generated, always up-to-date [API reference
   documentation](https://docs.pulpproject.org/en/3.0/nightly/integration-guide/rest-api/index.html#pulpcore-rest-api)
-
 
 ## What to expect
 

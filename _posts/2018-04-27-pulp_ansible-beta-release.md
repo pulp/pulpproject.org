@@ -6,10 +6,10 @@ tags:
   - 3.0
 ---
 
-A few days ago, [we announced the beta 1 release of Pulp 3](/2018/04/25/beta-release/). To coincide
-with this release, today we are announcing the beta 1 release of the pulp_ansible plugin. This is a
-brand new plugin that allows you to manage your Ansible content using Pulp. Below you will find
-information about the plugin, its features, how to install it, and a demo video.
+A few days ago, [we announced the beta 1 release of Pulp 3.0 Core](/2018/04/25/beta-release/). To
+coincide with this release, today we are announcing the beta 1 release of the pulp_ansible plugin.
+This is a brand new plugin that allows you to manage your Ansible content using Pulp. Below you will
+find information about the plugin, its features, how to install it, and a demo video.
 
 **Please note that this plugin is available for Pulp 3.0 only and not Pulp 2.0.**
 

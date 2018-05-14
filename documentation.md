@@ -22,6 +22,7 @@ None
 
 ## Older
 
+* [Pulp 2.16](http://docs.pulpproject.org/en/2.16/)
 * [Pulp 2.15](http://docs.pulpproject.org/en/2.15/)
 * [Pulp 2.14](http://docs.pulpproject.org/en/2.14/)
 * [Pulp 2.13](http://docs.pulpproject.org/en/2.13/)

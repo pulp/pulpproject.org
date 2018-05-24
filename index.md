@@ -23,6 +23,9 @@ management.
 
 Pulp is free and open-source, and we invite you to [join us on GitHub](https://github.com/pulp/).
 
+Follow us on [Twitter](https://twitter.com/pulpproj) or check out our [Youtube
+channel](https://www.youtube.com/channel/UCI43Ffs4VPDv7awXvvBJfRQ).
+
 <h2 class="page-header">Supported Types</h2>
 <div class="row">
     <div class="col-lg-12">

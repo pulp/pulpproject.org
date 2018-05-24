@@ -26,3 +26,8 @@ Bug triage happens weekly in IRC. Come and participate in real-time. See the
 more details.
 
 You can also read through the [triage archives](https://pulpadmin.fedorapeople.org/triage/pulp-dev/?C=N;O=D)
+
+## Social Media
+
+To get news for Pulp, follow us on [Twitter](https://twitter.com/pulpproj) or check out our [Youtube
+channel](https://www.youtube.com/channel/UCI43Ffs4VPDv7awXvvBJfRQ).

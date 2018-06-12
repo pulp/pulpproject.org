@@ -57,7 +57,7 @@ channel](https://www.youtube.com/channel/UCI43Ffs4VPDv7awXvvBJfRQ).
                     <li>Protect content with certificates to be used by yum/dnf clients</li>
                 </ul>
             </div>
-            <div class="tab-pane fade active in" id="deb">
+            <div class="tab-pane fade" id="deb">
                 <p>Manage and deliver DEB content</p>
                 <ul>
                     <li>Supports DEB packages and metadata</li>

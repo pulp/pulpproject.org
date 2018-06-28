@@ -1,5 +1,5 @@
 ---
-title: 2018 Pulp QE Intern Update #2
+title: "2018 Pulp QE Intern Update #2"
 author: Ragavendran Balakrishnan
 tags:
   - pulpqe

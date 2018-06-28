@@ -29,7 +29,7 @@ it worked like a charm.
 
 Once I got a FIPS enabled RHEL machine (ran it in a Virtual Machine), the next step was installing
 Pulp in it by running an [Ansible Playbook](https://github.com/pulp/pulp-ci). This, however, threw
-some unexpected errors and it got resolved by using PULP 2.17 nightly build. After this, it was time
+some unexpected errors and it got resolved by using Pulp 2.17 nightly build. After this, it was time
 for me to test, which I carried out by running Pulp-smash against the aforementioned machine. Again
 I faced some issues, which took some time for me to figure out that it was happening due to the SSL
 connections with the VM. Finally, I decided to run Pulp-smash locally on the VM where Pulp is

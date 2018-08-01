@@ -37,6 +37,6 @@ can also [read the archives](https://www.redhat.com/archives/pulp-list/).
 
 ## IRC
 
-* Join **#pulp** on **irc.freenode.net** for User support.
+* Join [**#pulp** on **irc.freenode.net**](https://webchat.freenode.net/?channels=#pulp) for User support.
 
-* Join **#pulp-dev** on **irc.freenode.net** for Developer discussion.
+* Join [**#pulp-dev** on **irc.freenode.net**](https://webchat.freenode.net/?channels=#pulp-dev) for Developer discussion.

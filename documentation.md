@@ -12,7 +12,7 @@ See the latest Pulp docs at [docs.pulpproject.org](http://docs.pulpproject.org)
 
 ## Release Candidate or Beta
 
-[2.17.0 RC 1](https://docs.pulpproject.org/en/2.17/testing/)
+None
 
 
 ## Nightly
@@ -21,7 +21,7 @@ See the latest Pulp docs at [docs.pulpproject.org](http://docs.pulpproject.org)
 
 
 ## Older
-
+* [Pulp 2.17](http://docs.pulpproject.org/en/2.17/)
 * [Pulp 2.16](http://docs.pulpproject.org/en/2.16/)
 * [Pulp 2.15](http://docs.pulpproject.org/en/2.15/)
 * [Pulp 2.14](http://docs.pulpproject.org/en/2.14/)

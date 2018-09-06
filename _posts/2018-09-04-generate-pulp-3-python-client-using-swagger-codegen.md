@@ -141,7 +141,8 @@ try:
     # Monitor the sync task
     created_resources = monitor_task(sync_response.href)
 
-    repository_version_1_href = created_resources[0]
+    repository_version_1 = api.repositories_versions_read(created_resources[0])
+    pprint(repository_version_1)
 
     # Create an artifact from a local file
     artifact = api.artifacts_create('devel/pulp3_python_client_example/test_bindings.py')
@@ -158,7 +159,9 @@ try:
 
     # Monitor the repo version creation task
     created_resources = monitor_task(repo_version_response.href)
-    repository_version_2_href = created_resources[0]
+
+    repository_version_2 = api.repositories_versions_read(created_resources[0])
+    pprint(repository_version_2)
 
     # Create a FilePublisher
     file_publisher_data = FilePublisher(name='bar')
@@ -174,6 +177,7 @@ try:
 
     distribution_data = Distribution(name='baz', base_path='foo', publication=publication_href)
     distribution = api.distributions_create(distribution_data)
+    pprint(distribution)
 except ApiException as e:
     print("Exception when calling the Api: %s\n" % e)
 {% endhighlight %}

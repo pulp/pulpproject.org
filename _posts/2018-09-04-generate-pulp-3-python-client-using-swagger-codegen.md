@@ -86,6 +86,13 @@ def monitor_task(task_href):
     """Polls the Task API until the task is in a completed state.
 
     Prints the task details and a success or failure message. Exits on failure.
+
+    Args:
+        task_href(str): The href of the task to monitor
+
+    Returns:
+        list[str]: List of hrefs that identify resource created by the task
+
     """
     completed = ['completed', 'failed', 'canceled']
     task = api.tasks_read(task_href)
@@ -97,6 +104,7 @@ def monitor_task(task_href):
         # TODO: https://pulp.plan.io/issues/3966
         # This client is not able to interpret the 'created resources' field correctly.
         print("The task was successfful.")
+        return task.created_resources
     else:
         print("The task did not finish successfully.")
         exit()
@@ -131,9 +139,9 @@ try:
     pprint(sync_response)
 
     # Monitor the sync task
-    monitor_task(sync_response.href)
+    created_resources = monitor_task(sync_response.href)
 
-    repository = api.repositories_read(repository.href)
+    repository_version_1_href = created_resources[0]
 
     # Create an artifact from a local file
     artifact = api.artifacts_create('devel/pulp3_python_client_example/test_bindings.py')
@@ -149,7 +157,8 @@ try:
     repo_version_response = api.repositories_versions_create(repository.href, repo_version_data)
 
     # Monitor the repo version creation task
-    monitor_task(repo_version_response.href)
+    created_resources = monitor_task(repo_version_response.href)
+    repository_version_2_href = created_resources[0]
 
     # Create a FilePublisher
     file_publisher_data = FilePublisher(name='bar')
@@ -160,15 +169,11 @@ try:
     publish_response = api.publishers_file_publish(file_publisher.href, publish_data)
 
     # Monitor the publish task
-    monitor_task(publish_response.href)
+    created_resources = monitor_task(publish_response.href)
+    publication_href = created_resources[0]
 
-    # Create a distribution
-    # Can't do this easily with this client because of issue 3966.
-    publications = api.publications_list()
-    publication = publications.results[0]
-    distribution_data = Distribution(name='baz', base_path='foo', publication=publication.href)
-
+    distribution_data = Distribution(name='baz', base_path='foo', publication=publication_href)
+    distribution = api.distributions_create(distribution_data)
 except ApiException as e:
     print("Exception when calling the Api: %s\n" % e)
-
 {% endhighlight %}

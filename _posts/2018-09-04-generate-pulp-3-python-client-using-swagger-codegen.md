@@ -101,8 +101,6 @@ def monitor_task(task_href):
         task = api.tasks_read(task_href)
     pprint(task)
     if task.state == 'completed':
-        # TODO: https://pulp.plan.io/issues/3966
-        # This client is not able to interpret the 'created resources' field correctly.
         print("The task was successfful.")
         return task.created_resources
     else:

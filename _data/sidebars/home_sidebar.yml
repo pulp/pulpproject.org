@@ -27,3 +27,6 @@ entries:
     - title: Get Involved
       url: /get_involved/
       output: web
+    - title: Code of Conduct
+      url: /conduct/
+      output: web

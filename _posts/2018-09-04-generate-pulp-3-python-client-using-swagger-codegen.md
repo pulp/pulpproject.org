@@ -121,8 +121,8 @@ api = my_pulp3_client.PulpApi(client)
 
 try:
     # Create a File Remote
-    remote_url = 'https://repos.fedorapeople.org/pulp/pulp/demo_repos/test_file_repo/PULP_MANIFEST'
-    remote_data = FileRemote(name='bar', url=remote_url)
+    remote_url = 'https://repos.fedorapeople.org/pulp/pulp/demo_repos/test_file_repo/'
+    remote_data = FileRemote(name='bar', url=remote_url, manifest='PULP_MANIFEST')
     file_remote = api.remotes_file_create(remote_data)
     pprint(file_remote)
 

@@ -25,23 +25,21 @@ similar to the auto-generating CLI because both have each command be a single AP
 # Recommendation to Pulp3 users
 
 So for the time being, at least through the Pulp 3.0 General Availability, it's recommended to use
-[HTTPie](https://httpie.org/) for your commend line needs. You can see examples of its usage in the
-[pulp_file instructions](https://github.com/pulp/pulp_file#create-a-repository-foo).
+[HTTPie](https://httpie.org/) for your command line scripting needs. You can see examples of its
+usage in the [pulp_file instructions](https://github.com/pulp/pulp_file#create-a-repository-foo).
+Other Pulp3 plugins have similar instructions on how to interact with their APIs using httpie in
+their README files
 
 
 # Workflow Based CLI
 
 The Pulp2 CLI, `pulp-admin` is primarily a workflow tool. Pulp3 does several steps differently than
 Pulp2, so as users approach Pulp3, we don't yet know the workflow use cases that are of broad use to
-many users. Given that requirements gap, the current approach is to wait to hear from users who are
-building workflows for Pulp3 so we can help may their lives easier through a workflow-based CLI.
-
-This will happen over-time, after Pulp3's General Availability. This will also be released as a
-separate Python project that can be installed, developed, and released distinctly from the
-`pulpcore` package.
+many users. Given that requirements gap, the current approach is to wait to hear from users about
+what their workflow CLI needs are.
 
 
 # Contribute Your Use Cases
 
-Do you want something specific in a Pulp3 workflow CLI? Write a story
+Do you want a specific workflow for a Pulp3 CLI? Write a story
 [here](https://pulp.plan.io/issues/new) with details of the workflow that would be useful to you.

@@ -1,11 +1,13 @@
 ---
-title: Pulp 3.0 RC
+title: Pulp 3.0 RC Information
 author: David Davis
+tags:
+  - 3.0
 ---
 
 Pulp 3.0 is currently in beta and will soon become a release candidate (RC) when the remaining must-have items are completed. We wanted to give an update on the RC and what it'll mean for users, plugin writers, and other stakeholders.
 
-The list of open items for the RC can be viewed with this query: https://pulp.plan.io/issues?query_id=121. People interested in the status of the RC can check this query to get an idea of how the RC's progress.
+The list of open items for the RC can be viewed with [the RC blocker query](https://pulp.plan.io/issues?query_id=121). People interested in the status of the RC can check this query to get an idea of how the RC's progress.
 
 
 ### How long will Pulp be in an RC period before going GA?

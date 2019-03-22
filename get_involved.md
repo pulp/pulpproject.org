@@ -5,6 +5,22 @@ permalink: /get_involved/
 toc: false
 ---
 
+## Meetings
+
+**Bug Triage** - every Tuesday and Friday 10:30 ET (either EST or EDT) in #pulp-dev on Freenode (IRC). Come and
+participate in real-time. See the [triage process](http://docs.pulpproject.org/dev-guide/contributing/bugs.html#triage-process) for
+more details. You can also read through the [triage archives](https://pulpadmin.fedorapeople.org/triage/pulp-dev/?C=N;O=D)
+
+## Upcoming Events
+
+**Community Demo** - Wednesday, April 10, 2019 at [15:00 UTC](https://www.worldtimebuddy.com/?qm=1&lid=100,4487042,3078610&h=100&date=2019-4-10&sln=15-16)
+on our [YouTube channel](https://www.youtube.com/channel/UCI43Ffs4VPDv7awXvvBJfRQ). Pulp contributors demonstrate
+the latest changes to Pulp and its plugins. 
+
+**Red Hat Summit** - May 7-9, 2019 in Boston, MA, USA - Pulp is going to have a booth in Community Central.
+
+**AnsibleFest** - September 24-26, 2019 in Atlanta, GA, USA - Pulp is going to have a booth at AnsibleFest. 
+
 ## Beta or Release Candidate Testing
 
 Testing a Beta or Release Candidate of an upcoming Pulp release is a great way to get involved.
@@ -18,14 +34,6 @@ to contribute code fixes.
 
 Join the [pulp-dev](https://www.redhat.com/mailman/listinfo/pulp-dev) mailing list for discussion about
 Pulp itself.
-
-## Bug Triage
-
-Bug triage happens weekly in IRC. Come and participate in real-time. See the
-[triage process](http://docs.pulpproject.org/dev-guide/contributing/bugs.html#triage-process) for
-more details.
-
-You can also read through the [triage archives](https://pulpadmin.fedorapeople.org/triage/pulp-dev/?C=N;O=D)
 
 ## Social Media
 

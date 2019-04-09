@@ -131,7 +131,7 @@ These thing should match up with the port and pod labels in the deployment confi
 For example in one test deployment I could receive my status at:
 
 ```
-http example.com:8000/pulp/api/v3/status/
+http example.com:24817/pulp/api/v3/status/
 ```
 
 

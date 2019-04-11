@@ -63,7 +63,7 @@ Once the ansible script completes running, Pulp is installed.This can be checked
 command pulp-admin in the remote VM. The version 3 installation is also almost similar which uses
 another [ansible script](https://github.com/pulp/devel.git). This requires the server to be turned
 up and firewall to be turned down. Since this is an API-only framework, one can check it by hitting
-http://hostname:8000/pulp/api/v3/status/ .
+http://hostname:24817/pulp/api/v3/status/ .
 
 ## Use Pulp
 

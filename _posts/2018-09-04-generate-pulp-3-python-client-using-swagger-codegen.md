@@ -58,7 +58,7 @@ vim config.json
 }
 
 # Download the OpenAPI 2.0 schema from Pulp
-curl -o pulp-api.json http://localhost:8000/pulp/api/v3/docs/api.json
+curl -o pulp-api.json http://localhost:24817/pulp/api/v3/docs/api.json
 
 # Generate the client
 java -jar swagger-codegen-cli.jar generate \

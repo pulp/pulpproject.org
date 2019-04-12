@@ -4,7 +4,7 @@ author: Brian Bouterse
 tags:
   - demo
 ---
-The Community Demo is available on the [Pulp YouTube Channel](https://www.youtube.com/channel/UCI43Ffs4VPDv7awXvvBJfRQ). See the agenda below.
+The Community Demo is available on the [Pulp YouTube Channel](https://www.youtube.com/PulpProject). See the agenda below.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/yFio9HY2bmA" frameborder="0" allowfullscreen></iframe>
 

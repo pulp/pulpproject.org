@@ -14,7 +14,7 @@ more details. You can also read through the [triage archives](https://pulpadmin.
 ## Upcoming Events
 
 **Community Demo** - Wednesday, April 17, 2019 at [15:00 UTC](https://www.worldtimebuddy.com/?qm=1&lid=100,4487042,3078610&h=100&date=2019-4-10&sln=15-16)
-on our [YouTube channel](https://www.youtube.com/channel/UCI43Ffs4VPDv7awXvvBJfRQ). Pulp contributors demonstrate
+on our [YouTube channel](https://www.youtube.com/PulpProject). Pulp contributors demonstrate
 the latest changes to Pulp and its plugins. 
 
 **Red Hat Summit** - May 7-9, 2019 in Boston, MA, USA - Pulp is going to have a booth in Community Central.
@@ -38,4 +38,4 @@ Pulp itself.
 ## Social Media
 
 To get news for Pulp, follow us on [Twitter](https://twitter.com/pulpproj) or check out our [Youtube
-channel](https://www.youtube.com/channel/UCI43Ffs4VPDv7awXvvBJfRQ).
+channel](https://www.youtube.com/PulpProject).

@@ -13,7 +13,7 @@ more details. You can also read through the [triage archives](https://pulpadmin.
 
 ## Upcoming Events
 
-**Community Demo** - Wednesday, May 8, 2019 at [15:00 UTC](https://www.worldtimebuddy.com/?qm=1&lid=100,4487042,3078610&h=100&date=2019-4-10&sln=15-16)
+**Community Demo** - Wednesday, May 22, 2019 at [14:00 UTC](https://www.worldtimebuddy.com/?qm=1&lid=100,4487042,3078610&h=100&date=2019-5-22&sln=14-15)
 on our [YouTube channel](https://www.youtube.com/PulpProject). Pulp contributors demonstrate
 the latest changes to Pulp and its plugins. 
 

@@ -15,4 +15,4 @@ We're giving away Pulp gear (t-shirt, socks, stickers, etc) to anyone who fills 
 However, more importantly, by filling out the survey, you'll help us to improve Pulp. So if you have
 ten minutes, please visit the link below to fill out the survey.
 
-https://tinyurl.com/pulp2019survey
+[https://tinyurl.com/pulp2019survey](https://tinyurl.com/pulp2019survey)

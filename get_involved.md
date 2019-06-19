@@ -13,10 +13,11 @@ more details. You can also read through the [triage archives](https://pulpadmin.
 
 ## Upcoming Events
 
-**Community Demo** - Wednesday, June 19, 2019 at [14:00 UTC](https://www.worldtimebuddy.com/?qm=1&lid=100,4487042,3078610&h=100&date=2019-6-19&sln=14-15)
+**Community Demo** - Wednesday, July 10, 2019 at [14:00 UTC](https://www.worldtimebuddy.com/?qm=1&lid=100,4487042,3078610&h=100&date=2019-7-10&sln=14-15)
 on our [YouTube channel](https://www.youtube.com/PulpProject). Pulp contributors demonstrate
 the latest changes to Pulp and its plugins. 
 
+**CentOS Dojo** - August 14, 2019 in Boston, MA, USA
 **DevConf.us** - August 15-17, 2019 in Boston, MA, USA
 
 **AnsibleFest** - September 24-26, 2019 in Atlanta, GA, USA - Pulp is going to have a booth at AnsibleFest. 

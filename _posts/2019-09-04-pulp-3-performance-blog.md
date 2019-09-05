@@ -1,8 +1,3 @@
----
-title: Pulp3 Performance Blog
-author: Imaanpreet Kaur
----
-
 ## Motivation
 
 As we all know, Pulp3 is under active development. So, it's predominant  to check the performance of the pulp3. Pulp team come up with a test plan and Red Hat Performance team tested these test cases. So, let’s discuss about the pulp3 performance in brief.

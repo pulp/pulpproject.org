@@ -7,7 +7,7 @@ members: Pradeep Surisetty, Jan Hutař, Imaanpreet Kaur
 
 ## Motivation
 
-As we all know, Pulp3 is under active development. So, it's predominant  to check the performance of the pulp3. Pulp team come up with a test plan and Red Hat Performance team tested these test cases. So, let’s discuss about the pulp3 performance in brief.
+We want to investigate the performance of various Pulp3 operations including: Sync, Publish, Download, Content Listing, and Copy operations.Pulp team came up with a test plan and Red Hat Performance team tested these test cases. So, let’s discuss about the pulp3 performance in brief.
 
 ## Test environment
 
@@ -18,10 +18,6 @@ Pulp was installed on one CentOS7 (CentOS Linux release 7.5.1804 (Core)) system 
 ![version](https://user-images.githubusercontent.com/32102000/64325263-1a1c9380-cfc8-11e9-809c-210229c85887.png)
 
 In order to monitor the pulp3 performance, grafana monitoring has been done with the help of custom [script](https://github.com/redhat-performance/satellite-monitoring/blob/master/adhoc-scripts/get_stats_from_grafana.py). 
-
-##### grafana dashboard
-
-![grafana](https://user-images.githubusercontent.com/32102000/64325286-20ab0b00-cfc8-11e9-8ae4-0c92a475636b.png)
 
 ## Tests
 
@@ -44,8 +40,6 @@ Repos to test having files-count 100000 and created using this [script](https://
 
 For Example:  Single Sync pulp_file repo w/ 100k units
 
-Test Command:  ./sync_repository.py <path-of-the-repo>
-  
 #### Output 
 
 ~~~
@@ -78,7 +72,7 @@ Similarly, for all the test cases results are noted down [here](https://docs.goo
 
 ## Conclusion
 
-After some quick inspection, would say we have found two major issues:
+After some quick inspection, would say we have found two concerns:
 
 1. Syncing is getting slower with amount of data in the database (see Single sync results - 1st repo sync = 4k seconds, 2nd repo sync = failed to measure, 3rd repo sync = 10k seconds, 4th repo sync = 11k seconds)
 

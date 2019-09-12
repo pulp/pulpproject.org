@@ -13,9 +13,14 @@ We want to investigate the performance of various Pulp3 operations including: Sy
 
 Pulp was installed on one CentOS7 (CentOS Linux release 7.5.1804 (Core)) system using this [playbook](https://github.com/pulp/ansible-pulp/blob/master/example-use/playbook.yml). 
 
-##### pulp version
+##### pulp-plugins version
 
-![version](https://user-images.githubusercontent.com/32102000/64325263-1a1c9380-cfc8-11e9-809c-210229c85887.png)
+| Plugin | Version |
+| ------------- | ------------- |
+| pulpcore | 3.0.0rc4 |
+| pulpcore-plugin | 0.1.0rc4  |
+| pulp_file  | 0.1.0b1  |
+
 
 In order to monitor the pulp3 performance, grafana monitoring has been done with the help of custom [script](https://github.com/redhat-performance/satellite-monitoring/blob/master/adhoc-scripts/get_stats_from_grafana.py). 
 
@@ -76,7 +81,7 @@ After some quick inspection, would say we have found two concerns:
 
 1. Syncing is getting slower with amount of data in the database (see Single sync results - 1st repo sync = 4k seconds, 2nd repo sync = failed to measure, 3rd repo sync = 10k seconds, 4th repo sync = 11k seconds)
 
-2. Resyncing file repository that was already synced is very expensive (see Single resync - 36k seconds for 100k repo seems too long)
+2. Resyncing file repository that was already synced is very expensive (see Single resync - 36k seconds for 100k repo)
 
 
 

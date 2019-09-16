@@ -71,9 +71,32 @@ To get basic monitoring overview, we have used [get_stats_from_grafana.py](https
 
 #### Result-
 
-![results](https://user-images.githubusercontent.com/32102000/64327344-cf9d1600-cfcb-11e9-81eb-bec84adc11c8.png)
-
-Similarly, for all the test cases results are noted down [here](https://docs.google.com/spreadsheets/d/1i9YUNMjZH3I9vqfito4Hf7c-jJpptvsN4tDwlp4HvnU/edit#gid=0).
+| Tests | Run of | Time Taken(seconds) |
+| ------------- | ------------- | ------------- |
+| Single sync | Single Sync pulp_file repo w/ 100k units (run of 1) | 3944 |
+| Single sync | Single Sync pulp_file repo w/ 100k units (run of 2) | 10150 |
+| Single sync | Single Sync pulp_file repo w/ 100k units (run of 3) | 11152 |
+| Concurrent sync  | 5 repos ,2 workers @ 24 CPUs  | 65497 |
+| Concurrent sync  | 5 repos ,5 workers @ 24 CPUs  | 52372 |
+| Single resync  | Sync repository which was synced before (run of 1)  | 36513 |
+| Single resync  | Sync repository which was synced before (run of 2)  | 35694 |
+| Single resync  | Sync repository which was synced before (run of 3)  | 35354 |
+| Concurrent resync | 5 repos ,2 workers @ 24 CPUs  | 123091 |
+| Concurrent resync | 5 repos ,5 workers @ 24 CPUs  | 43442 |
+| Single publish | Single Publication of 100k unit repo version (run of 1)  | 226 |
+| Single publish | Single Publication of 100k unit repo version (run of 2)  | 228 |
+| Single publish | Single Publication of 100k unit repo version (run of 3)  | 230 |
+| Concurrent publish  | 5 repos ,2 workers @ 24 CPUs  | 679 |
+| Concurrent publish  | 5 repos ,5 workers @ 24 CPUs  | 248 |
+| Single download  | Single unit Download Content Test (run of 1)  | 227 |
+| Single download  | Single unit Download Content Test (run of 2)  | 228 |
+| Single download  | Single unit Download Content Test (run of 3)  | 227 |
+| Concurrent download | 5 processes  | 69605 |
+| Concurrent download | 10 processes  | 69627 |
+| Listing repo and units | 1 processes  | 33390 |
+| Listing repo and units | 5 processes  | 33340 |
+| Listing repo and units | 10 processes  | 33343 |
+| Listing repo and units | 20 processes  | 33203 |
 
 ## Conclusion
 

@@ -67,7 +67,7 @@ Sync tasks waiting time: {'samples': 1, 'min': 0.13, 'max': 0.13, 'mean': 0.13, 
 Sync tasks service time: {'samples': 1, 'min': 3943.84, 'max': 3943.84, 'mean': 3943.84, 'stdev': 0.0}
 ~~~
 
-To get basic monitoring overview, we have used [get_stats_from_grafana.py](https://github.com/redhat-performance/satellite-monitoring/blob/master/adhoc-scripts/get_stats_from_grafana.py) script which connects to Grafana and formats some statistical measures. To get the more details on the output of all the commands, refer to this [document](https://docs.google.com/document/d/1Tt3WiQUaugYFkvuxVHkCjRngcMxqeYdMEKer_eqWOxE/edit#).
+To get basic monitoring overview, we have used [get_stats_from_grafana.py](https://github.com/redhat-performance/satellite-monitoring/blob/master/adhoc-scripts/get_stats_from_grafana.py) script which connects to Grafana and formats some statistical measures.
 
 #### Result-
 

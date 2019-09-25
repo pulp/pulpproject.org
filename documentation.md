@@ -12,6 +12,8 @@ See the latest Pulp docs at [docs.pulpproject.org](http://docs.pulpproject.org)
 
 ## Release Candidate or Beta
 
+ * [2.21.0 Relese Candidate 1](https://docs.pulpproject.org/en/2.21/testing/) 
+
 
 ## Nightly
 

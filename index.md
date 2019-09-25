@@ -26,6 +26,25 @@ Pulp is free and open-source, and we invite you to [join us on GitHub](https://g
 Follow us on [Twitter](https://twitter.com/pulpproj) or check out our [Youtube
 channel](https://www.youtube.com/PulpProject).
 
+&nbsp;
+
+<table style="width:70%;text-align:left;margin:0 auto;margin-bottom:10px;">
+  <col style="width:35%">
+  <col style="width:35%">
+  <thead>
+    <tr>
+      <th>Quickly Try Pulp</th>
+      <th>Fully Install Pulp</th>
+    </tr>
+  </thead>
+  <tr>
+    <td>Pulp 3 RC: Download and run<br />
+        <a href="https://raw.githubusercontent.com/pulp/pulp-operator/master/insta-demo/pulp-insta-demo.sh">pulp-insta-demo.sh</a></td>
+    <td>Pulp 2 Stable: <a href="https://docs.pulpproject.org/user-guide/installation/index.html">Instructions</a><br />
+        Pulp 3 RC: <a href="https://docs.pulpproject.org/en/3.0/nightly/installation/index.html">Instructions</a></td>
+  </tr>
+</table>
+
 <h2 class="page-header">Supported Types</h2>
 <div class="row">
     <div class="col-lg-12">

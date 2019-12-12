@@ -40,8 +40,8 @@ channel](https://www.youtube.com/PulpProject).
   <tr>
     <td>Pulp 3 RC: Download and run<br />
         <a href="https://raw.githubusercontent.com/pulp/pulp-operator/master/insta-demo/pulp-insta-demo.sh">pulp-insta-demo.sh</a></td>
-    <td>Pulp 2 Stable: <a href="https://docs.pulpproject.org/user-guide/installation/index.html">Instructions</a><br />
-        Pulp 3 RC: <a href="https://docs.pulpproject.org/en/3.0/nightly/installation/index.html">Instructions</a></td>
+    <td>Pulp 2 Stable: <a href="https://docs.pulpproject.org/en/2.21/user-guide/installation/index.html">Instructions</a><br />
+        Pulp 3: <a href="https://docs.pulpproject.org/installation/index.html">Instructions</a></td>
   </tr>
 </table>
 

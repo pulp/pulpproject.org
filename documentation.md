@@ -16,7 +16,7 @@ See the latest Pulp 2 docs at [docs.pulpproject.org/en/2.21/](http://docs.pulppr
 
 ## Nightly
 
-* [Pulp 3.0](http://docs.pulpproject.org/en/3.0/nightly/)
+* [Pulp 3.1](http://docs.pulpproject.org/en/master/nightly/)
 
 
 ## Older

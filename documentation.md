@@ -7,20 +7,20 @@ toc: false
 
 ## Current, Stable
 
-See the latest Pulp docs at [docs.pulpproject.org](http://docs.pulpproject.org)
+See the latest Pulp 3 docs at [docs.pulpproject.org](http://docs.pulpproject.org)
 
+See the latest Pulp 2 docs at [docs.pulpproject.org/en/2.21/](http://docs.pulpproject.org/en/2.21/)
 
 ## Release Candidate or Beta
-
- * [2.21.0 Relese Candidate 1](https://docs.pulpproject.org/en/2.21/testing/) 
 
 
 ## Nightly
 
-* [Pulp 3.0](http://docs.pulpproject.org/en/3.0/nightly/)
+* [Pulp 3.1](http://docs.pulpproject.org/en/master/nightly/)
 
 
 ## Older
+* [Pulp 2.20](http://docs.pulpproject.org/en/2.20/)
 * [Pulp 2.19](http://docs.pulpproject.org/en/2.19/)
 * [Pulp 2.18](http://docs.pulpproject.org/en/2.18/)
 * [Pulp 2.17](http://docs.pulpproject.org/en/2.17/)

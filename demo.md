@@ -12,4 +12,4 @@ toc: false
 
 <script type="text/javascript" src="https://asciinema.org/a/48474.js" id="asciicast-48474" async></script>
 
-<a href="https://docs.pulpproject.org/user-guide/installation/index.html" class="btn btn-primary">Install Pulp</a>
+<a href="https://docs.pulpproject.org/en/2.21/user-guide/installation/index.html" class="btn btn-primary">Install Pulp</a>

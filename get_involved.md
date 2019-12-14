@@ -8,7 +8,7 @@ toc: false
 ## Meetings
 
 **Bug Triage** - every Tuesday and Friday 10:30 ET (either EST or EDT) in #pulp-dev on Freenode (IRC). Come and
-participate in real-time. See the [triage process](http://docs.pulpproject.org/dev-guide/contributing/bugs.html#triage-process) for
+participate in real-time. See the [triage process](http://docs.pulpproject.org/en/2.21/dev-guide/contributing/bugs.html#triage-process) for
 more details. You can also read through the [triage archives](https://pulpadmin.fedorapeople.org/triage/pulp-dev/?C=N;O=D)
 
 ## Upcoming Events
@@ -25,7 +25,7 @@ Announcements of Beta and RCs happen through
 
 ## Contribute as a Developer
 
-See the [developers guide](http://docs.pulpproject.org/dev-guide/contributing/index.html) for how
+See the [developers guide](http://docs.pulpproject.org/en/2.21/dev-guide/contributing/index.html) for how
 to contribute code fixes.
 
 Join the [pulp-dev](https://www.redhat.com/mailman/listinfo/pulp-dev) mailing list for discussion about

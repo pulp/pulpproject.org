@@ -7,7 +7,11 @@ toc: false
 
 ## Pulp 3
 
-We're working on a series of demo videos for Pulp 3.0. Please stay tuned!
+Check out our Youtube playlist which goes through all the basic features of Pulp.
+
+<iframe width="560" height="315"
+src="https://www.youtube.com/embed/videoseries?list=PLwm8_O6oKSS0C3zlo8gFkPqXpMkAI7rCD"
+frameborder="0" allowfullscreen></iframe>
 
 <a href="https://docs.pulpproject.org/installation/index.html" class="btn btn-primary">Install
 Pulp 3</a>

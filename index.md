@@ -36,7 +36,7 @@ channel](https://www.youtube.com/PulpProject).
     </tr>
   </thead>
   <tr>
-    <td>Pulp 3 RC: Download and run<br />
+    <td>Pulp 3: Download and run<br />
         <a href="https://raw.githubusercontent.com/pulp/pulp-operator/master/insta-demo/pulp-insta-demo.sh">pulp-insta-demo.sh</a></td>
     <td>Pulp 2 Stable: <a href="https://docs.pulpproject.org/en/2.21/user-guide/installation/index.html">Instructions</a><br />
         Pulp 3: <a href="https://docs.pulpproject.org/installation/index.html">Instructions</a></td>

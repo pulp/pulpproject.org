@@ -17,7 +17,12 @@ topnav:
       url: /help/
     - title: Related Tooling
       url: /related-tooling/
-    - title: Get Involved
-      url: /get_involved/
-    - title: Code of Conduct
-      url: /conduct/
+topnav_dropdowns:
+- title: Topnav dropdowns
+  folders:
+    - title: Contributing
+      folderitems:
+        - title: Get Involved
+          url: /get_involved/
+        - title: Code of Conduct
+          url: /conduct/

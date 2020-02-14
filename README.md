@@ -24,3 +24,6 @@ from your host system by connecting to Vagrant via ssh with a tunnel for port 40
 
 Updating the dependencies of a build environment is done with: `bundle update github-pages`
 
+## References on making changes
+
+Jekyll Documentation Theme: [Docs](https://idratherbewriting.com/documentation-theme-jekyll/), [GitHub](https://github.com/tomjoht/documentation-theme-jekyll) (containers example code)

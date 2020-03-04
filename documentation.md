@@ -13,7 +13,7 @@ See the latest Pulp 2 docs at [docs.pulpproject.org/en/2.21/](http://docs.pulppr
 
 ## Release Candidate or Beta
 
-* [2.21.1 Beta 1](https://docs.pulpproject.org/en/2.21/testing/)
+* None
 
 ## Nightly
 

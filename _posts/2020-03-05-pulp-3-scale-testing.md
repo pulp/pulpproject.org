@@ -1,5 +1,5 @@
 ---
-title: Pulp 3.0 Scale Testing to 27K Repositories and 173K Repository Versions
+title: Pulp 3.2 Scale Testing to 27K Repositories and 173K Repository Versions
 author: Brian Bouterse
 tags:
   - 3.0

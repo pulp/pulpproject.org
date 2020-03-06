@@ -4,6 +4,9 @@ author: Brian Bouterse
 tags:
   - 3.0
 ---
+
+*Updated*: March 6, 2020 with correct worker count as 16, and additional resources in db section.
+
 I recently did some Pulp3 scale testing, and I wanted to share the results along with how others
 could reproduce them. I did this for [pulp_ansible](https://pulp-ansible.readthedocs.io/) which
 manages Ansible Role and Collection content and is compatible with the
@@ -25,7 +28,7 @@ pulp_ansible==0.2.0b11.dev and had 16 workers. It was loaded with:
 ### Deploying Pulp
 
 I started 16 workers, one for each CPU. I installed Pulp to this Amazon machine using the [Pulp3
-Installer](https://github.com/pulp/ansible-pulp). I used [this config for 64 workers and
+Installer](https://github.com/pulp/ansible-pulp). I used [this config for 16 workers and
 pulp_ansible](https://gist.github.com/bmbouter/0db2bb326c784334f0c6a6d2cd0a10ea) and [the
 installer's generic playbook](https://github.com/pulp/ansible-pulp/blob/master/example-use/
 playbook.yml).
@@ -128,8 +131,12 @@ improve this are welcome, but it's overall a large database to query against. On
 the query plan is [step #15](https://explain.depesz.com/s/Wi2Q#l15) which perform a sequential scan
 against a table with an Index. After some discussion in #postgresql, other users there pointed out
 that the postgresql query plan is optimized and in some cases a Seq Scan is faster depending on the
-number of expected rows to be matched, e.g. 4950 in this case. I confirmed the indexes were present
-also, and that a single query does use INDEX SCAN as expected.
+number of expected rows to be matched, e.g. 4950 in this case.
+
+I confirmed the indexes were present, you can see [the databases indexes present](https://gist.
+github.com/bmbouter/20e7743efb0906f25cbd4c45860cfd82). Additionally a single query by pk on
+``core_content`` does show an INDEX SCAN to be used in [the explain output](https://gist.github.com
+/bmbouter/4eff2c9376232a3c66340aeb248085d9).
 
 
 ## Bigger Batches are Better

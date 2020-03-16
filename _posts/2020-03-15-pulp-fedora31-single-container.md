@@ -8,7 +8,7 @@ Installing Pulp 3 and getting all the the services running can be challenging. I
 these steps optional, we have been working on creating a single container image that has all the
 services needed to run Pulp 3. The initial version of this image is now available under my
 namespace on Dockerhub. This image includes Ansible, Container, File, Maven, and RPM plugins. The
-following commands can be used to start up Pulp 3.2.0:
+following commands can be used to start up Pulp 3.2.0 with `podman 1.8.0` (available on Fedora 31):
 
 ```
 $ mkdir settings pulp_storage pgsql containers

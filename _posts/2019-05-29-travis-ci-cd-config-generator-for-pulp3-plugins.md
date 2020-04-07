@@ -15,7 +15,7 @@ created the Travis Config Generator.
 
 ### Continuous Integration (with every commit)
 
-* Install your plugin using the [Pulp Ansible Installer](https://github.com/pulp/ansible-pulp)
+* Install your plugin using the [Pulp 3 Ansible Installer](https://github.com/pulp/pulp_installer)
 * Run all functional and unit tests on a matrix including:
   * Python 3.6
   * Python 3.7

@@ -17,7 +17,7 @@ Foreman and Katello are currently in the incremental [process of migrating from 
 
 ## Ansible Modules for Pulp aka Squeezer
 
-[This project](https://github.com/mdellweg/ansible_modules_pulp) provides ansible modules (currently only for pulp-file) to control a Pulp 3 server in a descriptive way. This is neither to be confused with ansible-pulp to install Pulp, nor pulp_ansible to manage ansible content in Pulp.
+[This project](https://github.com/mdellweg/ansible_modules_pulp) provides Ansible modules (currently only for pulp-file) to control a Pulp 3 server in a descriptive way. This is neither to be confused with the [Pulp 3 Ansible Installer pulp_installer](https://github.com/pulp/pulp_installer) (a collection of Ansible roles to install Pulp), nor [pulp_ansible](https://github.com/pulp/pulp_ansible) (a Pulp content plugin to manage Ansible content in Pulp.)
 
 ## pulp_rpm_repos
 

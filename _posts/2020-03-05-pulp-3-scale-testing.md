@@ -27,10 +27,10 @@ pulp_ansible==0.2.0b11.dev and had 16 workers. It was loaded with:
 
 ### Deploying Pulp
 
-I started 16 workers, one for each CPU. I installed Pulp to this Amazon machine using the [Pulp3
-Installer](https://github.com/pulp/ansible-pulp). I used [this config for 16 workers and
+I started 16 workers, one for each CPU. I installed Pulp to this Amazon machine using the [Pulp 3
+Ansible Installer](https://github.com/pulp/pulp_installer). I used [this config for 16 workers and
 pulp_ansible](https://gist.github.com/bmbouter/0db2bb326c784334f0c6a6d2cd0a10ea) and [the
-installer's generic playbook](https://github.com/pulp/ansible-pulp/blob/master/example-use/
+installer's generic playbook](https://github.com/pulp/pulp_installer/blob/master/example-use/
 playbook.yml).
 
 Before running the installer, I:

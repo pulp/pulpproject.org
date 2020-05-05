@@ -12,8 +12,8 @@ entries:
       url: /
       output: web
       type: homepage
-    - title: Documentation
-      url: /docs/
+    - title: About Pulp 3
+      url: /about-pulp-3/
       output: web
     - title: Pulp 3 Plugins
       url: /pulp-3-plugins/

@@ -5,8 +5,8 @@ topnav:
   items:
     - title: Home
       url: /
-    - title: Documentation
-      url: /docs/
+    - title: About Pulp 3
+      url: /about-pulp-3/
     - title: Pulp 3 Plugins
       url: /pulp-3-plugins/
     - title: Demo

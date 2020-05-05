@@ -15,6 +15,8 @@ Pulp is always fixing bugs, make sure you're running the latest version.
 
 Look in the docs for an answer at [docs.pulpproject.org](https://docs.pulpproject.org).
 
+For documentation on a specific version of Pulp, see [Versioned Documentation](/docs/).
+
 ## Issue Tracker
 
 Look to see if the current bug or feature exists on the [Pulp issues tracker](https://pulp.plan.io/issues?set_filter=1).

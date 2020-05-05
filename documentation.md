@@ -1,5 +1,5 @@
 ---
-title: Documentation
+title: Versioned Documentation
 sidebar: home_sidebar
 permalink: /docs/
 toc: false

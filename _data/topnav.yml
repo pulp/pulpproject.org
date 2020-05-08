@@ -5,8 +5,6 @@ topnav:
   items:
     - title: Home
       url: /
-    - title: About Pulp 3
-      url: /about-pulp-3/
     - title: Pulp 3 Plugins
       url: /pulp-3-plugins/
     - title: Demo
@@ -20,6 +18,12 @@ topnav:
 topnav_dropdowns:
 - title: Topnav dropdowns
   folders:
+    - title: Pulp 3
+      folderitems:
+        - title: About Pulp 3
+          url: /about-pulp-3/
+        - title: Features
+          url: /features/
     - title: Contributing
       folderitems:
         - title: Get Involved

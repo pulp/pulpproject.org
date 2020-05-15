@@ -11,6 +11,12 @@ toc: false
 participate in real-time. See the [triage process](https://docs.pulpproject.org/bugs-features.html#triage) for
 more details. You can also read through the [triage archives](https://pulpadmin.fedorapeople.org/triage/pulp-meeting/?C=N;O=D)
 
+**Open Floor** - every Tuesday and Friday immediately after Bug Triage in #pulp-meeting on Freenode
+(IRC). It's a time for developer discussion, feedback, and decisions on code/issues/PRs/process
+relating to pulpcore or plugins. To particiapte, put a topic on
+[the agenda](https://hackmd.io/SVCMjpwXTfOMqF2OeyyLRw). Minutes will be sent to the pulp-dev mailing
+list.
+
 ## Upcoming Events
 
 **Community Demo** - While the livestreaming is on temporary hiatus, see new demo videos added 

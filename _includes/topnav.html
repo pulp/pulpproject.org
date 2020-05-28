@@ -12,6 +12,24 @@
         </div>
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right">
+              {% for entry in site.data.topnav.topnav_dropdowns1 %}
+              {% for folder in entry.folders1 %}
+              <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">{{ folder.title }}<b class="caret"></b></a>
+                  <ul class="dropdown-menu">
+                      {% for folderitem in folder.folderitems1 %}
+                      {% if folderitem.external_url %}
+                      <li><a href="{{folderitem.external_url}}" target="_blank">{{folderitem.title}}</a></li>
+                      {% elsif page.url contains folderitem.url %}
+                      <li class="dropdownActive"><a href="{{folderitem.url | prepend: site.baseurl}}">{{folderitem.title}}</a></li>
+                      {% else %}
+                      <li><a href="{{folderitem.url | prepend: site.baseurl}}">{{folderitem.title}}</a></li>
+                      {% endif %}
+                      {% endfor %}
+                  </ul>
+              </li>
+              {% endfor %}
+              {% endfor %}
                 <!-- entries without drop-downs appear here -->
                 {% for entry in site.data.topnav.topnav %}
                 {% for item in entry.items %}

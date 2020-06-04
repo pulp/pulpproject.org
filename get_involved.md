@@ -9,7 +9,7 @@ toc: false
 
 **Bug Triage** - every Tuesday and Friday 10:30 ET (either EST or EDT) in #pulp-meeting on Freenode (IRC). Come and
 participate in real-time. See the [triage process](https://docs.pulpproject.org/bugs-features.html#triage) for
-more details. You can also read through the [triage archives](https://pulpadmin.fedorapeople.org/triage/pulp-meeting/?C=N;O=D)
+more details. You can also read through the [triage archives](https://logs.pulpproject.org/pulp-meeting/)
 
 **Open Floor** - every Tuesday and Friday immediately after Bug Triage in #pulp-meeting on Freenode
 (IRC). It's a time for developer discussion, feedback, and decisions on code/issues/PRs/process

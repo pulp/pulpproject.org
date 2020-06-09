@@ -14,7 +14,7 @@ more details. You can also read through the [triage archives](https://logs.pulpp
 **Open Floor** - every Tuesday and Friday immediately after Bug Triage in #pulp-meeting on Freenode
 (IRC). It's a time for developer discussion, feedback, and decisions on code/issues/PRs/process
 relating to pulpcore or plugins. To particiapte, put a topic on
-[the agenda](https://hackmd.io/SVCMjpwXTfOMqF2OeyyLRw). Minutes will be sent to the pulp-dev mailing
+[the agenda](https://hackmd.io/@pulp/triage/edit). Minutes will be sent to the pulp-dev mailing
 list.
 
 ## Upcoming Events

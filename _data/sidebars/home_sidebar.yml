@@ -21,8 +21,8 @@ entries:
     - title: Migrate to Pulp 3
       url: /migrate-to-pulp-3/
       output: web
-    - title: Pulp 3 Plugins
-      url: /pulp-3-plugins/
+    - title: Content Plugins
+      url: /content-plugins/
       output: web
     - title: Docs
       url: /docs/

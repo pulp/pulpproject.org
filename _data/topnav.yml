@@ -14,8 +14,8 @@ topnav_dropdowns1:
 topnav:
 - title: Topnav
   items:
-    - title: Pulp 3 Plugins
-      url: /pulp-3-plugins/
+    - title: Content Plugins
+      url: /content-plugins/
     - title: Docs
       url: /docs/
     - title: Demo

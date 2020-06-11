@@ -14,6 +14,8 @@ topnav:
   items:
     - title: Pulp 3 Plugins
       url: /pulp-3-plugins/
+    - title: Docs
+      url: /docs/
     - title: Demo
       url: /demo/
     - title: Blog

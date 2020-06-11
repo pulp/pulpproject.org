@@ -1,5 +1,5 @@
 ---
-title: Versioned Documentation
+title: Documentation
 sidebar: home_sidebar
 permalink: /docs/
 toc: false
@@ -11,9 +11,27 @@ See the latest Pulp 3 docs at [docs.pulpproject.org](http://docs.pulpproject.org
 
 See the latest Pulp 2 docs at [docs.pulpproject.org/en/2.21/](http://docs.pulpproject.org/en/2.21/)
 
-## Release Candidate or Beta
+See the Ansible installer docs at [https://pulp-installer.readthedocs.io/en/latest/](https://pulp-installer.readthedocs.io/en/latest/)
 
-* None
+## Pulp 3 Content Plugin Documentation
+
+* [RPM plugin](https://pulp-rpm.readthedocs.io/en/latest/)
+* [File plugin](https://pulp-file.readthedocs.io/en/latest/)
+* [Container plugin](https://pulp-container.readthedocs.io/en/latest/)
+* [Ansible plugin](https://pulp-ansible.readthedocs.io/en/latest/)
+* [Debian plugin](https://pulp-deb.readthedocs.io/en/latest/)
+* [Python plugin](https://pulp-python.readthedocs.io/en/latest/)
+* [Chef Cookbook plugin](https://github.com/gmbnomis/pulp_cookbook/blob/master/README.rst)
+* [Maven plugin](https://github.com/pulp/pulp_maven/blob/master/README.rst)
+* [RubyGem plugin](https://github.com/pulp/pulp_gem/blob/master/README.rst)
+* [Ansible GalaxyNG plugin](https://github.com/ansible/galaxy_ng/blob/master/README.md)
+
+Other plugins:
+
+
+* [Certguard plugin](https://pulp-certguard.readthedocs.io/en/latest/)
+* [Migration Plugin](https://pulp-2to3-migration.readthedocs.io/en/latest/index.html)
+
 
 ## Nightly
 

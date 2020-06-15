@@ -18,6 +18,9 @@ entries:
     - title: Pulp 3 Plugins
       url: /pulp-3-plugins/
       output: web
+    - title: Docs
+      url: /docs/
+      output: web
     - title: Demo
       url: /demo/
       output: web

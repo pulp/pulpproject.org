@@ -9,6 +9,8 @@ topnav_dropdowns1:
           url: /about-pulp-3/
         - title: Features
           url: /features/
+        - title: Migrate to Pulp 3
+          url: /migrate-to-pulp-3/
 topnav:
 - title: Topnav
   items:

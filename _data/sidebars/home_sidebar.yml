@@ -15,6 +15,12 @@ entries:
     - title: About Pulp 3
       url: /about-pulp-3/
       output: web
+    - title: Features
+      url: /features/
+      output: web
+    - title: Migrate to Pulp 3
+      url: /migrate-to-pulp-3/
+      output: web
     - title: Pulp 3 Plugins
       url: /pulp-3-plugins/
       output: web

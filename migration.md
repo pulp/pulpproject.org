@@ -9,7 +9,7 @@ toc: false
 
 For many years, the Pulp team have worked to gather and implement feedback from user deployments of Pulp 2. The solution to much of the feedback lay outside of the constraints of the Pulp 2 architecture. This led to the development of Pulp 3, which is not only an update of Pulp 2, but a complete technical overhaul to provide the most effective repository management platform.
 
-At the moment, the Pulp team supports both Pulp 2 and Pulp 3. However, at some point in the future, support will end for Pulp 2 and focus exclusively on Pulp 3.  
+At the moment, Pulp 2 has entered maintenance mode. This means that apart from critical bug fixes and security issues, there will be no further feature enhancements or bug fixes for Pulp 2. Much of the technical debt of the Pulp 2 project and many of the feature requests have been or will be implemented in Pulp 3.
 
 If you are a Pulp 2 user, start planning your migration to Pulp 3.
 

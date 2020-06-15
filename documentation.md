@@ -5,13 +5,13 @@ permalink: /docs/
 toc: false
 ---
 
-## Current, Stable
+# Pulp 3
 
-See the latest Pulp 3 docs at [docs.pulpproject.org](http://docs.pulpproject.org)
+## Pulpcore Documentation
 
-See the latest Pulp 2 docs at [docs.pulpproject.org/en/2.21/](http://docs.pulpproject.org/en/2.21/)
-
-See the Ansible installer docs at [https://pulp-installer.readthedocs.io/en/latest/](https://pulp-installer.readthedocs.io/en/latest/)
+* Latest: [docs.pulpproject.org](http://docs.pulpproject.org).
+* Nightly: [http://docs.pulpproject.org/en/master/nightly/](http://docs.pulpproject.org/en/master/nightly/).
+* Ansible installer: [https://pulp-installer.readthedocs.io/en/latest/](https://pulp-installer.readthedocs.io/en/latest/).
 
 ## Pulp 3 Content Plugin Documentation
 
@@ -26,19 +26,18 @@ See the Ansible installer docs at [https://pulp-installer.readthedocs.io/en/late
 * [RubyGem plugin](https://github.com/pulp/pulp_gem/blob/master/README.rst)
 * [Ansible GalaxyNG plugin](https://github.com/ansible/galaxy_ng/blob/master/README.md)
 
-Other plugins:
-
+## Other plugins
 
 * [Certguard plugin](https://pulp-certguard.readthedocs.io/en/latest/)
 * [Migration Plugin](https://pulp-2to3-migration.readthedocs.io/en/latest/index.html)
 
 
-## Nightly
+# Pulp 2
 
-* [Pulp Nightly](http://docs.pulpproject.org/en/master/nightly/)
-
+See the latest Pulp 2 docs at [docs.pulpproject.org/en/2.21/](http://docs.pulpproject.org/en/2.21/)
 
 ## Older
+
 * [Pulp 2.20](http://docs.pulpproject.org/en/2.20/)
 * [Pulp 2.19](http://docs.pulpproject.org/en/2.19/)
 * [Pulp 2.18](http://docs.pulpproject.org/en/2.18/)
@@ -54,7 +53,6 @@ Other plugins:
 * [Pulp 2.8](http://docs.pulpproject.org/en/2.8/)
 * [Pulp 2.7](http://docs.pulpproject.org/en/2.7/)
 * [Pulp 2.6](http://docs.pulpproject.org/en/2.6/)
-
 
 ## Related Projects
 

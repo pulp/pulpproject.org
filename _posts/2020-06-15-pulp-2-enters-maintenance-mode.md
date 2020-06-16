@@ -27,4 +27,4 @@ If you want to extend the existing functionality, feel free to raise a [pull req
 
 To view current progress and outstanding issues, see the [Migration plugin tracker](https://pulp.plan.io/projects/migration).
 
-If you have any questions or feedback, write to the pulp-dev@redhat.com mailing list.
+If you have any questions or feedback, write to the pulp-list@redhat.com mailing list.

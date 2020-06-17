@@ -12,7 +12,7 @@ following commands can be used to start up Pulp 3.2.0 with `podman 1.8.0` (avail
 
 ```
 $ mkdir settings pulp_storage pgsql containers
-$ echo "CONTENT_ORIGIN='$(hostname):8080'
+$ echo "CONTENT_ORIGIN='http://$(hostname):8080'
 ANSIBLE_API_HOSTNAME='http://$(hostname):8080'
 ANSIBLE_CONTENT_HOSTNAME='http://$(hostname):8080/pulp/content'
 TOKEN_AUTH_DISABLED=True" >> settings/settings.py

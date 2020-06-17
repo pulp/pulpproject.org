@@ -11,6 +11,8 @@ topnav_dropdowns1:
           url: /features/
         - title: Migrate to Pulp 3
           url: /migrate-to-pulp-3/
+        - title: Related Tooling
+          url: /related-tooling/
 topnav:
 - title: Topnav
   items:
@@ -24,8 +26,6 @@ topnav:
       url: /blog/
     - title: Help
       url: /help/
-    - title: Related Tooling
-      url: /related-tooling/
 topnav_dropdowns:
 - title: Topnav dropdowns
   folders:

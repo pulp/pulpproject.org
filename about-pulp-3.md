@@ -7,7 +7,7 @@ toc: false
 
 Pulp 3 builds on the achievements of Pulp 2, with a renewed focus on repository management. Pulp 3 is more than an update of Pulp 2. Pulp 3 is the result of years of feedback from Pulp 2 production scenarios and serves to address key concerns that could not be resolved within the existing Pulp 2 architecture.
 
-Pulp 3 reduces the challenges and dependencies that users experienced with Pulp 2. Built on Django, and using open standards such as OpenAPI, Pulp 3 has increased reliability and flexibility while reducing the code base. Plug-in writing has become easier thanks to the improved Plug-in API. Performance speeds, data integrity, and safety features, such as roll back to specific versions, have guided the development of Pulp 3.
+Pulp 3 reduces the challenges and dependencies that users experienced with Pulp 2. Built on Django, and using open standards such as OpenAPI, Pulp 3 has increased reliability and flexibility while reducing the code base. Plugin writing has become easier thanks to the improved Plugin API. Performance speeds, data integrity, and safety features, such as roll back to specific versions, have guided the development of Pulp 3.
 
 Pulp 3 and Pulp 2 have several conceptual differences. For more information about conceptual and terminology differences between Pulp 3 and Pulp 2, see [Renamed concepts](https://docs.pulpproject.org/from-pulp-2.html#renamed-concepts).
 
@@ -24,7 +24,7 @@ Pulp 3 has the following advantages and features when compared to Pulp 2:
 * [Client bindings](https://docs.pulpproject.org/client_bindings.html) make Pulp’s API language agnostic, requiring no customization.
 * Browseable, auto-documented, OpenAPI.
 * Python’s PyPI replaces RPMs as the main packaging method, which allows for easy installation across Linux distributions.
-* Improvements to the Plug-in API ensures compatibility with Pulp core and has led to [an increasing list of Plug-ins](/pulp-3-plugins/).
+* Improvements to the Plugin API ensures compatibility with Pulp core and has led to [an increasing list of Plugins](/content-plugins/).
 
 ### Functionality that has been dropped or replaced entirely with Pulp 3
 
@@ -39,7 +39,7 @@ System management features, which were present in Pulp 2, have been removed so t
 
 * Role-based access control is not available
 * No CLI
-* No Puppet or OSTree plug-ins are available
+* No Puppet or OSTree plugins are available
 
 
 ## What do you think?

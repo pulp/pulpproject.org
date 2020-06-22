@@ -7,7 +7,7 @@ toc: false
 
 ### One tool for different content types
 
-With Pulp, you can fetch, upload, and distribute content from a wide variety of [content types](/pulp-3-plugins/). Add the plugins for the different content you want to work with and use Pulp to manage them all.  
+With Pulp, you can fetch, upload, and distribute content from a wide variety of [content types](/content-plugins/). Add the plugins for the different content you want to work with and use Pulp to manage them all.  
 
 ### Safely roll back with repository versioning
 

@@ -31,14 +31,15 @@ channel](https://www.youtube.com/PulpProject).
   <col style="width:35%">
   <thead>
     <tr>
-      <th>Quickly Try Pulp</th>
+      <th>Quickstart</th>
       <th>Fully Install Pulp</th>
     </tr>
   </thead>
   <tr>
-    <td>Pulp 3: Download and run<br />
-        <a href="https://raw.githubusercontent.com/pulp/pulp-operator/master/insta-demo/pulp-insta-demo.sh">pulp-insta-demo.sh</a></td>
-    <td>Pulp 2 Stable: <a href="https://docs.pulpproject.org/en/2.21/user-guide/installation/index.html">Instructions</a><br />
-        Pulp 3: <a href="https://docs.pulpproject.org/installation/index.html">Instructions</a></td>
+    <td>An easy way to get started with Pulp: <br />
+        <a href="https://pulpproject.org/pulp-in-one-container/">Pulp in One Container</a></td>
+    <td>Pulp 3: <a href="https://docs.pulpproject.org/installation/index.html">Instructions</a> <br />
+        Pulp 2: <a href="https://docs.pulpproject.org/en/2.21/user-guide/installation/index.html">Instructions</a>
+        </td>
   </tr>
 </table>

@@ -20,6 +20,8 @@ topnav_dropdowns2:
       folderitems2:
         - title: Pulp in One Container
           url: /pulp-in-one-container/
+        - title: Install using Ansible
+          url: /ansible-installer/
 topnav:
 - title: Topnav
   items:

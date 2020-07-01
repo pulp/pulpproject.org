@@ -33,6 +33,9 @@ entries:
     - title: Install using Ansible
       url: /ansible-installer/
       output: web
+    - title: Pulp Insta Demo
+      url: /insta-demo/
+      output: web
     - title: Docs
       url: /docs/
       output: web

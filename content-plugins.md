@@ -149,12 +149,6 @@ This table contains links to information and sources for all Pulp 3 content plug
 | Python plugin | <a href="http://pulp-python.readthedocs.io/en/latest/">Python plugin docs</a> | <a href="https://github.com/pulp/pulp_python/">Python plugin source</a> | <a href="https://pulp.plan.io/projects/pulp_python?jump=welcome">Python plugin tracker</a> | <a href="https://pypi.org/project/pulp-python/">Yes</a> | No |
 | RPM plugin | <a href="http://pulp-rpm.readthedocs.io/en/latest/">RPM plugin docs</a> | <a href="https://github.com/pulp/pulp_rpm/">RPM plugin source</a> | <a href="https://pulp.plan.io/projects/pulp_rpm?jump=welcome">RPM plugin tracker</a> | <a href="https://pypi.org/project/pulp-rpm/">Yes</a> | No |
 
-## Pulp 3 Extras
-
-| Pulp Plugin | Docs | Source | Tracker | Install with PyPI | Install with RPM |
-|-------|--------|---------|--------|---------|-------- |--------- |
-| pulp-certguard | <a href="https://pulp-certguard.readthedocs.io/en/latest/">Certguard Docs</a> | <a href="https://github.com/pulp/pulp-certguard">Certguard source</a> | <a href="https://pulp.plan.io/projects/certguard?jump=welcome">Certguard plugin tracker</a> | <a href="https://pypi.org/project/pulp-certguard/">Yes</a> | No |
-
 
 
 <h2 class="page-header">Pulp 2 Content Plugins Features</h2>

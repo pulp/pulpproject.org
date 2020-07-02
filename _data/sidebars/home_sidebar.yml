@@ -24,6 +24,9 @@ entries:
     - title: Content Plugins
       url: /content-plugins/
       output: web
+    - title: Certguard Plugin
+      url: /certguard-plugin/
+      output: web
     - title: Pulp in One Container
       url: /pulp-in-one-container/
       output: web

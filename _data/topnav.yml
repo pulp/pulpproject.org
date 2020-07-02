@@ -22,11 +22,18 @@ topnav_dropdowns2:
           url: /pulp-in-one-container/
         - title: Install using Ansible
           url: /ansible-installer/
+topnav_dropdowns3:
+- title: Topnav dropdowns3
+  folders3:
+    - title: Plugins
+      folderitems3:
+        - title: Content Plugins
+          url: /content-plugins/
+        - title: Certguard plugin
+          url: /certguard-plugin/
 topnav:
 - title: Topnav
   items:
-    - title: Content Plugins
-      url: /content-plugins/
     - title: Docs
       url: /docs/
     - title: Demo

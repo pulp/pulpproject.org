@@ -33,6 +33,9 @@ entries:
     - title: Install using Ansible
       url: /ansible-installer/
       output: web
+    - title: Install using PyPi
+      url: /pypi-installation/
+      output: web
     - title: Pulp Insta Demo
       url: /insta-demo/
       output: web

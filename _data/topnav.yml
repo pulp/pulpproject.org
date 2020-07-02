@@ -22,6 +22,8 @@ topnav_dropdowns2:
           url: /pulp-in-one-container/
         - title: Install using Ansible
           url: /ansible-installer/
+        - title: Install using PyPi
+          url: /pypi-installation/
         - title: Pulp Insta Demo
           url: /insta-demo/
 topnav_dropdowns3:

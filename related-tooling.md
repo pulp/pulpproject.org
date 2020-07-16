@@ -15,10 +15,6 @@ Foreman and Katello use Pulp for managing repositories of software packages. It 
 
 Foreman and Katello are currently in the incremental [process of migrating from Pulp 2 to Pulp 3.](https://community.theforeman.org/t/update-on-katello-pulp3-integration-and-upcoming-roadmap/15899)
 
-## Ansible Modules for Pulp aka Squeezer
-
-[This project](https://github.com/mdellweg/ansible_modules_pulp) provides Ansible modules (currently only for pulp-file) to control a Pulp 3 server in a descriptive way. This is neither to be confused with the [Pulp 3 Ansible Installer pulp_installer](https://github.com/pulp/pulp_installer) (a collection of Ansible roles to install Pulp), nor [pulp_ansible](https://github.com/pulp/pulp_ansible) (a Pulp content plugin to manage Ansible content in Pulp.)
-
 ## pulp_rpm_repos
 
 pulp_rpm_repos ([GitHub](https://github.com/juan-cabrera/pulp_rpm_repos), [Galaxy](https://galaxy.ansible.com/juan_cabrera/pulp_rpm_repos)): Use Pulp API client to manage repositories in a Pulp 3 server

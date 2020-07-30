@@ -14,6 +14,8 @@ Installing collections with `ansible-galaxy` is only supported in Ansible 2.9 an
 
 Check out Pulp Squeezer on [Ansible Galaxy](https://galaxy.ansible.com/pulp/squeezer).
 
+<script id="asciicast-amFEhvEprDLB2UPgDcgJg4knz" src="https://asciinema.org/a/amFEhvEprDLB2UPgDcgJg4knz.js" async></script>
+
 ## Available modules
 
 For Ansible content:

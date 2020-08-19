@@ -41,6 +41,6 @@ For more information about work in progress, see the [Pulp Ansible redmine ](htt
 
 ## Get Pulp Ansible 0.2.0
 
-PyPI: [https://pypi.org/project/pulp-ansible/0.2.0/](https://pypi.org/project/pulp-ansible/0.2.0/)
-Python bindings: [https://pypi.org/project/pulp-ansible-client/0.2.0/](https://pypi.org/project/pulp-ansible-client/0.2.0/)
-Ruby bindings: [https://rubygems.org/gems/pulp_ansible_client/versions/0.2.0](https://rubygems.org/gems/pulp_ansible_client/versions/0.2.0)
+* PyPI: [https://pypi.org/project/pulp-ansible/0.2.0/](https://pypi.org/project/pulp-ansible/0.2.0/)
+* Python bindings: [https://pypi.org/project/pulp-ansible-client/0.2.0/](https://pypi.org/project/pulp-ansible-client/0.2.0/)
+* Ruby bindings: [https://rubygems.org/gems/pulp_ansible_client/versions/0.2.0](https://rubygems.org/gems/pulp_ansible_client/versions/0.2.0)

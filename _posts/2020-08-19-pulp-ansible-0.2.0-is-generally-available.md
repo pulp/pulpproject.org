@@ -23,8 +23,8 @@ For more information, see the [roles](https://pulp-ansible.readthedocs.io/en/lat
 
 The Pulp Ansible plugin also has the following features:
 
-* Store private Ansible content on-premise
-* Version Ansible content over time and rollback if necessary
+* Store private Ansible collections on-premise using the `ansible-galaxy collection publish` command
+* Version Ansible content over time and roll back if necessary
 * Support for the new multi-role content type from Ansible Galaxy
 
 ## Release Features

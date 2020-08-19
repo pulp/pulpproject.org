@@ -1,5 +1,5 @@
 ---
-title: Pulp Container 2.0.0 is Generally Available
+title: Pulp Ansible 0.2.0 is Generally Available
 author: Melanie Corr
 tags:
   - release
@@ -13,16 +13,19 @@ The Pulp team is pleased to announce the release of the Pulp Ansible 0.2.0 plugi
 
 If you’re an Ansible user and do not want to host your private content on Ansible Galaxy, you can add the Pulp Ansible plugin to Pulp. You can then mirror the public Ansible content that you require and use Pulp as an on-premise platform to manage and distribute a scalable blend of public and private Ansible roles and collections across your organization.
 
-With the Pulp Ansible plugin, you can complete the following actions via the Pulp API. Ansible content includes both roles and collections:
+With the Pulp Ansible plugin, you can complete the following workflows via the Pulp API. Ansible content includes both roles and collections:
 
 * Mirror a subset of Ansible content on-premise
 * Mirror all of Ansible Galaxy’s content on-premise
-* Store private Ansible content on-premise
-* Install Ansible content from pulp_ansible using the ansible-galaxy CLI
-* Version Ansible content over time and rollback if necessary
-* Support for the new multi-role content type from Galaxy
+* Create a distribution and use the `ansible-galaxy` command to install content from this distribution
 
 For more information, see the [roles](https://pulp-ansible.readthedocs.io/en/latest/workflows/roles.html) and [collections](https://pulp-ansible.readthedocs.io/en/latest/workflows/collections.html) workflows in the Pulp Ansible documentation.
+
+The Pulp Ansible plugin also has the following features:
+
+* Store private Ansible content on-premise
+* Version Ansible content over time and rollback if necessary
+* Support for the new multi-role content type from Ansible Galaxy
 
 ## Release Features
 
@@ -30,7 +33,7 @@ In this release, which is compatible with Pulp 3.6, the following functionality 
 
 * Users can now associate a remote with a repository and automatically use this remote when syncing the repository. [#7194](https://pulp.plan.io/issues/7194)
 
-As part of this release, artifacts are no longer used when importing collections [#6718](https://pulp.plan.io/issues/6718)
+As part of this release, artifacts are no longer persisted when importing collections [#6718](https://pulp.plan.io/issues/6718)
 
 For more information, see the [Ansible plugin docs](https://pulp-ansible.readthedocs.io/en/latest/index.html).
 

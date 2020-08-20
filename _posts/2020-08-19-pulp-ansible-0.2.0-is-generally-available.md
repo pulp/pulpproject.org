@@ -5,8 +5,6 @@ tags:
   - release
 ---
 
-# Pulp Ansible 0.2.0 Release Announcement
-
 The Pulp team is pleased to announce the release of the Pulp Ansible 0.2.0 plugin.
 
 ## About the Pulp Ansible content plugin

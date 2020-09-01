@@ -21,7 +21,7 @@ toc: false
 * [Ansible plugin](https://pulp-ansible.readthedocs.io/en/latest/)
 * [Debian plugin](https://pulp-deb.readthedocs.io/en/latest/)
 * [Python plugin](https://pulp-python.readthedocs.io/en/latest/)
-* [Chef Cookbook plugin](https://github.com/gmbnomis/pulp_cookbook/blob/master/README.rst)
+* [Chef Cookbook plugin](https://github.com/pulp/pulp_cookbook/blob/master/README.rst)
 * [Maven plugin](https://github.com/pulp/pulp_maven/blob/master/README.rst)
 * [RubyGem plugin](https://github.com/pulp/pulp_gem/blob/master/README.rst)
 * [Ansible GalaxyNG plugin](https://github.com/ansible/galaxy_ng/blob/master/README.md)

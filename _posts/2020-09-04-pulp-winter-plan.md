@@ -29,10 +29,6 @@ Further updates will be announced on Pulp blog and mailing lists. If you have an
 * Performance testing for Pulp Container and File migration
 * Test writing
 
-## Pulp 3 CLI
-
-* Discussing and planning around CLI MVP
-
 ## Pulp File Plugin
 
 * Implementing Role Based Access Control (RBAC)

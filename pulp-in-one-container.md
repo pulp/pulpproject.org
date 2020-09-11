@@ -9,6 +9,8 @@ Installing Pulp 3 and getting all the services running can be challenging. To re
 
 The image is available under the `pulp` namespace on [Dockerhub](https://hub.docker.com/repository/docker/pulp/pulp-fedora31/). This image includes the Ansible, Container, File, Maven, and RPM plugins. A new version is published every time there is a plugin update available. You can update your environment to the latest version of the container using `docker pull`.
 
+If you experience any problems, check the [Known Issues](/pulp-in-one-container/#known-issues) section for workarounds. If you have any questions, feel free to reach out to us on `pulp-list@redhat.com` or the `#pulp` channel on Freenode IRC.  
+
 You can use either `podman` or `docker`. If you use `docker`, substitute `docker` for `podman` in the following examples.
 
 The following commands can be used to start Pulp 3.4.1 with `podman 1.8.0`, which is available on Fedora 31.
@@ -111,3 +113,17 @@ For individual plugin documentation, see [Pulp 3 Content Plugin Documentation](/
 
 The Container file and all other assets used to build the container image
 are available on [GitHub](https://github.com/pulp/pulp-oci-images).
+
+## Known Issues
+
+Any known issues and workarounds are listed here.
+
+### Docker on CentOS 7
+
+While using the version of Docker that is provided with CentOS 7, there is a known issue that will cause the following error to occur:
+
+`FATAL:  could not create lock file "/var/run/postgresql/.s.PGSQL.5432.lock": No such file or directory`
+
+The version of Docker that is provided with CentOS 7 mounts `tmpfs` on `/run`. The Pulp Container recipe uses `/var/run`, which is a symlink to `/run`, and expects its contents to be available at container run time. This lack of availability causes the quick fail.
+
+You can work around this by specifying an additional `/run` volume, which suppresses this behavior of the Docker run time. Docker will copy the image's contents to that volume and the container will start as expected.

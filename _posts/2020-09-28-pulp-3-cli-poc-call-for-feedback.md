@@ -5,13 +5,13 @@ tags:
   - announcement
 ---
 
-The lack of a Pulp 3 CLI has been cited as a limitation or potential blocker to using Pulp 3. At PulpCon 2020, the Pulp team held a discussion and demo of their ideas for a Pulp 3 CLI. Now, the Pulp team needs your help to progress with the development of a Pulp 3 CLI.
+On the `pulp-dev` mailing list, we have discussed how the lack of a CLI might be a limitation or potential blocker to using Pulp 3. In our recent community survey, many community members expressed the desire for a Pulp 3 CLI also. At PulpCon 2020, there was a session dedicated to a Pulp 3 CLI discussion. In that session, there was a demo the initial POC for the Pulp 3 CLI. At this point, we need your help to progress with the development of a Pulp 3 CLI.
 
 <script id="asciicast-vu3qzlzmpDEFV5SCz2WDO1psb" src="https://asciinema.org/a/vu3qzlzmpDEFV5SCz2WDO1psb.js" async></script>
 
-The Pulp team wants to build a Pulp 3 CLI to suit the needs and requirements of the wider Pulp community. To do this, we need your feedback, thoughts, ideas on what we have put together so far. The Pulp team wants to avoid developing features without knowing what your requirements are in a Pulp CLI.
+We want to build a Pulp 3 CLI to suit the needs and requirements of the wider Pulp community. To do this, we need your feedback, thoughts, and suggestions on what we have put together so far. We want to avoid developing features without knowing if it will help you and your use cases.
 
-If you're willing to install and test the current Pulp 3 CLI and let us know your feedback, whether this would suit your environment, whether there are pitfalls or anything, this would greatly help shape the future direction of the Pulp 3 CLI development. For anyone who participates and provides feedback on the CLI, PoC, we would be very happy to ship some Pulp SWAG as a thank you.
+If you're willing to install and test the current Pulp 3 CLI POC and let us know your feedback, for example, whether this would suit your deployment or whether there are specific gaps or pitfalls etc, this would greatly help shape the future direction of the Pulp 3 CLI development. For anyone who participates and provides feedback on the Pulp 3 CLI PoC, we would be very happy to ship some Pulp SWAG as a thank you!
 
 ## How to Help
 
@@ -25,7 +25,7 @@ Ensure that you are running Python 3.6 or higher and have the [virtual environme
 
 Ensure that you are running Pulp 3.6 or higher.
 
-To install the CLI, complete the following steps.
+To install the Pulp 3 CLI, complete the following steps.
 
 Clone the pulp-cli git repository:
 

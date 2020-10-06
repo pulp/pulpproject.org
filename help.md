@@ -42,3 +42,6 @@ can also [read the archives](https://www.redhat.com/archives/pulp-list/).
 * Join [**#pulp** on **irc.freenode.net**](https://webchat.freenode.net/?channels=#pulp) for User support.
 
 * Join [**#pulp-dev** on **irc.freenode.net**](https://webchat.freenode.net/?channels=#pulp-dev) for Developer discussion.
+
+Note that in order to send messages to our channels, you'll need to [register your nickname on
+Freenode](https://freenode.net/kb/answer/registration).

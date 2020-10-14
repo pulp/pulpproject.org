@@ -20,6 +20,8 @@ topnav_dropdowns2:
   folders2:
     - title: Install Pulp
       folderitems2:
+        - title: New User? Start Here
+          url: /installation-introduction/
         - title: Pulp in One Container
           url: /pulp-in-one-container/
         - title: Install using Ansible

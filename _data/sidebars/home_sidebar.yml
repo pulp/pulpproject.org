@@ -30,6 +30,9 @@ entries:
     - title: Certguard Plugin
       url: /certguard-plugin/
       output: web
+    - title: New User? Start Here
+      url: /installation-introduction/
+      output: web
     - title: Pulp in One Container
       url: /pulp-in-one-container/
       output: web

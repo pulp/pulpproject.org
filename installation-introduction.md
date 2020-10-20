@@ -16,7 +16,7 @@ For installation instructions, see [Pulp in One Container](/pulp-in-one-containe
 
 ## What is the quickest way to set up a production-ready Pulp environment?
 
-The `pulp-installer` is a set of Ansible roles that automates the installation of Pulp 3. This is the preferred method of installation and removes a lot of the complexity of the installation process.
+The `pulp_installer` is a set of Ansible roles that automates the installation of Pulp 3. This is the preferred method of installation and removes a lot of the complexity of the installation process.
 
 For installation instructions, see [Pulp installer](https://pulp-installer.readthedocs.io/en/latest/).
 
@@ -38,4 +38,4 @@ There is a [proof of concept](https://raw.githubusercontent.com/pulp/pulp-operat
 
 ## Do you need something else?
 
-If you are blocked and don't find an option that you need, please write to `pulp-list@redhat.com` and let us know what problem you encountered or what scenario you're missing. 
+If you are blocked and don't find an option that you need, please write to `pulp-list@redhat.com` and let us know what problem you encountered or what scenario you're missing.

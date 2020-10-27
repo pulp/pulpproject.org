@@ -39,9 +39,28 @@ can also [read the archives](https://www.redhat.com/archives/pulp-list/).
 
 ## IRC
 
+
 * Join [**#pulp** on **irc.freenode.net**](https://webchat.freenode.net/?channels=#pulp) for User support.
 
 * Join [**#pulp-dev** on **irc.freenode.net**](https://webchat.freenode.net/?channels=#pulp-dev) for Developer discussion.
 
 Note that in order to send messages to our channels, you'll need to [register your nickname on
 Freenode](https://freenode.net/kb/answer/registration).
+
+### Online Meetings
+
+An open floor and bug triage meetings take place twice a week at [**#pulp-meeting** on **irc.freenode.net**](https://webchat.freenode.net/?channels=#pulp-meeting). For more information, see [meetings](/get_involved/#meetings).
+
+### Plugin Developer Channels
+
+If you're interested in discussing the development of the following plugins, some discussions take place on the following IRC channels:
+
+* [**#pulp-rpm** on **irc.freenode.net**](https://webchat.freenode.net/?channels=#pulp-rpm)
+
+* [**#pulp-ansible** on **irc.freenode.net**](https://webchat.freenode.net/?channels=#pulp-ansible)
+
+* [**#pulp-container** on **irc.freenode.net**](https://webchat.freenode.net/?channels=#pulp-container)
+
+### Matrix
+
+There is a Matrix [Pulp Community page](https://riot.im/app/#/group/+pulp:matrix.org) that lists all of the Pulp rooms. Note that some clients do not alert you that you need to [register your nickname on Freenode](https://freenode.net/kb/answer/registration) to send messages. Ensure that your session is authenticated.

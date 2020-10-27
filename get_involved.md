@@ -7,19 +7,20 @@ toc: false
 
 ## Meetings
 
-**Bug Triage** - every Tuesday and Friday 10:30 ET (either EST or EDT) in #pulp-meeting on Freenode (IRC). Come and
-participate in real-time. See the [triage process](https://docs.pulpproject.org/bugs-features.html#triage) for
-more details. You can also read through the [triage archives](https://logs.pulpproject.org/pulp-meeting/)
-
-**Open Floor** - every Tuesday and Friday immediately after Bug Triage in #pulp-meeting on Freenode
+**Open Floor** - every Tuesday and Friday 10:30 ET (either EST or EDT) in #pulp-meeting on Freenode
 (IRC). It's a time for developer discussion, feedback, and decisions on code/issues/PRs/process
-relating to pulpcore or plugins. To particiapte, put a topic on
+relating to pulpcore or plugins. To participate, put a topic on
 [the agenda](https://hackmd.io/@pulp/triage/edit). Minutes will be sent to the pulp-dev mailing
 list.
 
+**Bug Triage** - every Tuesday and Friday immediately after Open Floor in #pulp-meeting on Freenode (IRC). Come and
+participate in real-time. See the [triage process](https://docs.pulpproject.org/bugs-features.html#triage) for
+more details. You can also read through the [triage archives](https://logs.pulpproject.org/pulp-meeting/).
+
+
 ## Upcoming Events
 
-**Community Demo** - While the livestreaming is on temporary hiatus, see new demo videos added 
+**Community Demo** - While the livestreaming is on temporary hiatus, see new demo videos added
 on our [YouTube channel](https://www.youtube.com/PulpProject). Pulp contributors demonstrate
 the latest changes to Pulp and its plugins.  
 

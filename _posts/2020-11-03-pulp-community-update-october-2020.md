@@ -22,7 +22,7 @@ If any repositories were affected by this, please use the [repo version repair](
 
 ## Pulp 3.7.3 is Generally Available
 
-This release added a critical update to Pulp 3.7 that could [silently delete an Artifact from the filesystem](https://docs.pulpproject.org/pulpcore/en/3.7/changes.html#id1).
+This release added a critical update to Pulp 3.7 to fix an issue that could [silently delete an Artifact from the filesystem](https://docs.pulpproject.org/pulpcore/en/3.7/changes.html#id1).
 
 ## Pulp 2-to-3 Migration plugin 0.5 is Generally Available
 

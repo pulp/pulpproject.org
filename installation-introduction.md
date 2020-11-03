@@ -27,10 +27,6 @@ You can manually install Pulp using `pip` or from [source](https://github.com/pu
 
 For `pip` installation instructions, see [PyPI installation](https://docs.pulpproject.org/pulpcore/en/master/nightly/installation/instructions.html#pypi-installation).
 
-## Is there a preferred Pulp development environment?
-
-
-If you want a Pulp development environment, check out the [Pulplift readme](https://github.com/pulp/pulplift/blob/master/README.md) on GitHub.
 
 ## Is there a Kubernetes operator deployment option?
 

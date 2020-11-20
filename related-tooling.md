@@ -21,6 +21,12 @@ pulp_rpm_repos ([GitHub](https://github.com/juan-cabrera/pulp_rpm_repos), [Galax
 
 This Ansible role interacts with a Pulp 3 server. It helps to create and manage rpm repositories.
 
+## Python project to manage Pulp repos: pulp_operations
+
+`pulp_operations` is a Python project by [Erik Whitesides](https://github.com/ewhitesides) that you can use to help manage many aspects of Pulp repositories.
+
+You can find the `pulp_operations` project and instructions on [GitHub](https://github.com/ewhitesides/pulp_operations).
+
 ## pulp-operator: Kubernetes Operator for Pulp 3
 
 [A Kubernetes Operator for Pulp 3](https://github.com/pulp/pulp-operator/), under active development (not production ready yet) by the Pulp team. The goal is to provide a scalable and robust cluster for Pulp 3. [Pre-built images are hosted on quay.io](https://quay.io/repository/pulp/pulp-operator).

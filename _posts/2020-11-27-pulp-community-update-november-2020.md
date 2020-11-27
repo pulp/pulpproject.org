@@ -5,10 +5,12 @@ tags:
   - newsletter
 ---
 
+_If you have any questions or updates you would like to share, we would be delighted to hear from you at `pulp-list@redhat.com`._
+
 
 ## Pulp Community Survey Results
 
-This Autumn, we requested feedback from the Pulp community to learn what matters to you and how your Pulp experience has been. A summary of the survey results is [now available](). If there isn't a live survey, we still hope to hear from you. You're always welcome to start a discussion about anything Pulp-related on `pulp-list@redhat.com`.
+This Autumn, we requested feedback from the Pulp community to learn what matters to you and how your Pulp experience has been. A summary of the survey results is [now available](). If there isn't a live survey, we still hope to hear from you. We'd always like to hear from someone with a Pulp-related query over on `pulp-list@redhat.com`.
 
 ## Python project to manage Pulp repos: pulp_operations
 

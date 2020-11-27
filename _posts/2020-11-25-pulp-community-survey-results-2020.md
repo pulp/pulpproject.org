@@ -208,7 +208,7 @@ On discussing this issue with a data analyst, these types of questions might be 
 * Configuration, and quick status queries. It is not convenient to craft the queries with httpie, and the squeezer modules only cover a limited set of APIs.
 * Integrating / triggering jobs via Ansible.
 
-[Have you ever found it difficult to find the information you needed about a Pulp feature you were trying to use?](/images/communitysurvey/2020/finding-information.png)
+![Have you ever found it difficult to find the information you needed about a Pulp feature you were trying to use?](/images/communitysurvey/2020/finding-information.png)
 
 ### Feedback on difficulties with docs/information
 

@@ -10,21 +10,21 @@ _If you have any questions or updates you would like to share, we would be delig
 
 ## Pulp Community Survey Results
 
-This Autumn, we requested feedback from the Pulp community to learn what matters to you and how your Pulp experience has been. A summary of the survey results is [now available](). If there isn't a live survey, we still hope to hear from you. We'd always like to hear from someone with a Pulp-related query over on `pulp-list@redhat.com`.
+This Autumn, we requested feedback from the Pulp community to learn what matters to you and how your Pulp experience has been. A summary of the survey results is [now available](/2020/11/25/pulp-community-survey-results-2020/). Even if there isn't a live survey, feedback is always welcome. Feel free to start a discussion any time over on `pulp-list@redhat.com`.
 
 ## Python project to manage Pulp repos: pulp_operations
 
-Community member [Erik Whitesides](https://github.com/ewhitesides) shared [pulp_operations](https://github.com/ewhitesides/pulp_operations) - a Python project that you can use to help manage many aspects of Pulp repositories.
+Community member [Erik Whitesides](https://github.com/ewhitesides) shared [pulp_operations](https://github.com/ewhitesides/pulp_operations) - a Python project that you can use to help manage many aspects of Pulp repositories. Thank you, Erik!
 
 ## Pulp 3.9 Release Date Update
 
-The preliminary release date for Pulp 3.9 was moved forward to December 7th, to allow for the migration from Travis. GitHub actions will be used for future Pulp releases.
+The preliminary release date for Pulp 3.9 was moved forward to December 7th to allow for the migration from Travis. GitHub Actions will be used for future Pulp releases.
 
 ## Plugin Updates
 
 ### Pulp RPM 3.8 is now Generally Available
 
-As well as a number of bug fixes, this release includes adds new fields so that users can customize `gpgcheck` signature options in a publication.
+As well as a number of bug fixes, this release adds new fields so that users can customize `gpgcheck` signature options in a publication.
 For more information, check out the [changelog](https://pulp-rpm.readthedocs.io/en/latest/changes.html#id1).
 
 ### Pulp Ansible 0.5.2

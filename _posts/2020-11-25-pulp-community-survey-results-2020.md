@@ -68,12 +68,12 @@ Of the Pulp 2 respondents:
 * 60% of respondents use more than one plugin.
 * As well as the RPM plugin, the most popular plugin is the Python plugin, with 30% of respondents using it in addition to RPM.
 
-Pulp 2 users reported also using the Debian, Plugin, and Docker plugins.
+Pulp 2 users reported also using the Debian and Docker plugins.
 
 
 ### Do you rely on the Pulp 2 CLI or API? If so, can you explain why?
 
-80% of Pulp 2 respondents reported that they use the Pulp 2 CLI exclusively and depend on it for daily tasks. Some users wrote that they script against it and find it essential for sysadmin tasks.
+80% of Pulp 2 respondents reported that they use the Pulp 2 CLI exclusively and depend on it for daily tasks. Some users wrote that they script against it and find it essential.
 
 10% said that they use both the CLI and API.
 
@@ -94,7 +94,7 @@ Other than the CLI, the following reasons were cited:
 * A perception that there was a much broader skillset required to use Pulp 3, with references in the documentation, for example, to Ansible and Python.
 * A lack of a Puppet plugin.
 * On-premise installation via RPMs because of security restrictions.
-* Rewriting of internal tooling.
+* Migrating required the complete rewrite of internal tooling.
 
 
 ### Reason for not planning to migrate to Pulp 3
@@ -137,8 +137,8 @@ The latest version of Pulp 3 at that time was 3.5, with 3.6 being released durin
 ## Which Pulp 3 plugins do you use?
 
 * 91% reported using the Pulp RPM plugin.
-* Over half of Pulp 3 users use 3 or more plugins.
-* Of the users that use only one plugin, those users use only the RPM plugin.
+* Over half of Pulp 3 respondents use 3 or more plugins.
+* Of the respondents who use only one plugin, they use only the RPM plugin.
 * After RPM, the most popular plugins are File and Container plugins.
 
 ## Which plugin is Pulp missing and you would like to see developed?

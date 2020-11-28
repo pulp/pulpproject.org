@@ -174,7 +174,7 @@ Of the other responses, here are what Pulp users cited:
 
 ![Do you need to run Pulp 3 on Kubernetes or Openshift?](/images/communitysurvey/2020/kube-or-openshift.png)
 
-![What existing identity management do you want to integrate with Pulp 3?](/images/communitysurvey/2020/pulp-idm.png.png)
+![What existing identity management do you want to integrate with Pulp 3?](/images/communitysurvey/2020/pulp-idm.png)
 
 ### If a full deployment of Pulp in one container was available, would that be useful for you?
 

@@ -15,10 +15,10 @@ toc: false
 
 ## Pulp 3 Content Plugin Documentation
 
-* [RPM plugin](https://pulp-rpm.readthedocs.io/en/latest/)
-* [File plugin](https://pulp-file.readthedocs.io/en/latest/)
-* [Container plugin](https://pulp-container.readthedocs.io/en/latest/)
-* [Ansible plugin](https://pulp-ansible.readthedocs.io/en/latest/)
+* [RPM plugin](https://docs.pulpproject.org/pulp_rpm/)
+* [File plugin](https://docs.pulpproject.org/pulp_file/)
+* [Container plugin](https://docs.pulpproject.org/pulp_container/)
+* [Ansible plugin](https://docs.pulpproject.org/pulp_ansible/)
 * [Debian plugin](https://pulp-deb.readthedocs.io/en/latest/)
 * [Python plugin](https://pulp-python.readthedocs.io/en/latest/)
 * [Chef Cookbook plugin](https://github.com/pulp/pulp_cookbook/blob/master/README.rst)

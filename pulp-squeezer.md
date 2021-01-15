@@ -8,7 +8,7 @@ toc: false
 
 Pulp Squeezer, formerly known as Pulp Ansible Modules, is a collection of Ansible modules that you can use to manage Pulp.
 
-Previously, you could use Ansible modules only to manage File content in Pulp. With this 0.0.1 release, you can fetch, upload, organize, and distribute File, Ansible, and Python content.
+Previously, you could use Ansible modules only to manage File content in Pulp. With this release, you can fetch, upload, organize, and distribute File, Ansible, and Python content.
 
 Installing collections with `ansible-galaxy` is only supported in Ansible 2.9 and higher.
 

@@ -7,7 +7,7 @@ toc: false
 
 Installing Pulp 3 and getting all the services running can be challenging. To reduce the complexity of getting started with Pulp, the Pulp team created a single container image that has all necessary services to run Pulp 3.
 
-The image is available under the `pulp` namespace on [Dockerhub](https://hub.docker.com/repository/docker/pulp/pulp-fedora31/). This image includes the Ansible, Container, File, Maven, and RPM plugins. A new version is published every time there is a plugin update available. You can update your environment to the latest version of the container using `docker pull`.
+The image is available under the `pulp` namespace on [Dockerhub](https://hub.docker.com/repository/docker/pulp/pulp-fedora31/). This image includes the Ansible, Container, File, Maven, Python, and RPM plugins. A new version is published every time there is a plugin update available. You can update your environment to the latest version of the container using `docker pull`.
 
 If you experience any problems, check the [Known Issues](/pulp-in-one-container/#known-issues) section for workarounds. If you have any questions, feel free to reach out to us on `pulp-list@redhat.com` or the `#pulp` channel on Freenode IRC.  
 

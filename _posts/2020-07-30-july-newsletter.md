@@ -81,7 +81,7 @@ The Pulp Container team has produced a bug fix release of 1.4 that improves perf
 
 This release includes adding more metadata fields to published Release files, as well as some bug fixes.
 
-For more information see the [changelog](https://pulp-deb.readthedocs.io/en/latest/changes.html#b1-2020-07-15) and the [release announcement](https://www.redhat.com/archives/pulp-list/2020-July/msg00015.html).
+For more information see the [changelog](https://docs.pulpproject.org/pulp_deb/changes.html#b1-2020-07-15) and the [release announcement](https://www.redhat.com/archives/pulp-list/2020-July/msg00015.html).
 
 ### Pulp Ansible Plugin 0.2.0 Beta 15 is available
 

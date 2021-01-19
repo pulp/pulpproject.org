@@ -19,7 +19,7 @@ toc: false
 * [File plugin](https://docs.pulpproject.org/pulp_file/)
 * [Container plugin](https://docs.pulpproject.org/pulp_container/)
 * [Ansible plugin](https://docs.pulpproject.org/pulp_ansible/)
-* [Debian plugin](https://pulp-deb.readthedocs.io/en/latest/)
+* [Debian plugin](https://docs.pulpproject.org/pulp_deb/)
 * [Python plugin](https://pulp-python.readthedocs.io/en/latest/)
 * [Chef Cookbook plugin](https://github.com/pulp/pulp_cookbook/blob/master/README.rst)
 * [Maven plugin](https://github.com/pulp/pulp_maven/blob/master/README.rst)

@@ -86,7 +86,7 @@ For more information about Pulp Container and its workflows, see the [Pulp Conta
 
 ## Pulp Debian 2.8 & 2.9
 
-Some `APT` repositories store a repository root to store their release files. The main feature of this release adds the capability to synchronize repositories using this alternative repository format.
+Some `APT` repositories store their release files in the repository root. The main feature of this release adds the capability to synchronize repositories using this alternative repository format.
 
 For a full look at this release, check out the [changelog](https://pulp-deb.readthedocs.io/en/latest/changes.html#id1).
 

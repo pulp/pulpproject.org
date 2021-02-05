@@ -21,9 +21,9 @@ You can use the migration plugin to migrate your content from Pulp 2 to Pulp 3. 
 *  Pulp 2 Docker can be migrated into Pulp 3 Container.
 *  Pulp 2 RPM can be migrated into Pulp 3 RPM. A beta release is available.
 
-For more up-to-date information, see the [changelog](https://pulp-2to3-migration.readthedocs.io/en/latest/changes.html).
+For more up-to-date information, see the [changelog](https://docs.pulpproject.org/pulp_2to3_migration/changes.html).
 
-Take the time to familiarize yourself with the migration plugin, make a plan, and test the migration. For more information, see the [Migration Plugin documentation](https://pulp-2to3-migration.readthedocs.io/en/latest/index.html).
+Take the time to familiarize yourself with the migration plugin, make a plan, and test the migration. For more information, see the [Migration Plugin documentation](https://docs.pulpproject.org/pulp_2to3_migration/).
 
 If you want to extend the existing functionality, feel free to raise a [pull request](https://github.com/pulp/pulp-2to3-migration).
 

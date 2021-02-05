@@ -29,7 +29,7 @@ toc: false
 ## Other plugins
 
 * [Certguard plugin](https://pulp-certguard.readthedocs.io/en/latest/)
-* [Migration Plugin](https://pulp-2to3-migration.readthedocs.io/en/latest/index.html)
+* [Migration Plugin](https://docs.pulpproject.org/pulp_2to3_migration/)
 
 
 # Pulp 2

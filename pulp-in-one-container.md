@@ -7,7 +7,7 @@ toc: false
 
 Installing Pulp 3 and getting all the services running can be challenging. To reduce the complexity of getting started with Pulp, the Pulp team created a single container image that has all necessary services to run Pulp 3.
 
-The image is available under the `pulp` namespace on [Dockerhub](https://hub.docker.com/repository/docker/pulp/pulp-fedora31/). This image includes the Ansible, Container, File, Maven, Python, and RPM plugins. A new version is published every time there is a plugin update available. You can update your environment to the latest version of the container using `docker pull`.
+The image is available under the `pulp` namespace on [Dockerhub](https://hub.docker.com/repository/docker/pulp/pulp/). This image includes the Ansible, Container, File, Maven, Python, and RPM plugins. A new version is published every time there is a plugin update available. You can update your environment to the latest version of the container using `docker pull`.
 
 If you experience any problems, check the [Known Issues](/pulp-in-one-container/#known-issues) section for workarounds. If you have any questions, feel free to reach out to us on `pulp-list@redhat.com` or the `#pulp` channel on Freenode IRC.  
 
@@ -36,7 +36,7 @@ $ podman run --detach \
              --volume ./pgsql:/var/lib/pgsql:Z \
              --volume ./containers:/var/lib/containers:Z \
              --device /dev/fuse \
-             pulp/pulp-fedora31
+             pulp/pulp
 ```
 
 ## Without SELinux
@@ -52,13 +52,13 @@ $ podman run --detach \
              --volume ./pgsql:/var/lib/pgsql \
              --volume ./containers:/var/lib/containers \
              --device /dev/fuse \
-             pulp/pulp-fedora31
+             pulp/pulp
 ```
 
 In both cases, you will see the following output. The last line contains the container ID that you can use to execute commands inside the container.
 
 ```
-Trying to pull docker.io/pulp/pulp-fedora31...
+Trying to pull docker.io/pulp/pulp...
 Getting image source signatures
 Copying blob 67e3038dc3b7 done
 Copying blob ff23023c8c8d done
@@ -127,3 +127,7 @@ While using the version of Docker that is provided with CentOS 7, there is a kno
 The version of Docker that is provided with CentOS 7 mounts `tmpfs` on `/run`. The Pulp Container recipe uses `/var/run`, which is a symlink to `/run`, and expects its contents to be available at container run time. This lack of availability causes the quick fail.
 
 You can work around this by specifying an additional `/run` volume, which suppresses this behavior of the Docker run time. Docker will copy the image's contents to that volume and the container will start as expected.
+
+### Upgrading from ``pulp/pulp-fedora31`` image
+
+The ``pulp/pulp-fedora31`` container vendored PostgreSQL 11. The ``pulp/pulp`` image vendors PostgreSQL 12. Users wishing to migrate from PostgreSQL 11 to 12 should refer to [PostgreSQL documentation](https://www.postgresql.org/docs/12/upgrading.html).

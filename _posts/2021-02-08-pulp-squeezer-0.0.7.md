@@ -19,7 +19,8 @@ As part of this release, you can now use Pulp Squeezer to automate workflows wit
 * `deb_repository`
 * `deb_sync`
 
-For the `deb_sync` module, you might want to register the sync as a [handler](https://docs.ansible.com/ansible/latest/user_guide/playbooks_handlers.html).
+The first four in the list, associated with actual resources, provide the `state` parameter to allow for idempotent playbooks the ansible way.
+The `deb_sync` module however, being an action module, you might want to register as a [handler](https://docs.ansible.com/ansible/latest/user_guide/playbooks_handlers.html).
 
 This release also includes the automatic refreshing of the API docs in the status module if version discrepancies are detected.
 

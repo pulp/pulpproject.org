@@ -39,13 +39,24 @@ topnav_dropdowns3:
           url: /content-plugins/
         - title: Certguard plugin
           url: /certguard-plugin/
+        - title: Demo
+          url: /demo/
+        - title: Pulp Talks
+          url: /media/
+topnav_dropdowns4:
+- title: Topnav dropdowns4
+  folders4:
+    - title: Media
+      folderitems4:
+        - title: Demos
+          url: /demo/
+        - title: Pulp Talks
+          url: /media/
 topnav:
 - title: Topnav
   items:
     - title: Docs
       url: /docs/
-    - title: Demo
-      url: /demo/
     - title: Blog
       url: /blog/
     - title: Help

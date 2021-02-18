@@ -1,11 +1,24 @@
 ---
-title: Pulp Demo
+title: Demo
 sidebar: home_sidebar
 permalink: /demo/
 toc: false
 ---
 
-## Pulp 3
+## Latest Community Demos
+
+The latest community demos, with the newest ones first, will be displayed here.
+
+### Pulp Labels (as part of Pulpcore 3.10 release)
+
+<script id="asciicast-389900" src="https://asciinema.org/a/3899001.js" data-size="small" async></script>
+
+
+### Pulp 3 Correlation ID
+
+<script id="asciicast-371941" src="https://asciinema.org/a/371941.js" data-size="small" async></script>
+
+## YouTube
 
 Check out our Youtube playlist which goes through all the basic features of Pulp.
 
@@ -15,16 +28,3 @@ frameborder="0" allowfullscreen></iframe>
 
 <a href="https://docs.pulpproject.org/installation/index.html" class="btn btn-primary">Install
 Pulp 3</a>
-
-
-## Pulp 2
-
-* Syncing software packages locally
-* Uploading your own software package
-* Publishing software packages
-* Installing and uninstalling software packages
-
-<script type="text/javascript" src="https://asciinema.org/a/48474.js" id="asciicast-48474" async></script>
-
-<a href="https://docs.pulpproject.org/en/2.21/user-guide/installation/index.html" class="btn
-btn-primary">Install Pulp 2</a>

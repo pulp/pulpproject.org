@@ -50,6 +50,8 @@ entries:
       output: web
     - title: Demo
       url: /demo/
+    - title: Pulp Talks
+      url: /media/
       output: web
     - title: Blog
       url: /blog/

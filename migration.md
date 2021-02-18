@@ -20,6 +20,11 @@ You can use the migration plugin to migrate your content from Pulp 2 to Pulp 3. 
 *  Pulp 2 ISO content can be migrated into Pulp 3 File.
 *  Pulp 2 Docker can be migrated into Pulp 3 Container.
 *  Pulp 2 RPM can be migrated into Pulp 3 RPM. A beta release is available.
+*  Pulp Debian migration is currently available as a tech preview.
+
+You can watch Tanya discuss the migration process in this video:
+
+<iframe width="560" height="315" src="https://video.fosdem.org/2021/D.infra/dontgetstuckonpulp2.mp4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 For more up-to-date information, see the [changelog](https://docs.pulpproject.org/pulp_2to3_migration/changes.html).
 

@@ -9,7 +9,7 @@ Members of the Pulp community participate in conferences across the US and Europ
 
 ## Host Your Own Ansible Galaxy!
 
-<iframe width="560" height="315" src="https://video.fosdem.org/2021/D.infra/hostyourownansiblegalaxy.webm" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://video.fosdem.org/2021/D.infra/hostyourownansiblegalaxy.mp4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
 ## Registry Native Delivery of Software Content

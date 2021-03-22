@@ -5,7 +5,7 @@ tags:
   - update
 ---
 
-Over on the #pulp channel on IRC, a user asked about how the Pulp community came to the decision to move towards using an Ansible installer for Pulp 3 rather than RPM system packages that were used for Pulp 2 installations. He wanted to understand why Pulp took this direction so that he could explain the advantages of such an approach to the community of another project he was involved in.    
+Over on the #pulp channel on IRC, a user asked about how the Pulp community came to the decision to move towards using an Ansible installer for Pulp 3 rather than RPM system packages that were used for Pulp 2 installations. He wanted to understand why Pulp took this direction so that he could explain the advantages of such an approach to the community of another project he was involved in.
 
 Since our code and community is open, we thought it might be useful to post about the advantages of replacing system packages with a pulp-installer tool, so that if any other community is thinking of doing the same, they might benefit from the answer to this question.
 
@@ -13,7 +13,7 @@ If you’ve ever any questions or feedback about Pulp, feel free to write to `pu
 
 ## What is the Pulp installer?
 
-The Pulp installer is a collection of Ansible roles that you can use to install or upgrade Pulp 3, as well as install additional content plugins that you need.  The Pulp installer also changes the installation experience for Pulp users that just want to install Pulp on one node. The introduction of the Pulp installer was one of the many user-experience improvements when compared to Pulp 2.
+The Pulp installer is a collection of Ansible roles that you can use to install or upgrade Pulp 3, as well as install additional content plugins that you need. The Pulp installer also changes the installation experience for Pulp users that just want to install Pulp on one node. The introduction of the Pulp installer was one of the many user-experience improvements when compared to Pulp 2.
 
 ## What motivated Pulp to change the primary installation method?
 
@@ -31,15 +31,15 @@ In planning Pulp 3, we looked at Pulp 2 and realized a few problems stemmed from
 
 ## What is the main difference for the user between Pulp installer and system package installation?
 
-Previously, users installed packages, but had to determine which commands to run afterwards, and which config files to modify and how, which was overall more complex.
+Previously, users installed packages, but then had to determine which commands to run afterwards, and which config files to modify and how, which was overall more complex.
 
-Now, the Pulp installer automatically determines certain variables that would otherwise have to have been specified by the user.
+Now, the Pulp installer automates these parts of the installation process that would otherwise have been left to the user to complete.
 
 ## How do I customize my Pulp deployment?
 
-While the Pulp installer handles the automation of the installation, you must determine which variables to provide before running the installer. However, once this is done, running the installer once completely performs the installation in an automated fashion.
+While the Pulp installer handles the automation of the installation, if you want to customize your deployment, you must determine which variables to provide before running the installer. However, once this is done, running the installer once completely performs the installation in an automated fashion.
 
-Using variables makes the process much more repeatable. For example, if you need to install Pulp in your test environment, and are satisfied and want to repeat this installation in production, you can copy the Ansible variable file, adjust one or two variables for the environment, and re-run the installer.
+Using variables makes the process much more repeatable. For example, if you install Pulp in your test environment, and want to repeat this installation in production, you can copy the Ansible variable file, adjust one or two variables for the environment, and re-run the installer.
 
 For every Ansible role in the Pulp installer, there is a list of variables that you can use to customize the installation. Each Ansible role documents its own variables. You can also find this information in the [Pulp installer documentation](https://pulp-installer.readthedocs.io). For example, if you want to customize your firewall settings, you can do so using the `pulp_configure_firewall` variable in the [pulp_webserver](https://pulp-installer.readthedocs.io/en/latest/roles/pulp_webserver/#role-variables) role.
 

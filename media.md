@@ -15,6 +15,10 @@ Members of the Pulp community participate in conferences across the US and Europ
 
 <iframe width="560" height="315" src="https://video.fosdem.org/2021/D.infra/hostyourownansiblegalaxy.mp4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+Brian also delivered a workshop on this at DevConf.cz 2021
+
+<iframe width="560" height="315" src="https://youtu.be/GjrWYMfjGrs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 
 ## Registry Native Delivery of Software Content
 

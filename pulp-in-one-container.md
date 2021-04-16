@@ -104,7 +104,12 @@ Please enter new password for user "admin" again:
 Successfully set password for "admin" user.
 ```
 
-At this point, both the REST API and the content app are available on your host's port `8080`.
+At this point, both the REST API and the content app are available on your host's port `8080`. Try
+hitting the pulp status endpoint to confirm:
+
+```
+curl localhost:8080/pulp/api/v3/status/
+```
 
 To start working with Pulp, check out the [Workflows and Use Cases](https://docs.pulpproject.org/workflows/index.html).
 For individual plugin documentation, see [Pulp 3 Content Plugin Documentation](/docs/#pulp-3-content-plugin-documentation).

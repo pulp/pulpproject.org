@@ -148,6 +148,21 @@ $ mkdir -p settings pulp_storage pgsql containers run/postgresql
 $ chmod a+w run/postgresql
 ```
 
+If Pulp tasks are stuck in `waiting` status and executing `docker exec -it pulp bash -c 'rq info'` returns 0 workers:
+
+```
+1 queues, 2 jobs total
+
+0 workers, 1 queues
+```
+
+It will be necessary to create a `pulpcore-resource-manager` directory under the `/run` volume:
+
+```console
+$ mkdir -p run/pulpcore-resource-manager
+```
+
+
 ### Upgrading from ``pulp/pulp-fedora31`` image
 
 The ``pulp/pulp-fedora31`` container vendored PostgreSQL 11. The ``pulp/pulp`` image vendors PostgreSQL 12. Users wishing to migrate from PostgreSQL 11 to 12 should refer to [PostgreSQL documentation](https://www.postgresql.org/docs/12/upgrading.html).

@@ -142,25 +142,6 @@ It will be necessary to create a `postgresql` directory under the `/run` volume,
 $ mkdir -p settings pulp_storage pgsql containers run/postgresql
 $ chmod a+w run/postgresql
 ```
-The rest of the setup will be the same:
-
-```console
-$ echo "CONTENT_ORIGIN='http://$(hostname):8080'
-ANSIBLE_API_HOSTNAME='http://$(hostname):8080'
-ANSIBLE_CONTENT_HOSTNAME='http://$(hostname):8080/pulp/content'
-TOKEN_AUTH_DISABLED=True" >> settings/settings.py
-$ docker run --detach \
-    --publish "8080:80" \
-    --name pulp \
-    --volume "$PWD/settings:/etc/pulp:Z" \
-    --volume "$PWD/pulp_storage:/var/lib/pulp:Z" \
-    --volume "$PWD/pgsql:/var/lib/pgsql:Z" \
-    --volume "$PWD/containers:/var/lib/containers:Z" \
-    --volume "$PWD/run:/run:Z" \
-    --device /dev/fuse \
-    pulp/pulp
-```
-
 
 ### Upgrading from ``pulp/pulp-fedora31`` image
 

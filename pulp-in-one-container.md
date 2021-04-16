@@ -126,7 +126,22 @@ While using the version of Docker that is provided with CentOS 7, there is a kno
 
 The version of Docker that is provided with CentOS 7 mounts `tmpfs` on `/run`. The Pulp Container recipe uses `/var/run`, which is a symlink to `/run`, and expects its contents to be available at container run time. This lack of availability causes the quick fail.
 
-You can work around this by specifying an additional `/run` volume, which suppresses this behavior of the Docker run time. Docker will copy the image's contents to that volume and the container will start as expected.
+You can work around this by specifying an additional `/run` volume, which suppresses this behavior of the Docker run time. Docker will copy the image's contents to that volume and the container should start as expected.
+
+If executing `docker exec -it pulp bash -c 'pulpcore-manager reset-admin-password'` fails with an error like the following:
+
+```
+psycopg2.OperationalError: could not connect to server: No such file or directory
+        Is the server running locally and accepting
+        connections on Unix domain socket "/var/run/postgresql/.s.PGSQL.5432"?
+```
+
+It will be necessary to create a `postgresql` directory under the `/run` volume, with permissions that the container's postgresql can write to:
+
+```console
+$ mkdir -p settings pulp_storage pgsql containers run/postgresql
+$ chmod a+w run/postgresql
+```
 
 ### Upgrading from ``pulp/pulp-fedora31`` image
 

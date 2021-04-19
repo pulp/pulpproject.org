@@ -125,43 +125,36 @@ Any known issues and workarounds are listed here.
 
 ### Docker on CentOS 7
 
-While using the version of Docker that is provided with CentOS 7, there is a known issue that will cause the following error to occur:
+While using the version of Docker that is provided with CentOS 7, there are known issues that cause the following errors to occur:
 
-`FATAL:  could not create lock file "/var/run/postgresql/.s.PGSQL.5432.lock": No such file or directory`
+* When starting the container:
 
-The version of Docker that is provided with CentOS 7 mounts `tmpfs` on `/run`. The Pulp Container recipe uses `/var/run`, which is a symlink to `/run`, and expects its contents to be available at container run time. This lack of availability causes the quick fail.
+  `FATAL:  could not create lock file "/var/run/postgresql/.s.PGSQL.5432.lock": No such file or directory`
 
-You can work around this by specifying an additional `/run` volume, which suppresses this behavior of the Docker run time. Docker will copy the image's contents to that volume and the container should start as expected.
+* (If the preceding error is worked around,) when executing `docker exec -it pulp bash -c 'pulpcore-manager reset-admin-password'`:
 
-If executing `docker exec -it pulp bash -c 'pulpcore-manager reset-admin-password'` fails with an error like the following:
-
-```
-psycopg2.OperationalError: could not connect to server: No such file or directory
+  ```
+  psycopg2.OperationalError: could not connect to server: No such file or directory
         Is the server running locally and accepting
         connections on Unix domain socket "/var/run/postgresql/.s.PGSQL.5432"?
-```
+  ```
+  
+* Pulp tasks are stuck in `waiting` status, and executing `docker exec -it pulp bash -c 'rq info'` returns `0 workers`:
 
-It will be necessary to create a `postgresql` directory under the `/run` volume, with permissions that the container's postgresql can write to:
+  ```
+  1 queues, 2 jobs total
+  
+  0 workers, 1 queues
+  ```
+
+The version of Docker that is provided with CentOS 7 mounts `tmpfs` on `/run`. The Pulp Container recipe uses `/var/run`, which is a symlink to `/run`, and expects its contents to be available at container run time. You can work around this by specifying an additional `/run` volume, which suppresses this behavior of the Docker runtime. Docker will copy the image's contents to that volume and the container should start as expected.  
+
+The `/run` volume will need to contain a `postgresql` directory (with permissions that the container's postgresql can write to) and a separate `pulpcore-*` directory for the rq manager and its workers to start:
 
 ```console
-$ mkdir -p settings pulp_storage pgsql containers run/postgresql
+$ mkdir -p settings pulp_storage pgsql containers run/postgresql run/pulpcore-{resource-manager,worker-{1,2}}
 $ chmod a+w run/postgresql
 ```
-
-If Pulp tasks are stuck in `waiting` status and executing `docker exec -it pulp bash -c 'rq info'` returns 0 workers:
-
-```
-1 queues, 2 jobs total
-
-0 workers, 1 queues
-```
-
-It will be necessary to create a `pulpcore-resource-manager` directory under the `/run` volume:
-
-```console
-$ mkdir -p run/pulpcore-resource-manager
-```
-
 
 ### Upgrading from ``pulp/pulp-fedora31`` image
 

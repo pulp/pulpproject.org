@@ -31,10 +31,10 @@ For systems with SELinux in enforcing mode, use the following command to start P
 $ podman run --detach \
              --publish 8080:80 \
              --name pulp \
-             --volume ./settings:/etc/pulp:Z \
-             --volume ./pulp_storage:/var/lib/pulp:Z \
-             --volume ./pgsql:/var/lib/pgsql:Z \
-             --volume ./containers:/var/lib/containers:Z \
+             --volume "$(pwd)/settings":/etc/pulp:Z \
+             --volume "$(pwd)/pulp_storage":/var/lib/pulp:Z \
+             --volume "$(pwd)/pgsql":/var/lib/pgsql:Z \
+             --volume "$(pwd)/containers":/var/lib/containers:Z \
              --device /dev/fuse \
              pulp/pulp
 ```
@@ -47,10 +47,10 @@ For systems without SELinux in enforcing mode, use the following command to star
 $ podman run --detach \
              --publish 8080:80 \
              --name pulp \
-             --volume ./settings:/etc/pulp \
-             --volume ./pulp_storage:/var/lib/pulp \
-             --volume ./pgsql:/var/lib/pgsql \
-             --volume ./containers:/var/lib/containers \
+             --volume "$(pwd)/settings":/etc/pulp \
+             --volume "$(pwd)/pulp_storage":/var/lib/pulp \
+             --volume "$(pwd)/pgsql":/var/lib/pgsql \
+             --volume "$(pwd)/containers":/var/lib/containers \
              --device /dev/fuse \
              pulp/pulp
 ```

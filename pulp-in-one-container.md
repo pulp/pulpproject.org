@@ -123,6 +123,10 @@ are available on [GitHub](https://github.com/pulp/pulp-oci-images).
 
 Any known issues and workarounds are listed here.
 
+### NFS or SSHFS
+
+When using rootless podman, you cannot create the directories (settings pulp_storage pgsql containers) on [NFS](https://github.com/containers/podman/blob/master/rootless.md#shortcomings-of-rootless-podman), SSHFS, or certain other non-standard filesystems.
+
 ### Docker on CentOS 7
 
 While using the version of Docker that is provided with CentOS 7, there are known issues that cause the following errors to occur:

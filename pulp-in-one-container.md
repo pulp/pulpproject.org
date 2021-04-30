@@ -114,6 +114,19 @@ curl localhost:8080/pulp/api/v3/status/
 To start working with Pulp, check out the [Workflows and Use Cases](https://docs.pulpproject.org/workflows/index.html).
 For individual plugin documentation, see [Pulp 3 Content Plugin Documentation](/docs/#pulp-3-content-plugin-documentation).
 
+
+## Pulp CLI
+
+We recommend using [pulp-cli](https://github.com/pulp/pulp-cli) to interact with Pulp. If you have
+Python 3 installed on the host OS, you can run these commands to get started:
+
+```
+pip install pulp-cli[pygments]
+pulp config create --username admin --base-url http://localhost:8080 --password <admin password>
+```
+
+Then you should be able to execute commands such as `pulp status`.
+
 ## References
 
 The Container file and all other assets used to build the container image

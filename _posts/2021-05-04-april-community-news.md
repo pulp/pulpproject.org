@@ -40,7 +40,7 @@ You can download the latest release from [PyPI](https://pypi.org/project/pulp-2t
 The Pulp 3 CLI effort has been going from strength to strength, and the latest release is no exception.
 The 0.8.0 release is packed with features.
 
-Among the new features of this release, is added support for autopublish and autodistribute in pulp_file and pulp_rpm, as well as a new interactive-shell mode to pulp-cli. For a full list, check out the [changelog](https://github.com/pulp/pulp-cli/blob/develop/CHANGES.rst)
+Among the new features of this release are added support for autopublish and autodistribute in pulp_file and pulp_rpm, as well as a new interactive-shell mode to pulp-cli. For a full list, check out the [changelog](https://github.com/pulp/pulp-cli/blob/develop/CHANGES.rst)
 
 The Pulp 3 CLI is still considered beta, and we would very much like to know what you think about the effort so far. If you have any feedback, please [let us know](https://forms.gle/fmh2wgfarjrqWDkf6) and we'd be glad to send some SWAG as a thank you!
 

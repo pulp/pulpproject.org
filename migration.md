@@ -22,7 +22,7 @@ You can use the migration plugin to migrate your content from Pulp 2 to Pulp 3. 
 *  Pulp 2 RPM can be migrated into Pulp 3 RPM. A beta release is available.
 *  Pulp Debian migration is currently available as a tech preview.
 
-You can watch Tanya discuss the migration process in this video:
+You can watch Tanya discuss the migration process in this video. Since the creation of this video, the migration plugin has been enhanced and you can use the Pulp 3 CLI to complete the migration workflows. 
 
 <iframe width="560" height="315" src="https://video.fosdem.org/2021/D.infra/dontgetstuckonpulp2.mp4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 

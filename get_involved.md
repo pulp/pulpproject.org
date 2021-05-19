@@ -18,6 +18,10 @@ participate in real-time. See the [triage process](https://docs.pulpproject.org/
 more details. You can also read through the [triage archives](https://logs.pulpproject.org/pulp-meeting/).
 
 
+## Found a Security Issue?
+
+If you find a security issue with Pulp or would like to share a security concern, see our [Security Disclosures](https://docs.pulpproject.org/pulpcore/bugs-features.html#security-disclosures) section for more information about how you can report this. 
+
 ## Upcoming Events
 
 **Community Demo** - While the livestreaming is on temporary hiatus, see new demo videos added

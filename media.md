@@ -7,6 +7,10 @@ toc: false
 
 Members of the Pulp community participate in conferences across the US and Europe. You can find the most recent talks here. Some talks are not necessarily related to Pulp but came about from experience working within the project. If you would like to submit a talk, please write to `pulp-list@redhat.com`
 
+## Pulp @ Community Central - Using Pulp 3 - Simpler and Faster
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/yXrS652k70c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## Host Your Own PyPI
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/yxPHEHNJwO4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

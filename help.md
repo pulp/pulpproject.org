@@ -25,7 +25,7 @@ See bugs confirmed this week and what versions they affect with the [Weekly Bug 
 
 ## GitHub Discussions
 
-We have enabled [GitHub Discussions](https://github.com/pulp/pulpcore/discussions). Feel free to ask and answer questions, give feedback about your experience working with any aspect of Pulp. Introduce yourself, your project, what you're hoping to achieve with Pulp. We would be delighted to hear from you and understand how Pulp is helping. 
+We have enabled [GitHub Discussions](https://github.com/pulp/pulpcore/discussions). Feel free to ask and answer questions, give feedback about your experience working with any aspect of Pulp. Introduce yourself, your project, what you're hoping to achieve with Pulp. We would be delighted to hear from you and understand how Pulp is helping.
 
 
 Think you've found a bug, [file it](https://pulp.plan.io/projects/pulp/issues/new).
@@ -41,8 +41,14 @@ can also [read the archives](https://www.redhat.com/archives/pulp-list/).
     <input type="submit" value="Search pulp-list Archives" />
 </form>
 
-## IRC
+### Chat to us
 
+With the recent developments with Freenode IRC, Pulp is currently transitioning towards becoming a primarily Matrix-based community with a bridge to Libera chat for any users who prefer to continue to use IRC.
+Our Freenode IRC channels are still active and can be accessed through a Matrix bridge.
+We will keep this page updated as we move.
+If you have any feedback about this that you think we should consider, please open a new discussion on [GitHub Discussions](https://github.com/pulp/pulpcore/discussions).
+
+There is a Matrix [Pulp Community page](https://riot.im/app/#/group/+pulp:matrix.org) that lists all of the Pulp rooms.
 
 * Join [**#pulp** on **irc.freenode.net**](https://webchat.freenode.net/?channels=#pulp) for User support.
 
@@ -51,11 +57,7 @@ can also [read the archives](https://www.redhat.com/archives/pulp-list/).
 Note that in order to send messages to our channels, you'll need to [register your nickname on
 Freenode](https://freenode.net/kb/answer/registration).
 
-### Online Meetings
-
-An open floor and bug triage meetings take place twice a week at [**#pulp-meeting** on **irc.freenode.net**](https://webchat.freenode.net/?channels=#pulp-meeting). For more information, see [meetings](/get_involved/#meetings).
-
-### Plugin Developer Channels
+#### Plugin Developer Channels
 
 If you're interested in discussing the development of the following plugins, some discussions take place on the following IRC channels:
 
@@ -65,6 +67,6 @@ If you're interested in discussing the development of the following plugins, som
 
 * [**#pulp-container** on **irc.freenode.net**](https://webchat.freenode.net/?channels=#pulp-container)
 
-### Matrix
+### Online Meetings
 
-There is a Matrix [Pulp Community page](https://riot.im/app/#/group/+pulp:matrix.org) that lists all of the Pulp rooms. Note that some clients do not alert you that you need to [register your nickname on Freenode](https://freenode.net/kb/answer/registration) to send messages. Ensure that your session is authenticated.
+An open floor and bug triage meetings take place twice a week at [**#pulp-meeting** on **irc.freenode.net**](https://webchat.freenode.net/?channels=#pulp-meeting). For more information, see [meetings](/get_involved/#meetings).

@@ -25,7 +25,7 @@ See bugs confirmed this week and what versions they affect with the [Weekly Bug 
 
 ## GitHub Discussions
 
-We have enabled [GitHub Discussions](https://github.com/pulp/pulpcore/discussions). Feel free to ask and answer questions, give feedback about your experience working with any aspect of Pulp. Introduce yourself, your project, what you're hoping to achieve with Pulp. We would be delighted to hear from you and understand how Pulp is helping.
+We have enabled [GitHub Discussions](https://github.com/pulp/community/discussions). Feel free to ask and answer questions, give feedback about your experience working with any aspect of Pulp. Introduce yourself, your project, what you're hoping to achieve with Pulp. We would be delighted to hear from you and understand how Pulp is helping.
 
 
 Think you've found a bug, [file it](https://pulp.plan.io/projects/pulp/issues/new).

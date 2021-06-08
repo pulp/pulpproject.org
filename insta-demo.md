@@ -1,12 +1,14 @@
 ---
-title: Pulp Insta Demo
+title: Pulp on Openshift
 sidebar: home_sidebar
 permalink: /insta-demo/
 toc: false
 ---
 
-This option is not production-ready. If you want to evaluate Pulp in a quick and easy way, you can use the `pulp-insta-demo.sh` script.
+You can find comprehensive docs about installing Pulp on Openshift [here](https://pulp-operator.readthedocs.io/en/latest/quickstart/#instant-demo).
 
-This [script](https://raw.githubusercontent.com/pulp/pulp-operator/master/insta-demo/pulp-insta-demo.sh) installs [K3s Lightweight Kubernetes](https://k3s.io/) and then deploys the Pulp operator.
+You can watch Fabricio demo the installation here:
 
-Pulp operator is under active development. This page will be updated to reflect any updated features or change of status.
+<iframe width="560" height="315" src="https://www.youtube.com/embed/quUdQ1j56I4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+If you've any questions or comments, you're more than welcome to open a [Github Discussion](https://github.com/pulp/community/discussions).

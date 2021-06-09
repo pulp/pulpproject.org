@@ -41,31 +41,31 @@ can also [read the archives](https://www.redhat.com/archives/pulp-list/).
     <input type="submit" value="Search pulp-list Archives" />
 </form>
 
-### Chat to us
+## Chat to us
 
-With the recent developments with Freenode IRC, Pulp is currently transitioning towards becoming a primarily Matrix-based community with a bridge to Libera chat for any users who prefer to continue to use IRC.
-Our Freenode IRC channels are still active and can be accessed through a Matrix bridge.
-We will keep this page updated as we move.
-If you have any feedback about this that you think we should consider, please open a new discussion on [GitHub Discussions](https://github.com/pulp/pulpcore/discussions).
+The Pulp community's primary communication channel is Matrix.
 
-There is a Matrix [Pulp Community page](https://riot.im/app/#/group/+pulp:matrix.org) that lists all of the Pulp rooms.
+We have corresponding Libera.Chat rooms for every Matrix room, so if you use IRC exclusively, you can find us there too.
 
-* Join [**#pulp** on **irc.freenode.net**](https://webchat.freenode.net/?channels=#pulp) for User support.
+* Join [**pulp** on Matrix](https://matrix.to/#/!HWvLQmBGVPfJfTQBAu:matrix.org?via=libera.chat&via=matrix.org&via=ctrl-c.liu.se) for User support.
 
-* Join [**#pulp-dev** on **irc.freenode.net**](https://webchat.freenode.net/?channels=#pulp-dev) for Developer discussion.
+* Join [**#pulp-dev** on Matrix](https://matrix.to/#/!aVApiNMtnstWbwDcVU:matrix.org?via=libera.chat&via=matrix.org&via=ctrl-c.liu.se) for Developer discussion.
 
-Note that in order to send messages to our channels, you'll need to [register your nickname on
-Freenode](https://freenode.net/kb/answer/registration).
+### Libera.Chat users
 
-#### Plugin Developer Channels
+Note that for everything to work well, please [register your nick on Libera.Chat](https://libera.chat/guides/registration).
+
+#### Plugin Developer Matrix Channels
 
 If you're interested in discussing the development of the following plugins, some discussions take place on the following IRC channels:
 
-* [**#pulp-rpm** on **irc.freenode.net**](https://webchat.freenode.net/?channels=#pulp-rpm)
+* [**pulp-rpm** on Matrix](https://matrix.to/#/#pulp-rpm.:matrix.org?via=libera.chat&via=matrix.org)
 
-* [**#pulp-ansible** on **irc.freenode.net**](https://webchat.freenode.net/?channels=#pulp-ansible)
+* [**pulp-ansible** on Matrix](https://matrix.to/#/!cbADstEIkixyOUTCtO:matrix.org?via=libera.chat&via=matrix.org)
 
-* [**#pulp-container** on **irc.freenode.net**](https://webchat.freenode.net/?channels=#pulp-container)
+* [**pulp-container** on Matrix](https://matrix.to/#/#pulp_container:matrix.org?via=libera.chat&via=matrix.org)
+
+* [**pulp-python** on Matrix](https://matrix.to/#/#pulp-python:matrix.org?via=libera.chat&via=matrix.org)
 
 ### Online Meetings
 

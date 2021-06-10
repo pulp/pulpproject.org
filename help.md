@@ -69,4 +69,4 @@ If you're interested in discussing the development of the following plugins, som
 
 ### Online Meetings
 
-An open floor and bug triage meetings take place twice a week at [**#pulp-meeting** on **irc.freenode.net**](https://webchat.freenode.net/?channels=#pulp-meeting). For more information, see [meetings](/get_involved/#meetings).
+An open floor and bug triage meetings take place twice a week at [**#pulp-meeting** on Matrix](https://matrix.to/#/#pulp_meeting:matrix.org?via=libera.chat&via=matrix.org). For more information, see [meetings](/get_involved/#meetings).

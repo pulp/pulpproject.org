@@ -7,20 +7,20 @@ toc: false
 
 ## Meetings
 
-**Open Floor** - every Tuesday and Friday 10:30 ET (either EST or EDT) in #pulp-meeting on Freenode
-(IRC). It's a time for developer discussion, feedback, and decisions on code/issues/PRs/process
+**Open Floor** - every Tuesday at 10:30 ET (either EST or EDT) in [pulp-meeting](https://matrix.to/#/#pulp_meeting:matrix.org?via=libera.chat&via=matrix.org) on Matrix
+. It's a time for developer discussion, feedback, and decisions on code/issues/PRs/process
 relating to pulpcore or plugins. To participate, put a topic on
 [the agenda](https://hackmd.io/@pulp/triage/edit). Minutes will be sent to the pulp-dev mailing
 list.
 
-**Bug Triage** - every Tuesday and Friday immediately after Open Floor in #pulp-meeting on Freenode (IRC). Come and
+**Bug Triage** - every Tuesday immediately after Open Floor in [pulp-meeting](https://matrix.to/#/#pulp_meeting:matrix.org?via=libera.chat&via=matrix.org) on Matrix . Come and
 participate in real-time. See the [triage process](https://docs.pulpproject.org/bugs-features.html#triage) for
 more details. You can also read through the [triage archives](https://logs.pulpproject.org/pulp-meeting/).
 
 
 ## Found a Security Issue?
 
-If you find a security issue with Pulp or would like to share a security concern, see our [Security Disclosures](https://docs.pulpproject.org/pulpcore/bugs-features.html#security-disclosures) section for more information about how you can report this. 
+If you find a security issue with Pulp or would like to share a security concern, see our [Security Disclosures](https://docs.pulpproject.org/pulpcore/bugs-features.html#security-disclosures) section for more information about how you can report this.
 
 ## Upcoming Events
 
@@ -28,11 +28,6 @@ If you find a security issue with Pulp or would like to share a security concern
 on our [YouTube channel](https://www.youtube.com/PulpProject). Pulp contributors demonstrate
 the latest changes to Pulp and its plugins.  
 
-## Beta or Release Candidate Testing
-
-Testing a Beta or Release Candidate of an upcoming Pulp release is a great way to get involved.
-Announcements of Beta and RCs happen through
-[pulp-list](https://www.redhat.com/mailman/listinfo/pulp-list).
 
 ## Contribute as a Developer
 

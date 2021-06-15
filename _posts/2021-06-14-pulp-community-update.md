@@ -21,7 +21,7 @@ You can find an up-to-date list of our channels and their purpose on our [Chat w
 
 ## GitHub Discussions
 
-After a recent Pulp Open Floor meeting, we decided to test the possibility of retiring our mailing lists. User feedback has suggested that the barrier of entry is high (you need to join the list to ask one question) and the mode of communication is outdated. We want to remove as many barriers of entry for users and contributors as possible. For these reasons, we are centralizing all of our discussions and meeting notes on a [Community Github Discussions](https://community.theforeman.org/t/foreman-community-demo-96/23955). We would love to know what you think about it! If it works out, we might decommission our mailing lists.
+After a recent Pulp Open Floor meeting, we decided to test the possibility of retiring our mailing lists. User feedback has suggested that the barrier of entry is high (you need to join the list to ask one question) and the mode of communication is outdated. We want to remove as many barriers of entry for users and contributors as possible. For these reasons, we are centralizing all of our discussions and meeting notes on a [Community Github Discussions](https://github.com/pulp/community/discussions). We would love to know what you think about it! If it works out, we might decommission our mailing lists.
 
 ## Move to GitHub Issues?
 
@@ -29,7 +29,7 @@ In a further effort to incorporate feedback from the Pulp community about our co
 
 ## Installing Pulp on Openshift
 
-Fabricio has shared an end-to-end zdemo of how you can set up and deploy Pulp on Openshift. You can also find corresponding documentation for this process [here](https://pulp-operator.readthedocs.io/en/latest/). If you're interested to see this in action, you can watch here:
+Fabricio has shared an end-to-end demo of how you can set up and deploy Pulp on Openshift. You can also find corresponding documentation for this process [here](https://pulp-operator.readthedocs.io/en/latest/). If you're interested to see this in action, you can watch here:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/quUdQ1j56I4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 

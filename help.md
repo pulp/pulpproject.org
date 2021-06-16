@@ -17,18 +17,18 @@ Look in the docs for an answer at [docs.pulpproject.org](https://docs.pulpprojec
 
 For documentation on a specific version of Pulp, see [Versioned Documentation](/docs/).
 
-## Issue Tracker
+## Bug or Feature Request?
 
-Look to see if the current bug or feature exists on the [Pulp issues tracker](https://pulp.plan.io/issues?set_filter=1).
+Think you've found a bug, [file it](https://pulp.plan.io/projects/pulp/issues/new).
 
-See bugs confirmed this week and what versions they affect with the [Weekly Bug Report](https://pulp.plan.io/projects/pulp/wiki/Weekly_Bug_Trends).
+You can also [browse open issues](https://pulp.plan.io/issues?set_filter=1) to see if your bug or
+feature request has already been filed.
 
 ## GitHub Discussions
 
-We have enabled [GitHub Discussions](https://github.com/pulp/community/discussions). Feel free to ask and answer questions, give feedback about your experience working with any aspect of Pulp. Introduce yourself, your project, what you're hoping to achieve with Pulp. We would be delighted to hear from you and understand how Pulp is helping.
+We have enabled [GitHub Discussions](https://github.com/pulp/community/discussions).
 
-
-Think you've found a bug, [file it](https://pulp.plan.io/projects/pulp/issues/new).
+Feel free to ask and answer questions, give feedback about your experience working with any aspect of Pulp. Introduce yourself, your project, what you're hoping to achieve with Pulp. We would be delighted to hear from you and understand how Pulp is helping.
 
 ## Mailing List
 Ask questions, discuss bugs, or use cases on the

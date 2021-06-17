@@ -17,7 +17,7 @@ This probably isn't the first time you're hearing that many FOSS communities hav
 
 If you want to use IRC, you can find corresponding rooms on Libera.Chat that are bridged to our new Matrix rooms.
 
-You can find an up-to-date list of our channels and their purpose on our [Chat with us](/help/chat-with-us) page.
+You can find an up-to-date list of our channels and their purpose on our [Chat to us](/help/#chat-to-us) page.
 
 ## GitHub Discussions
 

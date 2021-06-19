@@ -9,7 +9,7 @@ Installing Pulp 3 and getting all the services running can be challenging. To re
 
 The image is available under the `pulp` namespace on [Dockerhub](https://hub.docker.com/repository/docker/pulp/pulp/). This image includes the Ansible, Container, File, Maven, Python, and RPM plugins. A new version is published every time there is a plugin update available. You can update your environment to the latest version of the container using `docker pull`.
 
-If you experience any problems, check the [Known Issues](/pulp-in-one-container/#known-issues) section for workarounds. If you have any questions, feel free to reach out to us on `pulp-list@redhat.com` or the `#pulp` channel on Freenode IRC.  
+If you experience any problems, check the [Known Issues](/pulp-in-one-container/#known-issues) section for workarounds. If you have any questions, feel free to reach out to us on `pulp-list@redhat.com` or the [`pulp`](/help/#chat-to-us) channel on Matrix.  
 
 You can use either `podman` or `docker`. If you use `docker`, substitute `docker` for `podman` in the following examples.
 
@@ -155,12 +155,12 @@ While using the version of Docker that is provided with CentOS 7, there are know
         Is the server running locally and accepting
         connections on Unix domain socket "/var/run/postgresql/.s.PGSQL.5432"?
   ```
-  
+
 * Pulp tasks are stuck in `waiting` status, and executing `docker exec -it pulp bash -c 'rq info'` returns `0 workers`:
 
   ```
   1 queues, 2 jobs total
-  
+
   0 workers, 1 queues
   ```
 

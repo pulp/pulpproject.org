@@ -15,122 +15,76 @@ After you install Pulp, you must add a content plugin for each content type that
 * The Docker plugin in Pulp 2 has been replaced by the Container plugin.
 * Currently, there are no Pulp 3 plugins for Puppet and OSTree content.
 
-<h2 class="page-header">Pulp 3 Content Plugin Features</h2>
+## Pulp 3 Content Plugin Features
 
-Click the relevant tab of the content plugin that you want to learn more about.
+### RPM
 
-<div class="row">
-    <div class="col-lg-12">
-        <ul id="myTab1" class="nav nav-tabs nav-justified">
-            <li class="active"><a href="#rpm" data-toggle="tab"><i class="fa fa-cube"></i> RPM</a>
-            </li>
-            <li class=""><a href="#file" data-toggle="tab"><i class="fa fa-floppy-o"></i> File</a>
-            </li>
-            <li class=""><a href="#container" data-toggle="tab"><i class="fa fa-ship"></i> Container</a>
-            </li>
-            <li class=""><a href="#ansible" data-toggle="tab"><i class="fa fa-life-bouy"></i> Ansible</a>
-            </li>
-            <li class=""><a href="#deb" data-toggle="tab"><i class="fa fa-stop-circle"></i> Debian</a>
-            </li>
-            <li class=""><a href="#python" data-toggle="tab"><i class="fa fa-heart"></i> Python</a>
-            </li>
-            <li class=""><a href="#gem" data-toggle="tab"><i class="fa fa-play"></i> Gem</a>
-            </li>
-            <li class=""><a href="#cookbook" data-toggle="tab"><i class="fa fa-cutlery"></i> Cookbook</a>
-            </li>
-            <li class=""><a href="#maven" data-toggle="tab"><i class="fa fa-book"></i> Maven</a>
-            </li>
-        </ul>
-        <div id="myTabContent" class="tab-content">
-            <div class="tab-pane fade active in" id="rpm">
-                <p>Manage RPM content</p>
-                <ul>
-                    <li>Create, sync and publish a repository with RPM Content including RPMs, Advisories, Modularity, and Comps.</li>
-                    <li>Version content and rollback if necessary.</li>
-                    <li>Download content on-demand when requested by clients to reduce disk space.</li>
-                    <li>Upload local RPM content in chunks.</li>
-                    <li>Add, remove, copy, and organize RPM content into various repositories.</li>
-                    <li>Host content either locally or on S3.</li>
-                    <li>View distributions served by pulpcore-content in a browser.</li>
-                    <li>De-duplication of all saved content. </li>
-                </ul>
-            </div>
-            <div class="tab-pane fade" id="file">
-                <p>Manage File content</p>
-                <ul>
-                    <li>Sync File packages from a remote to local repository.</li>
-                    <li>Upload your own files.</li>
-                    <li>Publish and organize files.</li>
-                </ul>
-               </div>
-            <div class="tab-pane fade" id="container">
-                <p>Manage Container content</p>
-                <ul>
-                    <li>Synchronize container image repositories hosted on Docker-hub, Google Container Registry, Quay.io, and others in mirror or additive mode.</li>
-                    <li>Version content and rollback if necessary.</li>
-                    <li>Download content on-demand when requested by clients to reduce disk space.</li>
-                    <li>Perform docker/podman pull from a container distribution served by Pulp.</li>
-                    <li>Curate container images by whitelisting what is mirrored from an external repository.</li>
-                    <li>Curate container images by creating repository versions with a specific set of images.</li>
-                    <li> De-duplication of all saved content. </li>
-                </ul>
-            </div>
-            <div class="tab-pane fade" id="ansible">
-                <p>Manage Ansible roles and collections</p>
+* Create, sync and publish a repository with RPM Content including RPMs, Advisories, Modularity, and Comps.
+* Version content and rollback if necessary.
+* Download content on-demand when requested by clients to reduce disk space.
+* Upload local RPM content in chunks.
+* Add, remove, copy, and organize RPM content into various repositories.
+* Host content either locally or on S3.
+* View distributions served by pulpcore-content in a browser.
+* De-duplication of all saved content.
 
-                <ul>
-                    <li>Mirror a subset of roles on-premise.</li>
-                    <li>Mirror all of Galaxy’s roles on-premise.</li>
-                    <li>Store private Ansible roles on-premise.</li>
-                    <li>Install roles from pulp_ansible using the ansible-galaxy CLI.</li>
-                    <li>Version content and rollback if necessary.</li>
-                    <li>Support for the new multi-role content type from Galaxy.</li>
-                </ul>
-            </div>
-            <div class="tab-pane fade" id="deb">
-                <p>Manage Debian content</p>
-                <ul>
-                    <li>Synchronize remote repository content and metadata locally.</li>
-                    <li>Upload your own content.</li>
-                    <li>Publish content to one or more repositories.</li>
-                  </ul>
-            </div>
-            <div class="tab-pane fade" id="python">
-                <p>Manage Python content</p>
-                <ul>
-                    <li>Synchronize Python packages from PyPI locally.</li>
-                    <li>Upload your own Python packages.</li>
-                    <li>Publish and organize Python packages just like PyPI.</li>
-                    <li>Install Python packages using pip as published by Pulp.</li>
-                </ul>
-            </div>
-            <div class="tab-pane fade" id="gem">
-                <p>Manage RubyGem content</p>
-                <ul>
-                    <li>Synchronize remote repository content and metadata locally.</li>
-                    <li>Upload your own content.</li>
-                    <li>Publish content to one or more repositories.</li>
-                  </ul>
-            </div>
-            <div class="tab-pane fade" id="maven">
-                <p>Manage Maven content</p>
-                <ul>
-                <li>Synchronize packages from a remote to local repository.</li>
-                <li>Upload your own Maven content.</li>
-                <li>Publish and organize packages.</li>
-                  </ul>
-            </div>
-            <div class="tab-pane fade" id="cookbook">
-                <p>Manage Chef Cookbook content</p>
-                <ul>
-                    <li>Sync Cookbook content from a remote to local repository.</li>
-                    <li>Upload your own content.</li>
-                    <li>Publish and organize content.</li>
-                </ul>
-            </div>
-        </div>
-    </div>
-</div>
+### File
+
+* Sync File packages from a remote to local repository.
+* Upload your own files.
+* Publish and organize files.
+
+### Container
+
+* Synchronize container image repositories hosted on Docker-hub, Google Container Registry, Quay.io, and others in mirror or additive mode.
+* Version content and rollback if necessary.
+* Download content on-demand when requested by clients to reduce disk space.
+* Perform docker/podman pull from a container distribution served by Pulp.
+* Curate container images by whitelisting what is mirrored from an external repository.
+* Curate container images by creating repository versions with a specific set of images.
+* De-duplication of all saved content.
+
+### Ansible
+
+* Mirror a subset of roles on-premise.
+* Mirror all of Galaxy’s roles on-premise.
+* Store private Ansible roles on-premise.
+* Install roles from pulp_ansible using the ansible-galaxy CLI.
+* Version content and rollback if necessary.
+* Support for the new multi-role content type from Galaxy.
+
+
+### Debian
+
+* Synchronize remote repository content and metadata locally.
+* Upload your own content.
+* Publish content to one or more repositories.
+
+### Python
+
+* Synchronize Python packages from PyPI locally.
+* Upload your own Python packages.
+* Publish and organize Python packages just like PyPI.
+* Install Python packages using pip as published by Pulp.
+
+### Ruby Gem
+
+* Synchronize remote repository content and metadata locally.
+* Upload your own content.
+* Publish content to one or more repositories.
+
+### Chef Cookbook
+
+* Sync Cookbook content from a remote to local repository.
+* Upload your own content.
+* Publish and organize content.
+
+### Maven
+
+* Synchronize packages from a remote to local repository.
+* Upload your own Maven content.
+* Publish and organize packages.
+
 
 ## Pulp 3 Content Plugins Information
 
@@ -150,81 +104,10 @@ This table contains links to information and sources for all Pulp 3 content plug
 | RPM plugin | <a href="https://docs.pulpproject.org/pulp_rpm/">RPM plugin docs</a> | <a href="https://github.com/pulp/pulp_rpm/">RPM plugin source</a> | <a href="https://pulp.plan.io/projects/pulp_rpm?jump=welcome">RPM plugin tracker</a> | <a href="https://pypi.org/project/pulp-rpm/">Yes</a> | No |
 
 
-
-<h2 class="page-header">Pulp 2 Content Plugins Features</h2>
-
-At some point, Pulp 2 will become End of Life. For more information about migrating from Pulp 2 to Pulp 3, see the [migration plugin](https://pulp-2to3-migration.readthedocs.io/en/latest) documentation.
-
-<div class="row">
-    <div class="col-lg-12">
-        <ul id="myTab" class="nav nav-tabs nav-justified">
-            <li class="active"><a href="#rpm2" data-toggle="tab"><i class="fa fa-cube"></i> RPM</a>
-            </li>
-            <li class=""><a href="#deb2" data-toggle="tab"><i class="fa fa-stop-circle"></i> Debian</a>
-            </li>
-            <li class=""><a href="#python2" data-toggle="tab"><i class="fa fa-heart"></i> Python</a>
-            </li>
-            <li class=""><a href="#puppet2" data-toggle="tab"><i class="fa fa-tasks"></i> Puppet</a>
-            </li>
-            <li class=""><a href="#docker2" data-toggle="tab"><i class="fa fa-ship"></i> Docker</a>
-            </li>
-            </ul>
-        <div id="myTabContent1" class="tab-content">
-            <div class="tab-pane fade active in" id="rpm2">
-                <p>Manage RPM content</p>
-                <ul>
-                    <li>Supports RPMs, DRPMs, SRPMs, Errata, Kickstart Trees, and repository metadata</li>
-                    <li>Sync remote repository content and metadata locally</li>
-                    <li>Upload your own content</li>
-                    <li>Publish content to one or more repositories</li>
-                    <li>Published content is installable with yum/dnf</li>
-                    <li>On demand fetching of content allowing repositories to be synced and published without storing everything locally</li>
-                    <li>Fetch content protected by basic or certificate based authentication</li>
-                    <li>Protect content with certificates to be used by yum/dnf clients</li>
-                </ul>
-            </div>
-            <div class="tab-pane fade" id="deb2">
-                <p>Manage DEB content</p>
-                <ul>
-                    <li>Supports DEB packages and metadata</li>
-                    <li>Sync remote repository content and metadata locally</li>
-                    <li>Upload your own content</li>
-                    <li>Publish content to one or more repositories</li>
-                    <li>Published content is installable with apt-get</li>
-                    <li>Sign repository metadata </li>
-                </ul>
-            </div>
-            <div class="tab-pane fade" id="python2">
-                <p>Manage Python content</p>
-                <ul>
-                    <li>Sync Python packages from PyPI locally</li>
-                    <li>Upload your own Python packages</li>
-                    <li>Publish and organize Python packages just like PyPI</li>
-                    <li>Install Python packages using pip as published by Pulp</li>
-                </ul>
-            </div>
-            <div class="tab-pane fade" id="puppet2">
-                <p>Manage Puppet content</p>
-                <ul>
-                    <li>Sync Puppet modules from Puppet Forge locally</li>
-                    <li>Upload your own Puppet modules</li>
-                    <li>Publish and organize Puppet modules just like Puppet Forge</li>
-                    <li>Use the Puppet client to install Puppet modules published by Pulp</li>
-                </ul>
-            </div>
-            <div class="tab-pane fade" id="docker2">
-                <p>Manage Docker content</p>
-                <ul>
-                    <li>Sync Docker modules from the Docker Registry</li>
-                    <li>Publish and organize Docker containers</li>
-                    <li>Install Docker containers as published by Pulp and served with <a href="http://docs.pulpproject.org/plugins/crane/index.html">Crane</a></li>
-                </ul>
-            </div>
-          </div>
-    </div>
-</div>
-
 ## Pulp 2 Content Plugins Information
+
+Pulp 2 will become End of Life in November 2021. For more information about migrating from Pulp 2 to Pulp 3, see the [migration plugin](https://pulp-2to3-migration.readthedocs.io/en/latest) documentation.
+
 
 This table contains links to information and sources for all Pulp 2 content plugins. If a plugin is missing [contact us](https://www.redhat.com/mailman/listinfo/pulp-list).
 

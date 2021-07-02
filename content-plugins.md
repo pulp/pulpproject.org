@@ -17,6 +17,18 @@ After you install Pulp, you must add a content plugin for each content type that
 
 ## Pulp 3 Content Plugin Features
 
+### A note on Pulp 3 CLI Coverage
+
+The [Pulp 3 CLI](https://github.com/pulp/pulp-cli) is a work in progress.
+The CLI is implemented by the plugin writers, so the workflows that are possible with the CLI vary from plugin to plugin.
+At the moment, these plugins have the following coverage:
+
+* **RPM**: Sync workflow
+* **File**: Sync workflow; content upload
+* **Ansible**: Sync workflow (role & collection)
+* **Container**: Sync workflow
+* **Python**: Sync workflow
+
 ### RPM
 
 * Create, sync and publish a repository with RPM Content including RPMs, Advisories, Modularity, and Comps.

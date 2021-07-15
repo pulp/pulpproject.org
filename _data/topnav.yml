@@ -11,6 +11,9 @@ topnav_dropdowns1:
           url: /features/
         - title: Migrate to Pulp 3
           url: /migrate-to-pulp-3/
+        - title: Pulp 3 CLI
+          url: /pulp-3-cli/
+          output: web
         - title: Manage Pulp with Ansible
           url: /pulp-squeezer/
         - title: Related Tooling

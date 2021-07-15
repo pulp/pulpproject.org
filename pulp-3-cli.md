@@ -20,6 +20,6 @@ For example, you can find Pulp 3 CLI commands for the following Pulp Python work
 * [Creating and uploading to a repostory](https://docs.pulpproject.org/pulp_python/workflows/upload.html)
 * [Creating and hosting a publication](https://docs.pulpproject.org/pulp_python/workflows/publish.html)
 
-For a list of plugin coverage, see [a note on Pulp 3 CLI coverage](/a-note-on-pulp-3-cli-coverage/) on the [content plugins](/content-plugins/) homepage.
+For a list of plugin coverage, see **a-note-on-pulp-3-cli-coverage** on the [content plugins](/content-plugins/) homepage.
 
 If you have any feedback about the Pulp 3 CLI, [we would love to hear from you](https://forms.gle/NirgdhxvaoTucfBA6).

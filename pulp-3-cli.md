@@ -9,7 +9,7 @@ The Pulp 3 CLI is under active development.
 
 The Pulp 3 CLI has been designed with a plugin structure, meaning that it is implemented by plugin writers on a per-plugin basis.
 
-After you install Pulp, you can then install the Pulp 3 CLI by following the [Pulp 3 CLI Quickstart guide](https://github.com/pulp/pulp-cli/blob/develop/docs/quickstart.md).
+After you install Pulp, you can then install the Pulp 3 CLI by following the [Pulp 3 CLI Quickstart guide](https://docs.pulpproject.org/pulp_cli/quickstart.html).
 
 You can find some example commands in the Quickstart. Where the Pulp 3 CLI has been implemented, you can find Pulp 3 CLI example workflows in the corresponding plugin documentation.
 

@@ -5,7 +5,7 @@ permalink: /insta-demo/
 toc: false
 ---
 
-You can find comprehensive docs about installing Pulp on Openshift [here](https://pulp-operator.readthedocs.io/en/latest/quickstart/#instant-demo).
+You can find comprehensive docs about installing Pulp on Openshift [here](https://docs.pulpproject.org/pulp_operator/quickstart/#instant-demo).
 
 You can watch Fabricio demo the installation here:
 

@@ -18,7 +18,7 @@ For installation instructions, see [Pulp in One Container](/pulp-in-one-containe
 
 The `pulp_installer` is a set of Ansible roles that automates the installation of Pulp 3. This is the preferred method of installation and removes a lot of the complexity of the installation process.
 
-For installation instructions, see [Pulp installer](https://pulp-installer.readthedocs.io/en/latest/).
+For installation instructions, see [Pulp installer](https://docs.pulpproject.org/pulp_installer/).
 
 
 ## Is there a manual installation option available?

@@ -5,15 +5,15 @@ permalink: /ansible-installer/
 toc: false
 ---
 
-If you have a basic knowledge of Ansible, you can use the `pulp_installer` to automate the installation of Pulp 3. The `pulp_installer` is a collection of Ansible roles hosted on [Ansible Galaxy](https://galaxy.ansible.com/pulp/pulp_installer). Each Ansible role installs and configures a component of Pulp. If you run the `pulp_installer` on an existing Pulp 3 deployment, it will upgrade it to the latest version. You can also use the `pulp_installer` to add or reconfigure plugins for an existing Pulp installation.  
+If you have a basic knowledge of Ansible, you can use the `pulp_installer` to automate the installation of Pulp 3. The `pulp_installer` is a collection of Ansible roles hosted on [Ansible Galaxy](https://galaxy.ansible.com/pulp/pulp_installer). Each Ansible role installs and configures a component of Pulp. If you run the `pulp_installer` on an existing Pulp 3 deployment, it will upgrade it to the latest version. You can also use the `pulp_installer` to add or reconfigure plugins for an existing Pulp installation.
 
 Note that to install Pulp 3 using `pulp_installer`'s collection of Ansible roles hosted on Ansible Galaxy, you must use Ansible 2.9 or higher.
 
-For information about system requirements, recommended workflows and instructions on how to install Pulp 3 using the Ansible `pulp_installer`, see the [Pulp installer documentation](https://pulp-installer.readthedocs.io/).
+For information about system requirements, recommended workflows and instructions on how to install Pulp 3 using the Ansible `pulp_installer`, see the [Pulp installer documentation](https://docs.pulpproject.org/pulp_installer/).
 
 # Quickstart Guide
 
-For a more comprehensive overview of how the Ansible Installer works, as well as a description of workflows, see the the [Pulp installer documentation](https://pulp-installer.readthedocs.io/).
+For a more comprehensive overview of how the Ansible Installer works, as well as a description of workflows, see the the [Pulp installer documentation](https://docs.pulpproject.org/pulp_installer/).
 
 
 Installation
@@ -44,7 +44,7 @@ they can be set in the playbook. See the Ansible docs for more flexible idiomati
 Example Playbook for Installing Plugins
 -----------------
 The following example is an Ansible playbook that you can use for installing `pulp_container` and `pulp_rpm`.
-You can learn more about the variables on the [roles section](https://pulp-installer.readthedocs.io/en/latest/roles/pulp/#role-variables)
+You can learn more about the variables on the [roles section](https://docs.pulpproject.org/pulp_installer/roles/pulp_common/#role-variables)
 
 1 -  Install the `pulp_installer` collection:
 ```

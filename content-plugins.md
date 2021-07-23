@@ -7,7 +7,11 @@ toc: true
 
 ## Content Plugins
 
-After you install Pulp, you must add a content plugin for each content type that you want to manage. The following sections contain information about the available content plugins for both Pulp 2 and Pulp 3. If you do not find the plugin for the content type you want to manage, consider [writing a plugin](https://docs.pulpproject.org/plugins/plugin-writer/index.html).
+As part of the Pulp installation, you must add a content plugin for each content type that you want to
+manage.
+The following sections contain information about the available content plugins for both Pulp 2 and
+Pulp 3. If you do not find the plugin for the content type you want to manage, consider
+[writing a plugin](https://docs.pulpproject.org/plugins/plugin-writer/index.html).
 
 ## Plugin Changes between Pulp 2 and Pulp 3
 
@@ -20,7 +24,8 @@ After you install Pulp, you must add a content plugin for each content type that
 ### A note on Pulp 3 CLI Coverage
 
 The [Pulp 3 CLI](https://github.com/pulp/pulp-cli) is a work in progress.
-The CLI is implemented by the plugin writers, so the workflows that are possible with the CLI vary from plugin to plugin.
+The CLI is implemented by the plugin writers, so the workflows that are possible with the CLI vary
+from plugin to plugin.
 At the moment, these plugins have the following coverage:
 
 * **RPM**: Sync workflow
@@ -31,7 +36,8 @@ At the moment, these plugins have the following coverage:
 
 ### RPM
 
-* Create, sync and publish a repository with RPM Content including RPMs, Advisories, Modularity, and Comps.
+* Create, sync and publish a repository with RPM Content including RPMs, Advisories, Modularity, and
+ Comps.
 * Version content and rollback if necessary.
 * Download content on-demand when requested by clients to reduce disk space.
 * Upload local RPM content in chunks.
@@ -48,12 +54,23 @@ At the moment, these plugins have the following coverage:
 
 ### Container
 
-* Synchronize container image repositories hosted on Docker-hub, Google Container Registry, Quay.io, and others in mirror or additive mode.
+For an in-depth look at the available workflows, see the
+[Pulp Container workflow documentation](https://docs.pulpproject.org/pulp_container/workflows).
+
+You can read about Pulp container's Role Based Access Control(RBAC) support
+[here](https://docs.pulpproject.org/pulp_container/role-based-access-control.html).
+
+* Synchronize container image repositories hosted on Docker-hub, Google Container Registry,
+Quay.io, and any other that is Docker Registry HTTP API V2-compatible in mirror or additive mode.
 * Version content and rollback if necessary.
 * Download content on-demand when requested by clients to reduce disk space.
+* Host content either locally or on S3.
 * Perform docker/podman pull from a container distribution served by Pulp.
-* Curate container images by whitelisting what is mirrored from an external repository.
+* Perform docker/podman push to the Pulp Registry.
+* Support for registry token authentication.
+* Curate container images by filtering what is mirrored from an external repository.
 * Curate container images by creating repository versions with a specific set of images.
+* Build an OCI format image from a Containerfile and make it available from the Pulp Registry.
 * De-duplication of all saved content.
 
 ### Ansible

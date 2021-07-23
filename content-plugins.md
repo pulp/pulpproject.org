@@ -8,9 +8,8 @@ toc: true
 ## Content Plugins
 
 As part of the Pulp installation, you must add a content plugin for each content type that you want
-to manage.
-The following sections contain information about the available content plugins for both Pulp 2 and
-Pulp 3. If you do not find the plugin for the content type you want to manage, consider
+to manage. The following sections contain information about the available content plugins for both
+Pulp 2 and Pulp 3. If you do not find the plugin for the content type you want to manage, consider
 [writing a plugin](https://docs.pulpproject.org/plugins/plugin-writer/index.html).
 
 ## Plugin Changes between Pulp 2 and Pulp 3

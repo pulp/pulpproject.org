@@ -34,11 +34,11 @@ At the moment, these plugins have the following coverage:
 
 ## Cloud Storage
 
-It is possible to configure Pulp to use
-[cloud storage](https://docs.pulpproject.org/pulpcore/installation/storage.html).
-However, plugins can introduce changes that are incompatible with, for example, S3 requirements.
-The Pulp Ansible, RPM, File, Debian, Python, and Container plugins are regularly tested to ensure they remain compatible but the
-level of coverage is lower for other plugins.
+It is possible to configure Pulp to use [cloud
+storage](https://docs.pulpproject.org/pulpcore/installation/storage.html). However, plugins can 
+introduce changes that are incompatible with, for example, S3 requirements. The Pulp Ansible, RPM,
+File, Debian, Python, and Container plugins are regularly tested to ensure they remain compatible
+but the level of coverage is lower for other plugins.
 
 ## Pulp 3 Content Plugin Features
 

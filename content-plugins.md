@@ -7,10 +7,9 @@ toc: true
 
 ## Content Plugins
 
-As part of the Pulp installation, you must add a content plugin for each content type that you want to
-manage.
-The following sections contain information about the available content plugins for both Pulp 2 and
-Pulp 3. If you do not find the plugin for the content type you want to manage, consider
+As part of the Pulp installation, you must add a content plugin for each content type that you want
+to manage. The following sections contain information about the available content plugins for both
+Pulp 2 and Pulp 3. If you do not find the plugin for the content type you want to manage, consider
 [writing a plugin](https://docs.pulpproject.org/plugins/plugin-writer/index.html).
 
 ## Plugin Changes between Pulp 2 and Pulp 3
@@ -19,9 +18,7 @@ Pulp 3. If you do not find the plugin for the content type you want to manage, c
 * The Docker plugin in Pulp 2 has been replaced by the Container plugin.
 * Currently, there are no Pulp 3 plugins for Puppet and OSTree content.
 
-## Pulp 3 Content Plugin Features
-
-### A note on Pulp 3 CLI Coverage
+## Pulp 3 CLI Coverage
 
 The [Pulp 3 CLI](https://github.com/pulp/pulp-cli) is a work in progress.
 The CLI is implemented by the plugin writers, so the workflows that are possible with the CLI vary
@@ -33,6 +30,17 @@ At the moment, these plugins have the following coverage:
 * **Ansible**: Sync workflow (role & collection)
 * **Container**: Sync workflow
 * **Python**: Sync workflow
+
+## Cloud Storage
+
+It is possible to configure Pulp to use [cloud
+storage](https://docs.pulpproject.org/pulpcore/installation/storage.html). However, plugins can 
+introduce changes that are incompatible with, for example, S3 requirements. The Pulp Ansible, RPM,
+File, Debian, Python, and Container plugins are regularly tested to ensure they remain compatible
+but the level of coverage is lower for other plugins.
+
+## Pulp 3 Content Plugin Features
+
 
 ### RPM
 

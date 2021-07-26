@@ -9,6 +9,10 @@ toc: false
 
 The latest community demos, with the newest ones first, will be displayed here.
 
+### Pulp Ansible Tests Overview
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/gqxqvQ5dKlY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ### Installing Pulp on Openshift
 
 Let Fabricio guide you getting started with Openshift

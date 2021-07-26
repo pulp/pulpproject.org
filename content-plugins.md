@@ -34,7 +34,7 @@ At the moment, these plugins have the following coverage:
 ## Cloud Storage
 
 It is possible to configure Pulp to use [cloud
-storage](https://docs.pulpproject.org/pulpcore/installation/storage.html). However, plugins can 
+storage](https://docs.pulpproject.org/pulpcore/installation/storage.html). However, plugins can
 introduce changes that are incompatible with, for example, S3 requirements. The Pulp Ansible, RPM,
 File, Debian, Python, and Container plugins are regularly tested to ensure they remain compatible
 but the level of coverage is lower for other plugins.
@@ -46,6 +46,8 @@ but the level of coverage is lower for other plugins.
 
 * Create, sync and publish a repository with RPM Content including RPMs, Advisories, Modularity, and
  Comps.
+* Create, sync and publish a repository with Unbreakable Linux Network (ULN) remotes to sync from
+ULN servers. 
 * Version content and rollback if necessary.
 * Download content on-demand when requested by clients to reduce disk space.
 * Upload local RPM content in chunks.

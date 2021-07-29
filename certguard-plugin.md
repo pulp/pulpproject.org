@@ -14,7 +14,7 @@ If you use Pulpcore versions 3.3.z or higher, you can use the existing installer
 The Certguard plugin is available on [PyPi](https://pypi.org/project/pulp-certguard/).
 
 
-For more information about how to set up and use the Certguard plugin, see the [Pulp Certguard documentation](https://pulp-certguard.readthedocs.io/en/latest/).
+For more information about how to set up and use the Certguard plugin, see the [Pulp Certguard documentation](https://docs.pulpproject.org/pulp_certguard).
 
 To view the Pulp Certguard source, see the [Pulp Certguard GitHub](https://github.com/pulp/pulp-certguard) page.
 

@@ -47,7 +47,7 @@ but the level of coverage is lower for other plugins.
 * Create, sync and publish a repository with RPM Content including RPMs, Advisories, Modularity, and
  Comps.
 * Create, sync and publish a repository with Unbreakable Linux Network (ULN) remotes to sync from
-ULN servers. 
+ULN servers.
 * Version content and rollback if necessary.
 * Download content on-demand when requested by clients to reduce disk space.
 * Upload local RPM content in chunks.
@@ -145,7 +145,7 @@ This table contains links to information and sources for all Pulp 3 content plug
 
 ## Pulp 2 Content Plugins Information
 
-Pulp 2 will become End of Life in November 2021. For more information about migrating from Pulp 2 to Pulp 3, see the [migration plugin](https://pulp-2to3-migration.readthedocs.io/en/latest) documentation.
+Pulp 2 will become End of Life in November 2021. For more information about migrating from Pulp 2 to Pulp 3, see the [migration plugin](https://docs.pulpproject.org/pulp_2to3_migration/) documentation.
 
 
 This table contains links to information and sources for all Pulp 2 content plugins. If a plugin is missing [contact us](https://www.redhat.com/mailman/listinfo/pulp-list).

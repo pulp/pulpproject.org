@@ -23,13 +23,13 @@ toc: false
 * [Debian plugin](https://docs.pulpproject.org/pulp_deb/)
 * [Python plugin](https://docs.pulpproject.org/pulp_python/)
 * [Chef Cookbook plugin](https://github.com/pulp/pulp_cookbook/blob/master/README.rst)
-* [Maven plugin](https://github.com/pulp/pulp_maven/blob/master/README.rst)
+* [Maven plugin](https://docs.pulpproject.org/pulp_maven/)
 * [RubyGem plugin](https://github.com/pulp/pulp_gem/blob/master/README.rst)
-* [Ansible GalaxyNG plugin](https://github.com/ansible/galaxy_ng/blob/master/README.md)
+* [Ansible GalaxyNG plugin](https://github.com/ansible/galaxy_ng/wiki)
 
 ## Other plugins
 
-* [Certguard plugin](https://pulp-certguard.readthedocs.io/en/latest/)
+* [Certguard plugin](https://docs.pulpproject.org/pulp_certguard)
 * [Migration Plugin](https://docs.pulpproject.org/pulp_2to3_migration/)
 
 

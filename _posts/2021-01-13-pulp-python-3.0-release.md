@@ -7,7 +7,7 @@ tags:
 
 The long awaited, Pulp Python 3.0 has been released!
 
-With this release, it is now possible to [mirror the whole of PyPI](https://pulp-python.readthedocs.io/en/latest/workflows/sync.html#creating-a-remote-to-sync-all-of-pypi) in just under one hour.
+With this release, it is now possible to [mirror the whole of PyPI](https://docs.pulpproject.org/pulp_python/workflows/sync.html#creating-a-remote-to-sync-all-of-pypi) in just under one hour.
 
 To celebrate this release, let's take a look at how the Pulp Python plugin can help you manage your Python content.
 
@@ -37,4 +37,4 @@ Depending on your setup, content distribution can be laden with difficulties and
 
 ## Try Pulp Python 3.0 now!
 
-Pulp Python can be installed from [PyPI](https://pypi.org/project/pulp-python/3.0.0/) or [source](https://github.com/pulp/pulp_python/), click [here](https://pulp-python.readthedocs.io/en/latest/installation.html) for installation instructions. Client bindings for [Python](https://pypi.org/project/pulp-python-client/3.0.0/) and [Ruby](https://rubygems.org/gems/pulp_python_client/versions/3.0.0) are also available.
+Pulp Python can be installed from [PyPI](https://pypi.org/project/pulp-python/3.0.0/) or [source](https://github.com/pulp/pulp_python/), click [here](https://docs.pulpproject.org/pulp_python/installation.html#) for installation instructions. Client bindings for [Python](https://pypi.org/project/pulp-python-client/3.0.0/) and [Ruby](https://rubygems.org/gems/pulp_python_client/versions/3.0.0) are also available.

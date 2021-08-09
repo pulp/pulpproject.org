@@ -31,6 +31,12 @@ At the moment, these plugins have the following coverage:
 * **Container**: Sync workflow
 * **Python**: Sync workflow
 
+## Role Based Access Control Support
+
+Role Based Access Support (RBAC) is still under active development.
+While the functionality is available in Pulcore, each plugin must add it separately.
+Currently, the only plugin that has a robust implementation is Pulp Container.
+
 ## Cloud Storage
 
 It is possible to configure Pulp to use [cloud
@@ -82,6 +88,7 @@ Quay.io, and any other that is Docker Registry HTTP API V2-compatible in mirror 
 * Curate container images by creating repository versions with a specific set of images.
 * Build an OCI format image from a Containerfile and make it available from the Pulp Registry.
 * De-duplication of all saved content.
+* Support disconnected and air-gapped environments with pulp import/export facility for synced container repositories.
 
 ### Ansible
 

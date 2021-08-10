@@ -34,7 +34,7 @@ At the moment, these plugins have the following coverage:
 ## Role Based Access Control Support
 
 Role Based Access Support (RBAC) is still under active development.
-While the functionality is available in Pulcore, each plugin must add it separately.
+While the functionality is available in Pulpcore, each plugin must add it separately.
 Currently, the only plugin that has a robust implementation is Pulp Container.
 
 ## Cloud Storage

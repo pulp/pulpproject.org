@@ -24,11 +24,15 @@ Think you've found a bug, [file it](https://pulp.plan.io/projects/pulp/issues/ne
 You can also [browse open issues](https://pulp.plan.io/issues?set_filter=1) to see if your bug or
 feature request has already been filed.
 
-## GitHub Discussions
+## Pulp Community Discourse
 
-We have enabled [GitHub Discussions](https://github.com/pulp/community/discussions).
+We are currently trialling a move away from mailing lists as a primary method of communication.
+
+At the moment, we are trialling our very own [Pulp Community Discourse](https://discourse.pulpproject.org).
 
 Feel free to ask and answer questions, give feedback about your experience working with any aspect of Pulp. Introduce yourself, your project, what you're hoping to achieve with Pulp. We would be delighted to hear from you and understand how Pulp is helping.
+
+If you like our Discourse, let us know! 
 
 ## Mailing List
 Ask questions, discuss bugs, or use cases on the

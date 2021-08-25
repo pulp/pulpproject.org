@@ -29,9 +29,9 @@ The Pulp community's primary communication channel is Matrix.
 
 We have corresponding Libera.Chat rooms for every Matrix room, so if you use IRC exclusively, you can find us there too.
 
-* Join [**pulp** on Matrix](https://matrix.to/#/!HWvLQmBGVPfJfTQBAu:matrix.org?via=libera.chat&via=matrix.org&via=ctrl-c.liu.se) for User support.
+* Join [**pulp** on Matrix](https://matrix.to/#/#pulp:matrix.org) for User support.
 
-* Join [**#pulp-dev** on Matrix](https://matrix.to/#/!aVApiNMtnstWbwDcVU:matrix.org?via=libera.chat&via=matrix.org&via=ctrl-c.liu.se) for Developer discussion.
+* Join [**#pulp-dev** on Matrix](https://matrix.to/#/#pulp-dev:matrix.org) for Developer discussion.
 
 
 ## Found a Security Issue?

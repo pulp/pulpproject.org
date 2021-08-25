@@ -35,3 +35,7 @@ There is a [proof of concept](https://raw.githubusercontent.com/pulp/pulp-operat
 ## Do you need something else?
 
 If you are blocked and don't find an option that you need, please write to `pulp-list@redhat.com` and let us know what problem you encountered or what scenario you're missing.
+
+We welcome you to open a discussion on our [Pulp Community Discourse](https://discourse.pulpproject.org). Feel free to introduce yourself, what you're trying to achieve, where you ran into problems or didn't understand something.
+
+You can also find us on [**pulp** on Matrix](https://matrix.to/#/!HWvLQmBGVPfJfTQBAu:matrix.org?via=libera.chat&via=matrix.org&via=ctrl-c.liu.se) for user support.

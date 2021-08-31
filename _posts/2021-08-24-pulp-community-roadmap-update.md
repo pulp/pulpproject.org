@@ -41,7 +41,7 @@ If you would like to contribute to our efforts, or would like to see what we’r
 
 ### Pulp Container
 
-* DRF token support
+* API token support
 * Continuing the efforts to enhance import/export workflow
 
 ### Pulp CLI

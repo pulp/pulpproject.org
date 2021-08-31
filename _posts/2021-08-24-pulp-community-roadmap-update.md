@@ -6,7 +6,7 @@ tags:
 ---
 
 Over the coming months, the Pulp team will focus on the following areas. As with all plans, this roadmap is subject to change. Many of the items in this plan factor into Katello and GalaxyNG roadmaps.
-Further updates will be announced on the Pulp blog and community. If you have any questions or feedback, feel free to write to post to our community channels!
+Further updates will be announced on the Pulp blog and community. If you have any questions or feedback, feel free to write or post to our community channels!
 
 ### OSTree plugin
 

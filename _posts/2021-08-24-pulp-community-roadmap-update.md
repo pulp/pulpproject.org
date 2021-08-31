@@ -47,7 +47,7 @@ If you would like to contribute to our efforts, or would like to see what we’r
 ### Pulp CLI
 
 * Improving documentation
-* Planning around ACS CLI functionality
+* ACS support
 
 ### Pulp Installer
 

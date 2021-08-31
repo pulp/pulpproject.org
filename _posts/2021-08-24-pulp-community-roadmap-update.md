@@ -20,7 +20,7 @@ If you would like to contribute to our efforts, or would like to see what we’r
 
 * RBAC - roles for Pulp Container and File plugins
 * RBAC - content guard
-* Encrypted fields
+* Encrypting sensitive fields inside the database
 * Alternative Content Sources - [check out the epic](https://pulp.plan.io/issues/7832) to learn more about what this involves.
 * Disk usage
 * Orphan cleanup

@@ -11,7 +11,6 @@ Further updates will be announced on the Pulp blog and community. If you have an
 ### OSTree plugin
 
 While Pulp 2 had an OSTree plugin, Pulp 3 was released without any OSTree functionality.
-The Pulp 2 OSTree plugin primarily managed Fedora Atomic Host content that has been EOL for several years.
 We are happy to announce that a basic proof-of-concept OSTree plugin is now in the works.
 We will publish updates on this blog as the plugin takes shape.
 If you would like to contribute to our efforts, or would like to see what we’re working on, you can take a look at our [github repo](https://github.com/pulp/pulp_ostree).
@@ -20,12 +19,9 @@ If you would like to contribute to our efforts, or would like to see what we’r
 
 * RBAC - roles for Pulp Container and File plugins
 * RBAC - content guard
-* Encrypting sensitive fields inside the database
-* Alternative Content Sources - [check out the epic](https://pulp.plan.io/issues/7832) to learn more about what this involves.
-* Disk usage
-* Orphan cleanup
-* Django 3 and Python 3.7+ support
+* Alternative Content Sources - [check out the epic](https://pulp.plan.io/issues/7832) to learn more about what this involves
 * Performance & Hardening
+* Removing the legacy tasking system in favor of the distributed one introduced in Pulpcore 3.14
 
 
 ### RPM Plugin
@@ -53,11 +49,11 @@ If you would like to contribute to our efforts, or would like to see what we’r
 
 * Better support for High Availability deployments
 * Python 3.8 installation (EL8 module, Debian 11)
-* Installer for mirror branch model
+* pulp_installer 3.16.z plans to support installing any Pulpcore 3.16.z release
 
 ### Community/CI
 
 * Planning Virtual PulpCon Meetup in Nov 2021
 * Redmine → GitHub Issues migration
-* Discourse evaluation as replacement of mailing list for design, decision, and support discussions
+* [Discourse evaluation](https://discourse.pulpproject.org/) as a replacement for mailing list discussions on design, decision, and support topics
 * Conference Prep (DevConf.us/cz, ConfigMgmtCamp, etc.)

@@ -40,6 +40,7 @@ If you would like to contribute to our efforts, or would like to see what we’r
 ### Pulp Container
 
 * Continuing the efforts to enhance import/export workflow
+* Token support enhancements
 
 ### Pulp CLI
 
@@ -58,4 +59,4 @@ If you would like to contribute to our efforts, or would like to see what we’r
 * Redmine → GitHub Issues migration
 * [Discourse evaluation](https://discourse.pulpproject.org/) as a replacement for mailing list discussions on design, decision, and support topics
 * Conference Prep (DevConf.us/cz, ConfigMgmtCamp, etc.)
-* Container and OSTree related community articles 
+* Container and OSTree related community articles

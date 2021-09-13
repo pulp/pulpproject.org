@@ -16,7 +16,7 @@ Pulp 2 and Pulp 3. If you do not find the plugin for the content type you want t
 
 * The ISO content support found in the Pulp 2 RPM plugin is now provided by the File plugin.
 * The Docker plugin in Pulp 2 has been replaced by the Container plugin.
-* Currently, there are no Pulp 3 plugins for Puppet and OSTree content.
+* Currently, there is no Pulp 3 plugin for Puppet content.
 
 ## Pulp 3 CLI Coverage
 
@@ -113,6 +113,17 @@ Quay.io, and any other that is Docker Registry HTTP API V2-compatible in mirror 
 * Publish and organize Python packages just like PyPI.
 * Install Python packages using pip as published by Pulp.
 
+### OSTree
+
+The Pulp OSTree plugin is the latest plugin added.
+At the moment, it has alpha status and is under active development.
+The initial release contains the following functionality:
+
+* Synchronize content from a remote OSTree repository and serve it via Pulp.
+* Import new OSTree commits to an existing Pulp repository.
+* Consume content imported to Pulp using the ostree utility.
+
+
 ### Ruby Gem
 
 * Synchronize remote repository content and metadata locally.
@@ -146,6 +157,7 @@ This table contains links to information and sources for all Pulp 3 content plug
 | GalaxyNG plugin | <a href="https://github.com/ansible/galaxy_ng/blob/master/README.md">GalaxyNG plugin docs</a> | <a href="https://github.com/ansible/galaxy_ng">GalaxyNG plugin source</a> | <a href="https://github.com/ansible/galaxy_ng/issues">GalaxyNG tracker</a> | <a href="https://pypi.org/project/galaxy-ng/">Yes</a> | No |
 | Gem plugin | <a href="https://github.com/pulp/pulp_gem/blob/master/README.rst">Gem plugin docs</a> | <a href="https://github.com/pulp/pulp_gem">Gem plugin source</a> | <a href="https://github.com/pulp/pulp_gem/issues">Gem plugin tracker</a> | <a href="https://pypi.org/project/pulp-gem/">Yes</a> | No |
 | Maven plugin | <a href="https://github.com/pulp/pulp_maven/blob/master/README.rst">Maven plugin docs</a> | <a href="https://github.com/pulp/pulp_maven">Maven plugin source</a> | <a href="https://pulp.plan.io/projects/maven-plugin/">Maven plugin tracker</a> | <a href="https://pypi.org/project/pulp-maven/">Yes</a> | No |
+| OSTree plugin | <a href="https://docs.pulpproject.org/pulp_ostree/">OSTree plugin docs</a> | <a href="https://github.com/pulp/pulp_ostree/">OSTree plugin source</a> | <a href="https://pulp.plan.io/projects/pulp_ostree?jump=welcome">OSTree plugin tracker</a> | <a href="https://pypi.org/project/pulp-ostree/">Yes</a> | No |
 | Python plugin | <a href="https://docs.pulpproject.org/pulp_python/">Python plugin docs</a> | <a href="https://github.com/pulp/pulp_python/">Python plugin source</a> | <a href="https://pulp.plan.io/projects/pulp_python?jump=welcome">Python plugin tracker</a> | <a href="https://pypi.org/project/pulp-python/">Yes</a> | No |
 | RPM plugin | <a href="https://docs.pulpproject.org/pulp_rpm/">RPM plugin docs</a> | <a href="https://github.com/pulp/pulp_rpm/">RPM plugin source</a> | <a href="https://pulp.plan.io/projects/pulp_rpm?jump=welcome">RPM plugin tracker</a> | <a href="https://pypi.org/project/pulp-rpm/">Yes</a> | No |
 

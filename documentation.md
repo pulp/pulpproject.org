@@ -22,6 +22,7 @@ toc: false
 * [Ansible plugin](https://docs.pulpproject.org/pulp_ansible/)
 * [Debian plugin](https://docs.pulpproject.org/pulp_deb/)
 * [Python plugin](https://docs.pulpproject.org/pulp_python/)
+* [OSTree plugin](https://docs.pulpproject.org/pulp_ostree/)
 * [Chef Cookbook plugin](https://github.com/pulp/pulp_cookbook/blob/master/README.rst)
 * [Maven plugin](https://docs.pulpproject.org/pulp_maven/)
 * [RubyGem plugin](https://github.com/pulp/pulp_gem/blob/master/README.rst)

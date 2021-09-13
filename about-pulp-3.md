@@ -38,8 +38,8 @@ System management features, which were present in Pulp 2, have been removed so t
 ### Functionality that does not currently exist but might be subject to change
 
 * Role-based access control is not available
-* The [Pulp 3 CLI](https://github.com/pulp/pulp-cli) is in beta and a work in progress. 
-* No Puppet or OSTree plugins are available
+* The [Pulp 3 CLI](https://github.com/pulp/pulp-cli) is in beta and a work in progress.
+* No Puppet plugin is available
 
 
 ## What do you think?

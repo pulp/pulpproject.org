@@ -11,9 +11,11 @@ Open Source tooling, such as for managing the state of Pulp and integrating it w
 
 [Foreman](https://theforeman.org/) is a complete lifecycle management tool for physical and virtual servers. [Katello](https://theforeman.org/plugins/katello/) brings the full power of content management alongside the provisioning and configuration capabilities of Foreman.
 
-Foreman and Katello use Pulp for managing repositories of software packages. It provides a graphical WebUI for Pulp and integrates it with its workflows, but does not expose every underlying feature and content type of Pulp.
+Foreman and Katello use Pulp for managing repositories of software packages. Katello provides a graphical Web UI for Pulp and integrates it with its workflows, but does not expose every underlying feature and content type of Pulp.
 
-Foreman and Katello are currently in the incremental [process of migrating from Pulp 2 to Pulp 3.](https://community.theforeman.org/t/update-on-katello-pulp3-integration-and-upcoming-roadmap/15899)
+The following video gives a comprehensive overview of the workflows available with Katello:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/kWbfU_1zseU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## pulp_rpm_repos
 

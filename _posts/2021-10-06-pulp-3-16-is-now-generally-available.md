@@ -17,7 +17,7 @@ Let's take a look at what's new in Pulpcore 3.16.
 
 While the 3.15 release introduced some basic modeling, with 3.16 we now see some functionality added for Alternative Content Sources.
 
-Alternate Content Sources provide a way to sync content from an alternate source so you can sync from a remote repository but use a faster or more reliable source of content such as your local file system. This release provides the initial functionality to prioritize remote content provided by Alternate Content Sources over regular content in the content application.
+Alternate Content Sources provide a way to sync content from an alternate source so you can sync from a remote repository but use a faster or more reliable source of content such as your local file system. This release provides the functionality to prioritize remote content provided by Alternate Content Sources over regular content when syncing and in the content application.
 
 Validation has also been added to ensure that  the remote type can be used with the Alternative Content Source.
 

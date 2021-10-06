@@ -21,7 +21,7 @@ Alternate Content Sources provide a way to sync content from an alternate source
 
 Validation has also been added to ensure that  the remote type can be used with the Alternative Content Source.
 
-At the moment, this functionality is supported in `pulp_file 1.10` and `pulp_rpm 3.16` plugins.
+At the moment, this functionality is supported in `pulp_file 1.10` and `pulp_rpm 3.16` plugins. Support is also available in the CLI.
 
 ### Tasking system performance improvements [#9326](https://pulp.plan.io/issues/9326)
 

@@ -36,7 +36,7 @@ This also included the removal of the `USE_NEW_WORKER_TYPE` setting.
 
 ## OpenAPI schema view removal [#9322](https://pulp.plan.io/issues/9322)
 
-An OpenAPI schema view had sub-optimal performance issues. It had multiple dependencies, and often displayed errors rather than the expected information. For this reason, it was removed and replaced with a less costly, clearer schema view available at `/pulp/api/v3/`.
+The browseable OpenAPI schema view had sub-optimal performance issues. It had multiple dependencies, and often displayed errors rather than the expected information. For this reason, it was removed and replaced with a less costly, clearer schema view available at `/pulp/api/v3/`.
 
 ## pulp import endpoint change [#9382](https://pulp.plan.io/issues/9382)
 

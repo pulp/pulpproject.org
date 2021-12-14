@@ -42,6 +42,9 @@ entries:
     - title: New User? Start Here
       url: /installation-introduction/
       output: web
+    - title: Pulp & High Availability
+      url: /pulp-ha/
+      output: web
     - title: Pulp in One Container
       url: /pulp-in-one-container/
       output: web

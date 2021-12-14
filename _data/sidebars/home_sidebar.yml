@@ -18,6 +18,12 @@ entries:
     - title: Features
       url: /features/
       output: web
+    - title: Pulp 101
+      url: /pulp-workflow-overview/
+      output: web
+    - title: Under the hood
+      url: /under-the-hood/
+      output: web
     - title: Migrate to Pulp 3
       url: /migrate-to-pulp-3/
       output: web
@@ -35,6 +41,9 @@ entries:
       output: web
     - title: New User? Start Here
       url: /installation-introduction/
+      output: web
+    - title: Pulp & High Availability
+      url: /pulp-ha/
       output: web
     - title: Pulp in One Container
       url: /pulp-in-one-container/

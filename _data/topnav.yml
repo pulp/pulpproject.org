@@ -9,6 +9,10 @@ topnav_dropdowns1:
           url: /about-pulp-3/
         - title: Features
           url: /features/
+        - title: Pulp 101
+          url: /pulp-workflow-overview/
+        - title: Under the hood
+          url: /under-the-hood/
         - title: Migrate to Pulp 3
           url: /migrate-to-pulp-3/
         - title: Pulp 3 CLI
@@ -25,6 +29,8 @@ topnav_dropdowns2:
       folderitems2:
         - title: New User? Start Here
           url: /installation-introduction/
+        - title: Pulp & High Availability
+          url: /pulp-ha/
         - title: Pulp in One Container
           url: /pulp-in-one-container/
         - title: Install using Ansible

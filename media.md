@@ -7,6 +7,21 @@ toc: false
 
 Members of the Pulp community participate in conferences across the US and Europe. You can find the most recent talks here. Some talks are not necessarily related to Pulp but came about from experience working within the project. If you would like to submit a talk, please write to `pulp-list@redhat.com`
 
+## Community Sessions 2021
+
+This is a playlist of a subset of PulpCon 2021 talks that came from the Pulp community.
+You can see examples of how Pulp is being used in the wild, the experiences of writing your own Pulp plugin, as well as scoping considerations if you're looking to deploy Pulp in your environment.
+
+If you'd like to participate in such a session, [we'd love to hear from you](https://discourse.pulpproject.org/).
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLwm8_O6oKSS29CRGD5URZiqdYEF2WHU1Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>  
+
+## PulpCon 2021
+
+Here is a playlist of all sessions of Pulpcon 2021
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLwm8_O6oKSS3GEl1NHgtY4G-Tq2byivpa" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## High Availability with Pulp
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/vjRvCuo7p4I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

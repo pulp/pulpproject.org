@@ -11,6 +11,10 @@ Note that to install Pulp 3 using `pulp_installer`'s collection of Ansible roles
 
 For information about system requirements, recommended workflows and instructions on how to install Pulp 3 using the Ansible `pulp_installer`, see the [Pulp installer documentation](https://docs.pulpproject.org/pulp_installer/).
 
+Pulp's Mike did a demo of running the installer at [PulpCon 2021](https://youtube.com/playlist?list=PLwm8_O6oKSS3GEl1NHgtY4G-Tq2byivpa)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/IjZrOQH7Uqk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 # Quickstart Guide
 
 For a more comprehensive overview of how the Ansible Installer works, as well as a description of workflows, see the the [Pulp installer documentation](https://docs.pulpproject.org/pulp_installer/).

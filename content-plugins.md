@@ -32,6 +32,7 @@ At the moment, these plugins have the following coverage:
 * **Ansible**: Sync workflow (role & collection)
 * **Container**: Sync workflow
 * **Python**: Sync workflow
+* **Debian**: Sync workflow 
 
 ## Role Based Access Control Support
 

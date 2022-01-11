@@ -37,8 +37,10 @@ topnav_dropdowns2:
           url: /ansible-installer/
         - title: Install using PyPi
           url: /pypi-installation/
-        - title: Pulp Insta Demo
-          url: /insta-demo/
+        - title: Pulp Operator
+          url: /pulp-operator/
+        - title: Podman Compose
+          url: /podman-compose/  
 topnav_dropdowns3:
 - title: Topnav dropdowns3
   folders3:

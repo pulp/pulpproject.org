@@ -17,6 +17,8 @@ The following video gives a comprehensive overview of the workflows available wi
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/kWbfU_1zseU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+For an idea of the range of content management options, see the [Katello user documentation](https://docs.theforeman.org/nightly/Content_Management_Guide/index-katello.html).
+
 ## pulp_rpm_repos
 
 pulp_rpm_repos ([GitHub](https://github.com/juan-cabrera/pulp_rpm_repos), [Galaxy](https://galaxy.ansible.com/juan_cabrera/pulp_rpm_repos)): Use Pulp API client to manage repositories in a Pulp 3 server
@@ -29,17 +31,12 @@ This Ansible role interacts with a Pulp 3 server. It helps to create and manage 
 
 You can find the `pulp_operations` project and instructions on [GitHub](https://github.com/ewhitesides/pulp_operations).
 
-## pulp-operator: Kubernetes Operator for Pulp 3
-
-[A Kubernetes Operator for Pulp 3](https://github.com/pulp/pulp-operator/), under active development (not production ready yet) by the Pulp team. The goal is to provide a scalable and robust cluster for Pulp 3. [Pre-built images are hosted on quay.io](https://quay.io/repository/pulp/pulp-operator).
-
-Note that it utilizes a single container image from the pulpcore repo, to run 4 different types of service containers (like pulpcore-api & pulpcore-content.) currently manually built and [hosted on quay.io](https://quay.io/repository/pulp/pulp).
-
-It is currently working towards [Phase 1 of the Kubernetes Operator Capability Model](https://blog.openshift.com/top-kubernetes-operators-advancing-across-the-operator-capability-model/) before being published on OperatorHub, including compatibility with more clusters.
-
-See [latest slide deck](http://people.redhat.com/mdepaulo/presentations/Introduction%20to%20pulp-operator.pdf) for more info.
-
-
-## docker-pulp: Pulp Docker images
+## Pulp Docker community images
 
 [A set of Docker images for Pulp 3, with a Docker Compose.](https://github.com/fpytloun/docker-pulp)
+
+[Docker Compose](https://github.com/Kong/docker-pulp/blob/main/docker-compose.yml) - Docker Compose to install and configure Pulp with. Maintained by Kong engineers.
+
+## StackHPC Ansible Collection
+
+This Ansible collection builds on the modules available in [Pulp Squeezer](/pulp-squeezer/), adding roles for repositories, publications, distributions and content guards, as well as one for creating Django users. This helps to reduce the boilerplate involved, and makes the configuration more ‘declarative’.

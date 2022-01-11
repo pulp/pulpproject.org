@@ -54,8 +54,11 @@ entries:
     - title: Install using PyPi
       url: /pypi-installation/
       output: web
-    - title: Pulp Insta Demo
-      url: /insta-demo/
+    - title: Pulp Operator
+      url: /pulp-operator/
+      output: web
+    - title: Podman Compose
+      url: /podman-compose/
       output: web
     - title: Docs
       url: /docs/

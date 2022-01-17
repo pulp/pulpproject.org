@@ -32,6 +32,6 @@ Take the time to familiarize yourself with the migration plugin, make a plan, an
 
 If you want to extend the existing functionality, feel free to raise a [pull request](https://github.com/pulp/pulp-2to3-migration).
 
-To view current progress and outstanding issues, see the [Migration plugin tracker](https://pulp.plan.io/projects/migration).
+To view current progress and outstanding issues, see the [Migration plugin tracker](https://github.com/pulp/pulp-2to3-migration/issues).
 
 If you have any questions or feedback, write to the pulp-dev@redhat.com mailing list.

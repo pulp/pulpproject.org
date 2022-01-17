@@ -32,7 +32,7 @@ At the moment, these plugins have the following coverage:
 * **Ansible**: Sync workflow (role & collection)
 * **Container**: Sync workflow
 * **Python**: Sync workflow
-* **Debian**: Sync workflow 
+* **Debian**: Sync workflow
 
 ## Role Based Access Control Support
 
@@ -152,17 +152,17 @@ This table contains links to information and sources for all Pulp 3 content plug
 
 | Pulp Plugin | Docs | Source | Tracker | Install with PyPI | Install with RPM |
 |-------|--------|---------|--------|---------|-------- |--------- |
-| Ansible plugin | <a href="https://docs.pulpproject.org/pulp_ansible/">Ansible plugin docs</a> | <a href="https://github.com/pulp/pulp_ansible">Ansible plugin source</a> | <a href="https://pulp.plan.io/projects/ansible_plugin?jump=welcome">Ansible plugin tracker</a> | <a href="https://pypi.org/project/pulp-ansible/">Yes</a> | No |
+| Ansible plugin | <a href="https://docs.pulpproject.org/pulp_ansible/">Ansible plugin docs</a> | <a href="https://github.com/pulp/pulp_ansible">Ansible plugin source</a> | <a href="https://github.com/pulp/pulp_ansible/issues">Ansible plugin tracker</a> | <a href="https://pypi.org/project/pulp-ansible/">Yes</a> | No |
 | Chef cookbook plugin | <a href="https://github.com/pulp/pulp_cookbook/blob/master/README.rst">Cookbook plugin docs</a> | <a href="https://github.com/pulp/pulp_cookbook">Cookbook plugin source</a> | <a href="https://github.com/pulp/pulp_cookbook/issues">Cookbook plugin tracker</a> | <a href="https://pypi.org/project/pulp-cookbook/">Yes</a> | No |
-| Debian plugin | <a href="https://docs.pulpproject.org/pulp_deb/">DEB plugin docs</a> | <a href="https://github.com/pulp/pulp_deb/tree/master">DEB plugin source</a> | <a href="https://pulp.plan.io/projects/pulp_deb?jump=welcome">DEB plugin tracker</a> | <a href="https://pypi.org/project/pulp-deb/">Yes</a> | No |
-| Container plugin | <a href="https://docs.pulpproject.org/pulp_container/">Container plugin docs</a> | <a href="https://github.com/pulp/pulp_container">Container plugin source</a> | <a href="https://pulp.plan.io/projects/pulp_container?jump=welcome">Container plugin tracker</a> | <a href="https://pypi.org/project/pulp-container/">Yes</a> | No |
-| File | <a href="https://docs.pulpproject.org/pulp_file/">File plugin docs</a> | <a href="https://github.com/pulp/pulp_file">File plugin source</a> | <a href="https://pulp.plan.io/projects/pulp_file?jump=welcome">File plugin tracker</a> | <a href="https://pypi.org/project/pulp-file/">Yes<a/> | No |
+| Debian plugin | <a href="https://docs.pulpproject.org/pulp_deb/">DEB plugin docs</a> | <a href="https://github.com/pulp/pulp_deb/tree/master">DEB plugin source</a> | <a href="https://github.com/pulp/pulp_deb/issues">DEB plugin tracker</a> | <a href="https://pypi.org/project/pulp-deb/">Yes</a> | No |
+| Container plugin | <a href="https://docs.pulpproject.org/pulp_container/">Container plugin docs</a> | <a href="https://github.com/pulp/pulp_container">Container plugin source</a> | <a href="https://github.com/pulp/pulp_container/issues">Container plugin tracker</a> | <a href="https://pypi.org/project/pulp-container/">Yes</a> | No |
+| File | <a href="https://docs.pulpproject.org/pulp_file/">File plugin docs</a> | <a href="https://github.com/pulp/pulp_file">File plugin source</a> | <a href="https://github.com/pulp/pulp_file/issues">File plugin tracker</a> | <a href="https://pypi.org/project/pulp-file/">Yes<a/> | No |
 | GalaxyNG plugin | <a href="https://github.com/ansible/galaxy_ng/blob/master/README.md">GalaxyNG plugin docs</a> | <a href="https://github.com/ansible/galaxy_ng">GalaxyNG plugin source</a> | <a href="https://github.com/ansible/galaxy_ng/issues">GalaxyNG tracker</a> | <a href="https://pypi.org/project/galaxy-ng/">Yes</a> | No |
 | Gem plugin | <a href="https://github.com/pulp/pulp_gem/blob/master/README.rst">Gem plugin docs</a> | <a href="https://github.com/pulp/pulp_gem">Gem plugin source</a> | <a href="https://github.com/pulp/pulp_gem/issues">Gem plugin tracker</a> | <a href="https://pypi.org/project/pulp-gem/">Yes</a> | No |
-| Maven plugin | <a href="https://github.com/pulp/pulp_maven/blob/master/README.rst">Maven plugin docs</a> | <a href="https://github.com/pulp/pulp_maven">Maven plugin source</a> | <a href="https://pulp.plan.io/projects/maven-plugin/">Maven plugin tracker</a> | <a href="https://pypi.org/project/pulp-maven/">Yes</a> | No |
-| OSTree plugin | <a href="https://docs.pulpproject.org/pulp_ostree/">OSTree plugin docs</a> | <a href="https://github.com/pulp/pulp_ostree/">OSTree plugin source</a> | <a href="https://pulp.plan.io/projects/pulp_ostree?jump=welcome">OSTree plugin tracker</a> | <a href="https://pypi.org/project/pulp-ostree/">Yes</a> | No |
-| Python plugin | <a href="https://docs.pulpproject.org/pulp_python/">Python plugin docs</a> | <a href="https://github.com/pulp/pulp_python/">Python plugin source</a> | <a href="https://pulp.plan.io/projects/pulp_python?jump=welcome">Python plugin tracker</a> | <a href="https://pypi.org/project/pulp-python/">Yes</a> | No |
-| RPM plugin | <a href="https://docs.pulpproject.org/pulp_rpm/">RPM plugin docs</a> | <a href="https://github.com/pulp/pulp_rpm/">RPM plugin source</a> | <a href="https://pulp.plan.io/projects/pulp_rpm?jump=welcome">RPM plugin tracker</a> | <a href="https://pypi.org/project/pulp-rpm/">Yes</a> | No |
+| Maven plugin | <a href="https://github.com/pulp/pulp_maven/blob/master/README.rst">Maven plugin docs</a> | <a href="https://github.com/pulp/pulp_maven">Maven plugin source</a> | <a href="https://github.com/pulp/pulp_maven/issues">Maven plugin tracker</a> | <a href="https://pypi.org/project/pulp-maven/">Yes</a> | No |
+| OSTree plugin | <a href="https://docs.pulpproject.org/pulp_ostree/">OSTree plugin docs</a> | <a href="https://github.com/pulp/pulp_ostree/">OSTree plugin source</a> | <a href="https://github.com/pulp/pulp_ostree/issues">OSTree plugin tracker</a> | <a href="https://pypi.org/project/pulp-ostree/">Yes</a> | No |
+| Python plugin | <a href="https://docs.pulpproject.org/pulp_python/">Python plugin docs</a> | <a href="https://github.com/pulp/pulp_python/">Python plugin source</a> | <a href="https://github.com/pulp/pulp_python/issues">Python plugin tracker</a> | <a href="https://pypi.org/project/pulp-python/">Yes</a> | No |
+| RPM plugin | <a href="https://docs.pulpproject.org/pulp_rpm/">RPM plugin docs</a> | <a href="https://github.com/pulp/pulp_rpm/">RPM plugin source</a> | <a href="https://github.com/pulp/pulp_rpm/issues">RPM plugin tracker</a> | <a href="https://pypi.org/project/pulp-rpm/">Yes</a> | No |
 
 
 ## Pulp 2 Content Plugins Information

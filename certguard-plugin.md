@@ -18,4 +18,4 @@ For more information about how to set up and use the Certguard plugin, see the [
 
 To view the Pulp Certguard source, see the [Pulp Certguard GitHub](https://github.com/pulp/pulp-certguard) page.
 
-To report an issue or track future progress, see the [Certguard plugin issue tracker](https://pulp.plan.io/projects/certguard).
+To report an issue or track future progress, see the [Certguard plugin issue tracker](https://github.com/pulp/pulp-certguard/issues).

@@ -19,7 +19,7 @@ For documentation on a specific version of Pulp, see [Versioned Documentation](/
 
 ## Bug or Feature Request?
 
-Think you've found a bug, [file it](https://pulp.plan.io/projects/pulp/issues/new).
+Think you've found a bug, [file it](https://github.com/pulp/pulpcore/issues/new).
 
 You can also [browse open issues](https://pulp.plan.io/issues?set_filter=1) to see if your bug or
 feature request has already been filed.
@@ -32,7 +32,7 @@ At the moment, we are trialling our very own [Pulp Community Discourse](https://
 
 Feel free to ask and answer questions, give feedback about your experience working with any aspect of Pulp. Introduce yourself, your project, what you're hoping to achieve with Pulp. We would be delighted to hear from you and understand how Pulp is helping.
 
-If you like our Discourse, let us know! 
+If you like our Discourse, let us know!
 
 ## Mailing List
 Ask questions, discuss bugs, or use cases on the

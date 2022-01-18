@@ -5,6 +5,7 @@ gem 'jekyll', '~> 3.9.1'
 group :jekyll_plugins do
   gem "jekyll-sass-converter"
   gem "kramdown"
+  gem "kramdown-parser-gfm"
   gem "liquid"
   gem "jemoji"
   gem "jekyll-redirect-from"

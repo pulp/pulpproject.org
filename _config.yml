@@ -30,6 +30,8 @@ exclude:
   - _drafts
   - .idea
   - asciinema
+  # used for local installation of gems
+  - vendor
 # these are the files and directories that jekyll will exclude from the build
 
 feedback_email: pulp-list@redhat.com

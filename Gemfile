@@ -17,3 +17,6 @@ group :jekyll_plugins do
   gem "listen"
 end
 
+# for checking broken links
+gem 'html-proofer'
+

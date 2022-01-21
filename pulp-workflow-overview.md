@@ -123,11 +123,107 @@ This is the workflow illustrated in this example:
 2. A package is built and uploaded into the _Dev_ repository.
 3. Packages in the _Dev_ repository are then tested, for example, using integration tests.
 There might be some back and forth, which creates different repository versions.
-4. When all tests have passed, the packages are promoted to the _Test_ repository.
+4. When all tests have passed, the packages are promoted* to the _Test_ repository.
 5. Quality engineering (QE) syncs packages from the _Test_ repository. QE passes/fails certain tests.
-6. Devs provide patches that they then promote new versions to the Test Repository.
-7. When tests complete, QE promotes the packages to the _Production_ (_Prod_) repository.
+6. Devs provide patches that they then promote* new versions to the Test Repository.
+7. When tests complete, QE promotes* the packages to the _Production_ (_Prod_) repository.
 8. Members of your organization or your customers install packages from the Production repository.
+
+**Promote**
+
+In these examples, we use the term promote here to mean cloning the contents of a repository.
+For example, at which ever point you want, you can create a repository version based on the other this version.
+Here is an example in the [RPM documentation](https://docs.pulpproject.org/pulp_rpm/workflows/copy.html#basic-repository-modification-api)
+However, you might prefer to point to a repository version rather than clone a repository.
+Both options serve the same purpose.
+Many Pulp users find it useful to have separate repositories for each environment because it's easier to deal with a history of repository versions in each repository than when all of them are in one repo.
+
+Here is a truncated example containing just dev and prod.
+This workflow assumes the installation and configuration of Pulp, as well as the Pulp CLI.
+
+1. Create a remote that points to PyPI:
+
+```
+pulp python remote create --name "dev" --url "https://pypi.org/" --includes '["shelf-reader"]'
+```
+
+2. Create a remote that points to your Pulp server so that clients can packages from Pulp:
+
+```
+pulp python remote create --name "prod" --url "https://pulp.example.com/pypi/dev/"
+```
+
+3. Check that your remotes are set up:
+
+```
+pulp python remote list
+```
+
+5. Create a repository for your __dev__ environment:
+
+```
+pulp python repository create --name "dev" --description "Dev repository" --remote "dev"
+```
+6. Create a repository for your prod environment:
+
+```
+pulp python repository create --name "prod" --description "Prod repository" --remote "prod"
+```
+
+7. Check that your repositories are set up:
+
+```
+pulp python repository list
+```
+
+8. Check your current status for content in your repositories:
+
+```
+pulp python content list
+```
+
+7. Synchronize from your remote for your __dev__ environment (PyPI) to your __dev__ repository:
+
+```
+pulp python repository sync --name "dev" --remote "dev"
+```
+
+8. Verify that changes have occurred by checking the status of content in your repositories:
+
+```
+pulp python content list
+```
+
+9. Publish your __dev__ repository. Here we set a HREF variable so we can use it in our distribution:
+
+```
+PUBLICATION_HREF=$(pulp python publication create --repository "dev" | jq -r .pulp_href)
+echo "PUBLICATION_HREF=$PUBLICATION_HREF"
+```
+
+10. Create a distribution so that others can consume the packages in your __dev__ repository:
+
+```
+pulp python distribution create --name "dev" --base-path "dev" --publication $PUBLICATION_HREF
+```
+
+11. Developers can install packages from the __dev__ repository:
+
+```
+pip install -vvv --trusted-host pulp -i https://pulp.example.com/pypi/dev/simple/ shelf-reader
+```
+
+12. Whenever you want to, you can sync the contents of a __dev__ repository version to the __prod__ repository.
+
+```
+pulp python repository sync --name "prod" --remote "prod"
+```
+
+13. Users can install packages from your prod environment:
+
+```
+pip install -vvv --force-reinstall --trusted-host pulp -i https://pulp.example.com/pypi/prod/simple/ shelf-reader
+```
 
 
 ### Further reading

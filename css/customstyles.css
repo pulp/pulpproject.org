@@ -202,6 +202,69 @@ p.external a {
     display:inline;
 }
 
+#forkongithub a
+{
+  background:#36ad03;
+  color:#fff;
+  text-decoration:none;
+  font-family:arial,sans-serif;
+  text-align:center;
+  font-weight:bold;
+  padding:5px 40px;
+  font-size:1rem;
+  line-height:2rem;
+  position:relative;
+  transition:0.5s;
+}
+#forkongithub a:hover
+{
+  background:#ed8b00;
+  color:#fff;
+}
+#forkongithub a::before,
+#forkongithub a::after
+{
+  content:"";
+  width:100%;
+  display:block;
+  position:fixed;
+  top:0;
+  left:0;
+  height:1px;
+  background:#fff;
+}
+#forkongithub a::after
+{
+  bottom:1px;
+  top:auto;
+}
+@media screen and (min-width:800px)
+{
+#forkongithub
+  {
+    position:fixed;
+    display:block;
+    top:0;
+    right:0;
+    width:200px;
+    overflow:hidden;
+    height:200px;
+    z-index:9999;
+  }
+#forkongithub a
+{
+  width:250px;
+  position:fixed;
+  top:60px;right:-60px;
+  transform:rotate(45deg);
+  -webkit-transform:rotate(45deg);
+  -ms-transform:rotate(45deg);
+  -moz-transform:rotate(45deg);
+  -o-transform:rotate(45deg);
+  box-shadow:4px 4px 10px rgba(0,0,0,0.8);
+}
+}
+
 #definition-box-container div a.active {
     font-weight: bold;
 }

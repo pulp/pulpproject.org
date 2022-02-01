@@ -7,7 +7,7 @@ toc: false
 
 This page aims to provide you with an understanding of the major considerations so that you can then build a Pulp deployment that suits your needs.
 
-First, let's look at [Pulp's primary concepts](/#pulp---from-such-great-heights/) and how they [fit together](/#pulp-for-cicd/).
+First, let's look at [Pulp's primary concepts](/pulp-workflow-overview//#pulp---from-such-great-heights) and how they [fit together](/pulp-workflow-overview//#pulp-for-cicd).
 Then, we'll walk through Pulp's architecture and how that can be made highly available if required.
 
 

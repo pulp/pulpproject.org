@@ -5,7 +5,11 @@ permalink: /pulp-in-one-container/
 toc: false
 ---
 
-Installing Pulp 3 and getting all the services running can be challenging. To reduce the complexity of getting started with Pulp, the Pulp team created a single container image that has all necessary services to run Pulp 3.
+Installing Pulp 3 and getting all the services running can be challenging. To reduce the complexity for new users evaluating Pulp, the Pulp team created a single container image that has all necessary services to run Pulp 3.
+
+Note that this container is not-production ready.
+There are technical limitations that mean the container cannot scale.
+However, we do have a [Podman Compose](/podman-compose/) deployment option that you can also use both to evaluate and get started.
 
 The image is available under the `pulp` namespace on [Dockerhub](https://hub.docker.com/repository/docker/pulp/pulp/). This image includes the Ansible, Container, File, Maven, Python, and RPM plugins. A new version is published every time there is a plugin update available. You can update your environment to the latest version of the container using `docker pull`.
 

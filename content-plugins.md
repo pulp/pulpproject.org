@@ -33,6 +33,7 @@ At the moment, these plugins have the following coverage:
 * **Container**: Sync workflow
 * **Python**: Sync workflow
 * **Debian**: Sync workflow
+* **OSTree**: Sync workflow
 
 ## Role Based Access Control Support
 

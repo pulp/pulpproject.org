@@ -7,6 +7,12 @@ toc: false
 
 Members of the Pulp community participate in conferences across the US and Europe. You can find the most recent talks here. Some talks are not necessarily related to Pulp but came about from experience working within the project. If you would like to submit a talk, please write to `pulp-list@redhat.com`
 
+## Updating Edge devices using OSTree and Pulp - DevConf.CZ 2022
+
+Lubos Mjachky gave a presentation at DevConf.CZ 2022 about upgrade management for Edge devices using Pulp and Pulp OSTree. 
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/zpAT7obVNk0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## Community Sessions 2021
 
 This is a playlist of a subset of PulpCon 2021 talks that came from the Pulp community.

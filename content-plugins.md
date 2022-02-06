@@ -127,20 +127,24 @@ The initial release contains the following functionality:
 * Import new OSTree commits to an existing Pulp repository.
 * Consume content imported to Pulp using the ostree utility.
 
+### Unmaintained plugins
 
-### Ruby Gem
+The following plugins have been created and developed to some extent but have not been regularly maintained.
+If you're interested in extending or maintaining the basic functionality of these plugins, [let us know](/get_involved/).
+
+#### Ruby Gem
 
 * Synchronize remote repository content and metadata locally.
 * Upload your own content.
 * Publish content to one or more repositories.
 
-### Chef Cookbook
+#### Chef Cookbook
 
 * Sync Cookbook content from a remote to local repository.
 * Upload your own content.
 * Publish and organize content.
 
-### Maven
+#### Maven
 
 * Synchronize packages from a remote to local repository.
 * Upload your own Maven content.

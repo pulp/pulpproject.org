@@ -1,5 +1,5 @@
 ---
-title: Pulp Docs SIG Findings & Suggestions
+title: Pulp Docs SIG Findings & Conclusions
 author: Melanie Corr
 tags:
   - community, documentation, workflows

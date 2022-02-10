@@ -75,8 +75,26 @@ A distribution makes a specific version of a repository available to users by ex
 
 For example, you can make multiple versions of a repository available to different users at different base paths.
 
+### What are Publications?
+
 For some content types like RPM and Python, you also need a **Publication**.
 Publications provide the necessary metadata for particular content types.
+
+Publications are created from repository versions and like repository versions, are immutable.
+Distributions can point to any publication and can be updated to point to a new one at any time.
+
+Pulp has an auto-publish feature for most plugins.
+You can set autopublish to **True** on a repository to have Pulp auto create a new publication after each new repository version is created.
+For example:
+
+ `pulp rpm repository update --name cent7pkgs-test --autopublish`
+
+Because distributions must be updated to point to the new publications as well, Pulp also has an auto-distribute feature where it will serve the latest publications of a repository.
+Simply update the distribution to point to the repository rather than the publication:
+
+`pulp rpm distribution update --name test-distro --repository cent7pkgs-test`.
+
+Now your distribution will always serve the latest publication from the latest version of your repository.
 
 ### Key Concepts in action
 

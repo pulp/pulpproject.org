@@ -69,6 +69,7 @@ vim install.yml
 ```yaml
 ---
 - hosts: all
+  force_handlers: True
   vars:
     pulp_settings:
       secret_key: << YOUR SECRET HERE >>

@@ -39,4 +39,4 @@ You can find the `pulp_operations` project and instructions on [GitHub](https://
 
 ## StackHPC Ansible Collection
 
-This Ansible collection builds on the modules available in [Pulp Squeezer](/pulp-squeezer/), adding roles for repositories, publications, distributions and content guards, as well as one for creating Django users. This helps to reduce the boilerplate involved, and makes the configuration more ‘declarative’.
+This [StackHPC Ansible collection](https://galaxy.ansible.com/stackhpc/pulp) builds on the modules available in [Pulp Squeezer](/pulp-squeezer/), adding roles for repositories, publications, distributions and content guards, as well as one for creating Django users. This helps to reduce the boilerplate involved, and makes the configuration more ‘declarative’.

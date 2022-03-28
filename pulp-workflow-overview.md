@@ -113,6 +113,8 @@ If you develop content in-house that you need to distribute but do not want to s
 
 This example assumes packages already have been synced to Pulp from an external repository.
 
+If you want to see a real-world application of Pulp, check out StackHPC's [All Aboard the Release Train](https://stackhpc.com/all-aboard-the-release-train.html).
+
 ![](/images/pulp-workflow-architecture-ha/pulp-cicd-example.png)
 
 This is the workflow illustrated in this example:

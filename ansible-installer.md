@@ -36,7 +36,7 @@ Some of the roles used in the playbook use root privileges on the managed node, 
 you must provide the password for the managed node user.
 
 ```
-ansible-playbook playbooks/example-use/playbook.yml -u <managed_node_username> --ask-become-pass
+ansible-playbook playbooks/example-use/playbook.yml -u <managed_node_username> --ask-become-pass -i <managed_node_hostname>,
 ```
 
 <script id="asciicast-335159" src="https://asciinema.org/a/335159.js" async data-autoplay="true" data-speed="2"></script>

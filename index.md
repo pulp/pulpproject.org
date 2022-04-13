@@ -21,7 +21,7 @@ If you have to manage hundreds or thousands of packages, Pulp can help!
 If you want to ensure that you always have what you need, Pulp can help.
 * **Stop using rsync:** Pulp is designed with complex content management workflows and disk optimization in mind.
 If your sync script is letting you down, Pulp can help.
-* **Reduce rate limiting:** From one day to the next, third party platforms can introduce rate limiting and change the conditions of service.
+* **Reduce rate limiting:** From one day to the next, third-party platforms can introduce rate limiting and change the conditions of service.
 If you want to reduce operation costs by having your team consume content from Pulp rather than third parties, Pulp can help.
 * **Distribute content privately:** Sometimes you need a way to distribute private content you have developed in house.
 If you want to keep your private packages off third-party platforms and distribute them internally with ease, Pulp can help.

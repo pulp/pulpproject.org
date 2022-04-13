@@ -26,7 +26,7 @@ If you want to reduce operation costs by having your team consume content from P
 * **Distribute content privately:** Sometimes you need a way to distribute private content you have developed in house.
 If you want to keep your private packages off third-party platforms and distribute them internally with ease, Pulp can help.
 * **Experiment without risk:** Every change to content hosted in Pulp creates a new repository version.
-If you need to pin packages to certain versions to ensure stability and repeatability, Pulp can help.
+If you need to pin packages to certain versions to ensure stability or rollback changes to repos, Pulp can help.
 
 ... And much more!
 

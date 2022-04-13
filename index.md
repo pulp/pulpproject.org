@@ -14,8 +14,11 @@ homepage: true
 
 If you have to manage hundreds or thousands of packages, Pulp can help!
 
+![](/images/pulp-workflow-architecture-ha/pulp-101.png)
+
+
 * **Ensure stability and continuity:** External content sources can go offline unexpectedly.
-Pulp can help you ensure that you're never without the content you need.
+If you want to ensure that you always have what you need, Pulp can help.
 * **Stop using rsync:** Pulp is designed with complex content management workflows and disk optimization in mind.
 If your sync script is letting you down, Pulp can help.
 * **Reduce rate limiting:** From one day to the next, third party platforms can introduce rate limiting and change the conditions of service.
@@ -26,6 +29,7 @@ If you want to keep your private packages off third-party platforms and distribu
 If you need to pin packages to certain versions to ensure stability and repeatability, Pulp can help.
 
 ... And much more!
+
 
 
 Pulp is free and open-source, and we invite you to [join us on GitHub](https://github.com/pulp/).

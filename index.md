@@ -24,7 +24,7 @@ If your sync script is letting you down, Pulp can help.
 * **Reduce rate limiting:** From one day to the next, third party platforms can introduce rate limiting and change the conditions of service.
 If you want to reduce operation costs by having your team consume content from Pulp rather than third parties, Pulp can help.
 * **Distribute content privately:** Sometimes you need a way to distribute private content you have developed in house.
-If you want to keep your private packages off third-party platforms and distribute them with ease, Pulp can help.
+If you want to keep your private packages off third-party platforms and distribute them internally with ease, Pulp can help.
 * **Experiment without risk:** Every change to content hosted in Pulp creates a new repository version.
 If you need to pin packages to certain versions to ensure stability and repeatability, Pulp can help.
 

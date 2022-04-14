@@ -83,3 +83,6 @@ entries:
     - title: Code of Conduct
       url: /conduct/
       output: web
+    - title: Privacy
+      url: /privacy/
+      output: web

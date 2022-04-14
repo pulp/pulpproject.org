@@ -40,7 +40,7 @@ topnav_dropdowns2:
         - title: Pulp Operator
           url: /pulp-operator/
         - title: Podman Compose
-          url: /podman-compose/  
+          url: /podman-compose/
 topnav_dropdowns3:
 - title: Topnav dropdowns3
   folders3:
@@ -77,3 +77,5 @@ topnav_dropdowns:
           url: /get_involved/
         - title: Code of Conduct
           url: /conduct/
+        - title: Privacy
+          url: /privacy/

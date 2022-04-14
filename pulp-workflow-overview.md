@@ -21,7 +21,7 @@ For more comprehensive information, see our [documentation](/docs/).
 
 The following diagram illustrates a highly simplified overview of Pulp.
 
-![](/images/pulp-workflow-architecture-ha/pulp101-simplified-overview.png)
+![](/images/pulp-workflow-architecture-ha/pulp-101.png)
 
 1. You can sync packages from remote sources such as public repositories like PyPI, or, for example, from another Pulp server.
 2. You can host these packages in repositories in a Pulp server.

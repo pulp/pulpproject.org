@@ -39,19 +39,17 @@ The webserver (Apache) logs contain IP addresses, timestamps, and UserAgent stri
 
 You are free to use a VPN, Tor, or other IP / UserAgent masking service without affecting your use of the project website, as it is entirely static.
 
-**Legal basis for this data usage: Legitimate interest**
-
-## Website videos
+### Website videos
 
 The website embeds videos from [YouTube](https://support.google.com/youtube/answer/7671399?hl=en) and [FOSDEM](https://fosdem.org/2022/).
 
-
+**Legal basis for this data usage: Legitimate interest**
 
 ## Our Codebase
 
 The Pulp community uses GitHub to manage the code that comprises the Pulp project. The Pulp community also uses GitHub for issue reporting and tracking. Refer to [GitHub’s privacy policy](https://docs.github.com/en/site-policy/privacy-policies/global-privacy-practices) for details on how GitHub handles the data you post there.
 
-Commit messages can contain names and email addresses. You are free to use psuedonymous data for commit messages. We do prefer a working contact mail in case of needing to contact contributors to the codebase, but it is not mandatory.
+Commit messages can contain names and email addresses. You are free to use pseudonymous data for commit messages. We do prefer a working contact mail in case of needing to contact contributors to the codebase, but it is not mandatory.
 
 **Legal basis for this data usage: Legitimate interest, consent**
 
@@ -62,7 +60,7 @@ The Pulp community centralizes all asynchronous communication on a self-hosted D
 
 When signing up for a Discourse account, you provide a name and email address - and in addition we store the IP address of your most recent connection. The email address is only used to send you updates to your forum topics, personal messages from other users, and digest summaries. You have full control over the emails sent from your Discourse account preferences. The forum also uses cookies to store your session.
 
-Within Discourse, you also have the options to provide your name, location, profile picture and further publicly identifiable information in your Discourse profile, but this is opt-in, optional, and at your discretion. We have no requirement that you use your real name.
+Within Discourse, you can also to provide your name, location, profile picture and further publicly identifiable information in your Discourse profile, but this is opt-in, optional, and at your discretion. We have no requirement that you use your real name.
 
 We also use the IP addresses and public post data to provide aggregated statistics about the forum community, such as posts-per-month, user engagement, etc. We also use the IP addresses to help identify sock puppeting and spam accounts.
 
@@ -74,7 +72,7 @@ You are free to use a VPN, Tor, or other IP / UserAgent masking service without 
 
 ## Pulp Community Matrix
 
-We centralize all Pulp community synchronous communication in Matrix. We also have Libera.Chat IRC bridges from our Matrix room. If you use Libera.Chat IRC, you will need to register your IRC nick to be able to post messages in our channels or to direct message individuals. For more information see, [Matrix's privacy policy](https://matrix.org/legal/privacy-notice) and the [libera.chat's privacy policy](https://libera.chat/privacy/).
+We conduct all Pulp community synchronous communication via Matrix. We also have Libera.Chat IRC bridges from our Matrix room. If you use Libera.Chat IRC, you will need to register your IRC nick to be able to post messages in our channels or to direct message individuals. For more information see, [Matrix's privacy policy](https://matrix.org/legal/privacy-notice) and the [libera.chat's privacy policy](https://libera.chat/privacy/).
 
 ## Third party links
 
@@ -91,9 +89,10 @@ We also use forms to collect information to distribute SWAG to community contrib
 
 
 ## Your choices
+
 You can choose not to provide us with personal data
 
-Using a VPN, Tor, or other IP / UserAgent masking service will not affect your use of the project website, as it is entirely static. For  Discourse, we do not mandate use of real names, and using pseudonyms will not affect the services.
+Using a VPN, Tor, or other IP / UserAgent masking service will not affect your use of the project website, as it is entirely static. For Discourse, we do not mandate use of real names, and using pseudonyms will not affect the services.
 
 ## Your accounts on our services
 

@@ -138,14 +138,15 @@ If you want to see a real-world application of Pulp, check out StackHPC's [All A
 This is the workflow illustrated in this example:
 
 1. Pulp is configured to have three separate repositories: _Dev_, _Test_, and _Prod_.
-2. A package is built and uploaded into the _Dev_ repository.
-3. Packages in the _Dev_ repository are then tested, for example, using integration tests.
-There might be some back and forth, which creates different repository versions.
-4. When all tests have passed, the packages are promoted* to the _Test_ repository.
-5. Quality engineering (QE) syncs packages from the _Test_ repository. QE passes/fails certain tests.
-6. Devs provide patches that they then promote* new versions to the Test Repository.
-7. When tests complete, QE promotes* the packages to the _Production_ (_Prod_) repository.
-8. Members of your organization or your customers install packages from the Production repository.
+_Dev_ is the only repository that talks to the external world.
+2. A package is built and uploaded into the _Test_ repository.
+3. Packages in the _Test_ repository are then tested, for example, using integration tests.
+There might be some back and forth, QE passes/fails certain tests, which creates different repository versions.
+4. When all tests have passed, the packages are promoted* to the _Stage_ repository.
+5. Further testing and versioning might happen on the _Stage_ repository.
+6. The _Dev_ team provide patches that they then promote* new versions to the _Test_ Repository.
+7. When tests complete, the packages are promoted* to the _Production_ (_Prod_) repository.
+8. Members of your organization or your customers install packages from the _Production_ repository.
 
 **Promote**
 
@@ -177,10 +178,10 @@ pulp python remote create --name "prod" --url "https://pulp.example.com/pypi/dev
 pulp python remote list
 ```
 
-5. Create a repository for your __dev__ environment:
+5. Create a repository for your __Test__ environment:
 
 ```
-pulp python repository create --name "dev" --description "Dev repository" --remote "dev"
+pulp python repository create --name "test" --description "Test repository" --remote "dev"
 ```
 6. Create a repository for your prod environment:
 
@@ -225,16 +226,16 @@ echo "PUBLICATION_HREF=$PUBLICATION_HREF"
 pulp python distribution create --name "dev" --base-path "dev" --publication $PUBLICATION_HREF
 ```
 
-11. Developers can install packages from the __dev__ repository:
+11. Testers can install packages from the __dev__ repository:
 
 ```
 pip install -vvv --trusted-host pulp -i https://pulp.example.com/pypi/dev/simple/ shelf-reader
 ```
 
-12. Whenever you want to, you can sync the contents of a __dev__ repository version to the __prod__ repository.
+12. Whenever you want to, you can sync the contents of a __Test__ repository version to the __Production__ repository.
 
 ```
-pulp python repository sync --name "prod" --remote "prod"
+pulp python repository sync --name "prod" --remote "test"
 ```
 
 13. Users can install packages from your prod environment:

@@ -17,7 +17,7 @@ For example, you can find Pulp 3 CLI commands for the following Pulp Python work
 
 * [Creating a distribution](https://docs.pulpproject.org/pulp_python/workflows/pypi.html#create-a-distribution)
 * [Syncing a repository](https://docs.pulpproject.org/pulp_python/workflows/sync.html)
-* [Creating and uploading to a repostory](https://docs.pulpproject.org/pulp_python/workflows/upload.html)
+* [Creating and uploading to a repository](https://docs.pulpproject.org/pulp_python/workflows/upload.html)
 * [Creating and hosting a publication](https://docs.pulpproject.org/pulp_python/workflows/publish.html)
 
 For a list of plugin coverage, see **a-note-on-pulp-3-cli-coverage** on the [content plugins](/content-plugins/) homepage.

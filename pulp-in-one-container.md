@@ -17,7 +17,8 @@ If you experience any problems, check the [Known Issues](/pulp-in-one-container/
 
 You can use either `podman` or `docker`. If you use `docker`, substitute `docker` for `podman` in the following examples.
 
-The following commands can be used to start Pulp 3.4.1 with `podman 1.8.0`, which is available on Fedora 31.
+The following commands can be used to start Pulp 3.4.1 with `podman 1.6.4`, which is available on
+CentOS/RHEL 7 and later
 
 ```
 $ mkdir settings pulp_storage pgsql containers
@@ -143,6 +144,22 @@ Any known issues and workarounds are listed here.
 ### NFS or SSHFS
 
 When using rootless podman, you cannot create the directories (settings pulp_storage pgsql containers) on [NFS](https://github.com/containers/podman/blob/master/rootless.md#shortcomings-of-rootless-podman), SSHFS, or certain other non-standard filesystems.
+
+### Podman on CentOS 7
+
+When using on CentOS 7, container-selinux has a
+limitation. [1](https://github.com/containers/podman/issues/9513)
+[2](https://github.com/containers/podman/issues/6414)
+SELinux denials will prevent Pulp from running. To
+overcome it, you must do one of the following:
+
+* Run the container with "--privileged"
+* Run the container as root
+* Disable SELinux
+
+Additionally, you will likely run into a limit on the number of open files (ulimit) in the
+container.
+One way to overcome this is to add `DefaultLimitNOFILE=65536` to `/etc/systemd/system.conf`.
 
 ### Docker on CentOS 7
 

@@ -24,16 +24,16 @@ $ pip install podman-compose
 
 2. Clone the Pulp Operator repository from Github:
 ```
-$ git clone git@github.com:pulp/pulp-operator.git
+$ git clone git@github.com:pulp/pulp-oci-images.git
 ```
 
 3. In your local clone of the Pulp Operator repo, navigate to the `containers` directory:
 ```
-$ cd pulp-operator/containers
+$ cd pulp-oci-images/images/compose
 ```
 
 4. To configure Pulp to suit your deployment needs, take the time to familiarize yourself with the default configuration and extend accordingly.
-Everything in the `/compose` directory is mounted into the container.
+Everything in the `/assets` directory is mounted into the container.
 
 4. To start the podman compose, enter the following command:
 ```

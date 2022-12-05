@@ -18,17 +18,6 @@ This container is not production-ready and cannot scale, for example, to provide
 For installation instructions, see [Pulp in One Container](/pulp-in-one-container/).
 
 
-## What is the quickest way to set up a production-ready Pulp environment?
-
-The `pulp_installer` is a set of Ansible roles that automates the installation of Pulp 3.
-This is the preferred method of installation and removes a lot of the complexity of the installation process.
-When updates to Pulpcore are released, the newest Pulp version is available through the `pulp_installer`.
-The `pulp_installer` provides options for high availability scenarios.
-For more information, see [Pulp & High Availability](/pulp-ha/).
-
-For installation instructions, see [Pulp installer](https://docs.pulpproject.org/pulp_installer/).
-
-
 ## Is there a manual installation option available?
 
 You can manually install Pulp using `pip` or from [source](https://github.com/pulp/pulpcore).
@@ -36,9 +25,8 @@ You can manually install Pulp using `pip` or from [source](https://github.com/pu
 For `pip` installation instructions, see [PyPI installation](https://docs.pulpproject.org/pulpcore/en/master/nightly/installation/instructions.html#pypi-installation).
 
 
-## Is there a Kubernetes operator deployment option?
+## Is there a Kubernetes/OpenShift deployment option?
 
-Pulp operator is an [Ansible operator](https://www.ansible.com/blog/ansible-operator) that is under active development.
 Pulp operator endeavours to provide a scalable and robust cluster for Pulp 3.
 Pulp can be installed from [OperatorHub](https://operatorhub.io/operator/pulp-operator).
 If you're interested in providing feedback or contributing to making this better, see the [Pulp operator repo](https://github.com/pulp/pulp-operator) on GitHub.

@@ -33,8 +33,6 @@ topnav_dropdowns2:
           url: /pulp-ha/
         - title: Pulp in One Container
           url: /pulp-in-one-container/
-        - title: Install using Ansible
-          url: /ansible-installer/
         - title: Install using PyPi
           url: /pypi-installation/
         - title: Pulp Operator

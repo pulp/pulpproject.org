@@ -5,7 +5,7 @@ permalink: /pulp-in-one-container/
 toc: false
 ---
 
-Installing Pulp 3 and getting all the services running can be challenging. To reduce the complexity for new users evaluating Pulp, the Pulp team created a single container image that has all necessary services to run Pulp 3.
+Installing Pulp 3 and getting all the services running can be challenging. To reduce the complexity for new users evaluating Pulp, the Pulp team created a [single process image](https://docs.pulpproject.org/pulp_oci_images/single-process-images/) that has all necessary services to run Pulp 3.
 
 Note that this container is not-production ready.
 There are technical limitations that mean the container cannot scale.
@@ -13,7 +13,7 @@ However, we do have a [Podman Compose](/podman-compose/) deployment option that 
 
 The image is available under the `pulp` namespace on [Dockerhub](https://hub.docker.com/repository/docker/pulp/pulp/). This image includes the Ansible, Container, File, Maven, Python, and RPM plugins. A new version is published every time there is a plugin update available. You can update your environment to the latest version of the container using `docker pull`.
 
-If you experience any problems, check the [Known Issues](/pulp-in-one-container/#known-issues) section for workarounds. If you have any questions, feel free to reach out to us on `pulp-list@redhat.com` or the [`pulp`](/help/#chat-to-us) channel on Matrix.  
+If you experience any problems, check the [Known Issues](/pulp-in-one-container/#known-issues) section for workarounds. If you have any questions, feel free to reach out to us on `pulp-list@redhat.com` or the [`pulp`](/help/#chat-to-us) channel on Matrix.
 
 You can use either `podman` or `docker`. If you use `docker`, substitute `docker` for `podman` in the following examples.
 
@@ -185,7 +185,7 @@ While using the version of Docker that is provided with CentOS 7, there are know
   0 workers, 1 queues
   ```
 
-The version of Docker that is provided with CentOS 7 mounts `tmpfs` on `/run`. The Pulp Container recipe uses `/var/run`, which is a symlink to `/run`, and expects its contents to be available at container run time. You can work around this by specifying an additional `/run` volume, which suppresses this behavior of the Docker runtime. Docker will copy the image's contents to that volume and the container should start as expected.  
+The version of Docker that is provided with CentOS 7 mounts `tmpfs` on `/run`. The Pulp Container recipe uses `/var/run`, which is a symlink to `/run`, and expects its contents to be available at container run time. You can work around this by specifying an additional `/run` volume, which suppresses this behavior of the Docker runtime. Docker will copy the image's contents to that volume and the container should start as expected.
 
 The `/run` volume will need to contain a `postgresql` directory (with permissions that the container's postgresql can write to) and a separate `pulpcore-*` directory for the rq manager and its workers to start:
 

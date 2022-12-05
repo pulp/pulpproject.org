@@ -27,7 +27,7 @@ $ pip install podman-compose
 $ git clone git@github.com:pulp/pulp-oci-images.git
 ```
 
-3. In your local clone of the Pulp Operator repo, navigate to the `containers` directory:
+3. In your local clone of the Pulp OCI Images repo, navigate to the `containers` directory:
 ```
 $ cd pulp-oci-images/images/compose
 ```

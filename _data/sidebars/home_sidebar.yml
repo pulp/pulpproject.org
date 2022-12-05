@@ -48,13 +48,10 @@ entries:
     - title: Pulp in One Container
       url: /pulp-in-one-container/
       output: web
-    - title: Install using Ansible
-      url: /ansible-installer/
-      output: web
     - title: Install using PyPi
       url: /pypi-installation/
       output: web
-    - title: Pulp Operator
+    - title: Pulp in Kubernetes/OpenShift
       url: /pulp-operator/
       output: web
     - title: Podman Compose

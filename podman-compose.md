@@ -5,7 +5,7 @@ permalink: /podman-compose/
 toc: false
 ---
 
-Many members of the community have requested a production-ready container to deploy Pulp.
+Many members of the community have requested a container-way to deploy Pulp.
 In an effort to address this feedback, we have re-used images from [Pulp Operator](/pulp-operator/) to provide a podman compose.
 Because this podman compose is new, so far it has received limited feedback and testing.
 We want to hear from you. Let us know what you think on our [community discourse](https://discourse.pulpproject.org/).
@@ -22,7 +22,7 @@ It does not work with higher versions.
 $ pip install podman-compose
 ```
 
-2. Clone the Pulp Operator repository from Github:
+2. Clone the Pulp OCI Images repository from Github:
 ```
 $ git clone git@github.com:pulp/pulp-oci-images.git
 ```

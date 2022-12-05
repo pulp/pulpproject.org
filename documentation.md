@@ -11,8 +11,8 @@ toc: false
 
 * Latest: [docs.pulpproject.org](http://docs.pulpproject.org).
 * Nightly: [http://docs.pulpproject.org/en/master/nightly/](http://docs.pulpproject.org/en/master/nightly/).
-* Ansible installer: [https://docs.pulpproject.org/pulp_installer/](https://docs.pulpproject.org/pulp_installer/).
-* Installing Pulp on Openshift [https://docs.pulpproject.org/pulp_operator/](https://docs.pulpproject.org/pulp_operator/)
+* Containers: [https://docs.pulpproject.org/pulp_oci_images/](https://docs.pulpproject.org/pulp_oci_images/).
+* Kubernetes/Openshift [https://docs.pulpproject.org/pulp_operator/](https://docs.pulpproject.org/pulp_operator/)
 
 ## Pulp 3 Content Plugin Documentation
 

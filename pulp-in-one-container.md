@@ -41,7 +41,7 @@ $ podman run --detach \
              --volume "$(pwd)/pgsql":/var/lib/pgsql:Z \
              --volume "$(pwd)/containers":/var/lib/containers:Z \
              --device /dev/fuse \
-             pulp/pulp
+             quay.io/pulp/pulp
 ```
 
 ## Without SELinux
@@ -57,13 +57,13 @@ $ podman run --detach \
              --volume "$(pwd)/pgsql":/var/lib/pgsql \
              --volume "$(pwd)/containers":/var/lib/containers \
              --device /dev/fuse \
-             pulp/pulp
+             quay.io/pulp/pulp
 ```
 
 In both cases, you will see the following output. The last line contains the container ID that you can use to execute commands inside the container.
 
 ```
-Trying to pull docker.io/pulp/pulp...
+Trying to pull quay.io/pulp/pulp...
 Getting image source signatures
 Copying blob 67e3038dc3b7 done
 Copying blob ff23023c8c8d done

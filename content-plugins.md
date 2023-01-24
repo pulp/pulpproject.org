@@ -127,6 +127,11 @@ The initial release contains the following functionality:
 * Import new OSTree commits to an existing Pulp repository.
 * Consume content imported to Pulp using the ostree utility.
 
+#### Maven
+
+* Use Pulp as a pull through cache for Maven content.
+
+
 ### Unmaintained plugins
 
 The following plugins have been created and developed to some extent but have not been regularly maintained.
@@ -143,12 +148,6 @@ If you're interested in extending or maintaining the basic functionality of thes
 * Sync Cookbook content from a remote to local repository.
 * Upload your own content.
 * Publish and organize content.
-
-#### Maven
-
-* Synchronize packages from a remote to local repository.
-* Upload your own Maven content.
-* Publish and organize packages.
 
 
 ## Pulp 3 Content Plugins Information

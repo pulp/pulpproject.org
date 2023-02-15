@@ -298,17 +298,17 @@ class QuickstartUser(FastHttpUser):
 
 #### Commands on system under test
 
-Install docker https://docs.docker.com/engine/install/fedora/#install-using-the-repository
-sudo dnf install docker-compose git
-setup portainer via docker-compose
-setup pulp via docker compose
-install minio and configure pulp to talk to it
-Make sure to create the bucket manually for pulp to use also
+1. Install docker https://docs.docker.com/engine/install/fedora/#install-using-the-repository
+2. `sudo dnf install docker-compose git`
+3. Setup portainer via docker-compose
+4. Setup pulp via docker compose
+5. Install minio and configure pulp to talk to it
+6. Make sure to create the bucket manually for pulp to use also
 
 
 #### Commands on load generator
 
-Install docker https://docs.docker.com/engine/install/fedora/#install-using-the-repository
-sudo dnf install docker-compose
-setup portainer via docker-compose
-setup locust via docker-compose  https://docs.locust.io/en/stable/running-in-docker.html
+1. Install docker https://docs.docker.com/engine/install/fedora/#install-using-the-repository
+2. `sudo dnf install docker-compose`
+3. Setup portainer via docker-compose
+4. Setup locust via docker-compose  https://docs.locust.io/en/stable/running-in-docker.html

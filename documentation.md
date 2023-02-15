@@ -14,6 +14,10 @@ toc: false
 * Containers: [https://docs.pulpproject.org/pulp_oci_images/](https://docs.pulpproject.org/pulp_oci_images/).
 * Kubernetes/Openshift [https://docs.pulpproject.org/pulp_operator/](https://docs.pulpproject.org/pulp_operator/)
 
+## Pulp-CLI Documentation
+
+* [Pulp CLI](https://docs.pulpproject.org/pulp_cli/)
+
 ## Pulp 3 Content Plugin Documentation
 
 * [RPM plugin](https://docs.pulpproject.org/pulp_rpm/)

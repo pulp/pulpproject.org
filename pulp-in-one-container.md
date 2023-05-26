@@ -5,15 +5,13 @@ permalink: /pulp-in-one-container/
 toc: false
 ---
 
-Installing Pulp 3 and getting all the services running can be challenging. To reduce the complexity for new users evaluating Pulp, the Pulp team created a [single process image](https://docs.pulpproject.org/pulp_oci_images/single-process-images/) that has all necessary services to run Pulp 3.
+The quickest way to get started with Pulp is [multi-process image](https://docs.pulpproject.org/pulp_oci_images/multi-process-images/) that has all necessary services to run Pulp 3. It is intended to cover as many use cases for small-scale Pulp deployments.
 
-Note that this container is not-production ready.
-There are technical limitations that mean the container cannot scale.
-However, we do have a [Podman Compose](/podman-compose/) deployment option that you can also use both to evaluate and get started.
+If you prefer multiple containers, we have [pulp-operator](https://docs.pulpproject.org/pulp_operator/), which is robust but requires a Kubernetes Infrastructure. We also have a [Podman Compose / Docker Compose](/podman-compose/) deployment option to run the [single-process image](https://docs.pulpproject.org/pulp_oci_images/multi-process-images/), however it is intended as a proof-of-concept, and you will likely need to modify the Compose file for your needs.
 
-The image is available under the `pulp` namespace on [Dockerhub](https://hub.docker.com/repository/docker/pulp/pulp/). This image includes the Ansible, Container, File, Maven, Python, and RPM plugins. A new version is published every time there is a plugin update available. You can update your environment to the latest version of the container using `docker pull`.
+The multi-process image is available under the `pulp` namespace on [Dockerhub](https://hub.docker.com/repository/docker/pulp/pulp/). This image includes the Ansible, Container, Deb, File, Maven, Python, and RPM plugins. A new version is published every time there is a plugin update available. You can update your environment to the latest version of the container using `podman pull`.
 
-If you experience any problems, check the [Known Issues](/pulp-in-one-container/#known-issues) section for workarounds. If you have any questions, feel free to reach out to us on `pulp-list@redhat.com` or the [`pulp`](/help/#chat-to-us) channel on Matrix.
+If you experience any problems, check the [Known Issues](https://docs.pulpproject.org/pulp_oci_images/multi-process-images/#known-issues) section for workarounds, and file an [issue on Github](https://github.com/pulp/pulp-oci-images/issues). If you have any questions, feel free to reach out to us on `pulp-list@redhat.com` or the [`pulp`](/help/#chat-to-us) channel on Matrix.
 
 You can use either `podman` or `docker`. If you use `docker`, substitute `docker` for `podman` in the following examples.
 
@@ -25,7 +23,7 @@ $ mkdir settings pulp_storage pgsql containers
 $ echo "CONTENT_ORIGIN='http://$(hostname):8080'
 ANSIBLE_API_HOSTNAME='http://$(hostname):8080'
 ANSIBLE_CONTENT_HOSTNAME='http://$(hostname):8080/pulp/content'
-TOKEN_AUTH_DISABLED=True" >> settings/settings.py
+CACHE_ENABLED=True" >> settings/settings.py
 ```
 
 ## With SELinux
@@ -41,7 +39,7 @@ $ podman run --detach \
              --volume "$(pwd)/pgsql":/var/lib/pgsql:Z \
              --volume "$(pwd)/containers":/var/lib/containers:Z \
              --device /dev/fuse \
-             quay.io/pulp/pulp
+             pulp/pulp
 ```
 
 ## Without SELinux
@@ -57,7 +55,7 @@ $ podman run --detach \
              --volume "$(pwd)/pgsql":/var/lib/pgsql \
              --volume "$(pwd)/containers":/var/lib/containers \
              --device /dev/fuse \
-             quay.io/pulp/pulp
+             pulp/pulp
 ```
 
 In both cases, you will see the following output. The last line contains the container ID that you can use to execute commands inside the container.
@@ -136,64 +134,3 @@ Then you should be able to execute commands such as `pulp status`.
 
 The Container file and all other assets used to build the container image
 are available on [GitHub](https://github.com/pulp/pulp-oci-images).
-
-## Known Issues
-
-Any known issues and workarounds are listed here.
-
-### NFS or SSHFS
-
-When using rootless podman, you cannot create the directories (settings pulp_storage pgsql containers) on [NFS](https://github.com/containers/podman/blob/master/rootless.md#shortcomings-of-rootless-podman), SSHFS, or certain other non-standard filesystems.
-
-### Podman on CentOS 7
-
-When using on CentOS 7, container-selinux has a
-limitation. [1](https://github.com/containers/podman/issues/9513)
-[2](https://github.com/containers/podman/issues/6414)
-SELinux denials will prevent Pulp from running. To
-overcome it, you must do one of the following:
-
-* Run the container with "--privileged"
-* Run the container as root
-* Disable SELinux
-
-Additionally, you will likely run into a limit on the number of open files (ulimit) in the
-container.
-One way to overcome this is to add `DefaultLimitNOFILE=65536` to `/etc/systemd/system.conf`.
-
-### Docker on CentOS 7
-
-While using the version of Docker that is provided with CentOS 7, there are known issues that cause the following errors to occur:
-
-* When starting the container:
-
-  `FATAL:  could not create lock file "/var/run/postgresql/.s.PGSQL.5432.lock": No such file or directory`
-
-* (If the preceding error is worked around,) when executing `docker exec -it pulp bash -c 'pulpcore-manager reset-admin-password'`:
-
-  ```
-  psycopg2.OperationalError: could not connect to server: No such file or directory
-        Is the server running locally and accepting
-        connections on Unix domain socket "/var/run/postgresql/.s.PGSQL.5432"?
-  ```
-
-* Pulp tasks are stuck in `waiting` status, and executing `docker exec -it pulp bash -c 'rq info'` returns `0 workers`:
-
-  ```
-  1 queues, 2 jobs total
-
-  0 workers, 1 queues
-  ```
-
-The version of Docker that is provided with CentOS 7 mounts `tmpfs` on `/run`. The Pulp Container recipe uses `/var/run`, which is a symlink to `/run`, and expects its contents to be available at container run time. You can work around this by specifying an additional `/run` volume, which suppresses this behavior of the Docker runtime. Docker will copy the image's contents to that volume and the container should start as expected.
-
-The `/run` volume will need to contain a `postgresql` directory (with permissions that the container's postgresql can write to) and a separate `pulpcore-*` directory for the rq manager and its workers to start:
-
-```console
-$ mkdir -p settings pulp_storage pgsql containers run/postgresql run/pulpcore-{resource-manager,worker-{1,2}}
-$ chmod a+w run/postgresql
-```
-
-### Upgrading from ``pulp/pulp-fedora31`` image
-
-The ``pulp/pulp-fedora31`` container vendored PostgreSQL 11. The ``pulp/pulp`` image vendors PostgreSQL 12. Users wishing to migrate from PostgreSQL 11 to 12 should refer to [PostgreSQL documentation](https://www.postgresql.org/docs/12/upgrading.html).

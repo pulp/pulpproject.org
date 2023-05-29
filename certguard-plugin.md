@@ -9,7 +9,7 @@ The Certguard plugin provides a X.509 capable `ContentGuard` that requires clien
 
 Any client presenting an X.509 or Red Hat Subscription Management-based certificate at request time will be authorized as long as the client cert is not expired and is signed by the Certificate Authority Certificate stored on the Certguard when it was created. The client presents the certificate using TLS, which proves that the client not only has the certificate but also possesses the key for the certificate.
 
-If you use Pulpcore versions 3.3.z or higher, you can use the existing installer to install or upgrade this plugin. For more information, see [Example Playbook for Installing Plugins](https://docs.pulpproject.org/pulp_installer/quickstart/#example-playbook-for-installing-plugins).
+This plugin is included in [pulp-oci-images](https://docs.pulpproject.org/pulp_oci_images/) which are used in Pulp installation.
 
 The Certguard plugin is available on [PyPi](https://pypi.org/project/pulp-certguard/).
 

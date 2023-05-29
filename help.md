@@ -1,11 +1,11 @@
 ---
-title: Getting Help
+title: Getting Help/ Getting Involved
 sidebar: home_sidebar
 permalink: /help/
 toc: false
 ---
 
-Need help with Pulp? Try these resources
+Need help with Pulp? Try these resources.
 
 ## Upgrading
 
@@ -15,35 +15,22 @@ Pulp is always fixing bugs, make sure you're running the latest version.
 
 Look in the docs for an answer at [docs.pulpproject.org](https://docs.pulpproject.org).
 
-For documentation on a specific version of Pulp, see [Versioned Documentation](/docs/).
-
 ## Bug or Feature Request?
 
 Think you've found a bug, [file it](https://github.com/pulp/pulpcore/issues/new).
 
-You can also [browse open issues](https://pulp.plan.io/issues?set_filter=1) to see if your bug or
+You can also [browse open issues](https://github.com/pulp/pulpcore/issues?q=is%3Aopen+is%3Aissue) to see if your bug or
 feature request has already been filed.
 
-## Pulp Community Discourse
+## Found a Security Issue?
 
-We are currently trialling a move away from mailing lists as a primary method of communication.
+Security bugs should be emailed to pulp-security@redhat.com with your Pulp version, vulnerability description, and reproduction steps.
 
-At the moment, we are trialling our very own [Pulp Community Discourse](https://discourse.pulpproject.org).
+## Pulp Community Forum
+
+Our primary method of communication is [Pulp Community Discourse](https://discourse.pulpproject.org).
 
 Feel free to ask and answer questions, give feedback about your experience working with any aspect of Pulp. Introduce yourself, your project, what you're hoping to achieve with Pulp. We would be delighted to hear from you and understand how Pulp is helping.
-
-If you like our Discourse, let us know!
-
-## Mailing List
-Ask questions, discuss bugs, or use cases on the
-[Pulp mailing list](https://www.redhat.com/mailman/listinfo/pulp-list). You
-can also [read the archives](https://www.redhat.com/archives/pulp-list/).
-
-<form method="get" action="http://www.google.com/search">
-    <input type="text" name="q" size="31" maxlength="255" value="" />
-    <input type="hidden" name="sitesearch" value="https://www.redhat.com/archives/pulp-list/" />
-    <input type="submit" value="Search pulp-list Archives" />
-</form>
 
 ## Chat to us
 
@@ -59,7 +46,14 @@ We have corresponding Libera.Chat rooms for every Matrix room, so if you use IRC
 
 Note that for everything to work well, please [register your nick on Libera.Chat](https://libera.chat/guides/registration).
 
-#### Plugin Developer Matrix Channels
+## Contribute as a Developer
+
+See the [developers guide](https://docs.pulpproject.org/contributing/index.html) for how
+to contribute code fixes.
+
+Follow the [discourse]((https://discourse.pulpproject.org/) for discussions about Pulp itself.
+
+### Plugin Developer Matrix Channels
 
 If you're interested in discussing the development of the following plugins, some discussions take place on the following IRC channels:
 
@@ -73,8 +67,23 @@ If you're interested in discussing the development of the following plugins, som
 
 * [**pulp-deb** on Matrix](https://matrix.to/#/#pulp-debian:matrix.org?via=libera.chat&via=matrix.org)
 
-* [**pulp-installer** on Matrix](https://matrix.to/#/#pulp-installer:matrix.org)
-
 ### Online Meetings
 
-An open floor and bug triage meetings take place twice a week at [**#pulp-meeting** on Matrix](https://matrix.to/#/#pulp_meeting:matrix.org?via=libera.chat&via=matrix.org). For more information, see [meetings](/get_involved/#meetings).
+**Open Floor** - every Tuesday at 10:30 ET (either EST or EDT) in [pulp-meeting](https://matrix.to/#/#pulp_meeting:matrix.org?via=libera.chat&via=matrix.org) on Matrix
+. It's a time for developer discussion, feedback, and decisions on code/issues/PRs/process
+relating to pulpcore or plugins. To participate, put a topic on
+[the agenda](https://hackmd.io/@pulp/triage/edit).
+
+**Bug Triage** - every Tuesday immediately after Open Floor in [pulp-meeting](https://matrix.to/#/#pulp_meeting:matrix.org?via=libera.chat&via=matrix.org) on Matrix . Come and
+participate in real-time.
+
+## Upcoming Events
+
+**Community Demo** - While the livestreaming is on temporary hiatus, see new demo videos added
+on our [YouTube channel](https://www.youtube.com/PulpProject). Pulp contributors demonstrate
+the latest changes to Pulp and its plugins.
+
+## Social Media
+
+To get news for Pulp, follow us on [Twitter](https://twitter.com/pulpproj) or check out our [Youtube
+channel](https://www.youtube.com/PulpProject).

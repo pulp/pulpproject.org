@@ -20,11 +20,14 @@ Pulp 3 has the following advantages and features when compared to Pulp 2:
 * Versioned repositories feature. New ability to rollback safely to earlier versions.
 * Disk storage and speed solutions. Select from [multiple synchronization](https://docs.pulpproject.org/workflows/on-demand-downloading.html) options for all content types to suit specific environmental requirements.
 * More storage options. Store content in the cloud with [storage services like S3 and Azure](https://docs.pulpproject.org/installation/storage.html).
-* Simplified installation. Ansible can automate Pulp 3 installation.
+* Simplified [containerized installation](/installation-introduction/)
 * [Client bindings](https://docs.pulpproject.org/client_bindings.html) make Pulp’s API language agnostic, requiring no customization.
 * Browseable, auto-documented, OpenAPI.
 * Python’s PyPI replaces RPMs as the main packaging method, which allows for easy installation across Linux distributions.
 * Improvements to the Plugin API ensures compatibility with Pulp core and has led to [an increasing list of Plugins](/content-plugins/).
+* Fine grained Role-based access control (not all plugins might have this ready yet).
+* The [Pulp 3 CLI](https://github.com/pulp/pulp-cli).
+
 
 ### Functionality that has been dropped or replaced entirely with Pulp 3
 
@@ -37,11 +40,9 @@ System management features, which were present in Pulp 2, have been removed so t
 
 ### Functionality that does not currently exist but might be subject to change
 
-* Role-based access control is not available
-* The [Pulp 3 CLI](https://github.com/pulp/pulp-cli) is in beta and a work in progress.
 * No Puppet plugin is available
 
 
 ## What do you think?
 
-Pulp 3 continues to provide the Pulp 2 core features while providing several key improvements along with an updated tech stack. If you have any questions or feedback, or would like to know more about the key changes, write to the [Pulp mailing list](https://www.redhat.com/mailman/listinfo/pulp-list) or join the conversation on [IRC](/help/#irc).
+Pulp 3 continues to provide the Pulp 2 core features while providing several key improvements along with an updated tech stack. If you have any questions or feedback, or would like to know more about the key changes, write to us on [Discourse](https://discourse.pulpproject.org/) or join the conversation on [Matrix](/help/#chat-to-us).

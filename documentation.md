@@ -9,8 +9,7 @@ toc: false
 
 ## Pulpcore Documentation
 
-* Latest: [docs.pulpproject.org](http://docs.pulpproject.org).
-* Nightly: [http://docs.pulpproject.org/en/master/nightly/](http://docs.pulpproject.org/en/master/nightly/).
+* Latest: [docs.pulpproject.org](https://docs.pulpproject.org).
 * Containers: [https://docs.pulpproject.org/pulp_oci_images/](https://docs.pulpproject.org/pulp_oci_images/).
 * Kubernetes/Openshift [https://docs.pulpproject.org/pulp_operator/](https://docs.pulpproject.org/pulp_operator/)
 
@@ -35,20 +34,9 @@ toc: false
 ## Other plugins
 
 * [Certguard plugin](https://docs.pulpproject.org/pulp_certguard)
-* [Migration Plugin](https://docs.pulpproject.org/pulp_2to3_migration/)
-
 
 # Pulp 2
 
-See the latest Pulp 2 docs at [docs.pulpproject.org/en/2.21/](http://docs.pulpproject.org/en/2.21/)
+Pulp 2 is EOL. For more information about migrating from Pulp 2 to Pulp 3, see the
+[migration plugin](https://docs.pulpproject.org/pulp_2to3_migration/) documentation.
 
-## Older
-
-* [Pulp 2.20](http://docs.pulpproject.org/en/2.20/)
-* [Pulp 2.19](http://docs.pulpproject.org/en/2.19/)
-
-
-## Related Projects
-
-* [Nectar](http://nectar.readthedocs.org/en/latest/)
-* [Okaara](http://okaara.readthedocs.org/en/latest/)

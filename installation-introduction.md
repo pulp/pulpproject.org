@@ -13,7 +13,7 @@ If you've any questions or feedback about installing Pulp, we would love to hear
 
 The quickest way to evaluate Pulp is by using Pulp in One Container.
 This image contains all the services that you need to run Pulp and is perfect for an initial evaluation.
-This container is not production-ready and cannot scale, for example, to provide for high availability scenarios.
+Mind that this container cannot scale to provide for high availability scenarios.
 
 For installation instructions, see [Pulp in One Container](/pulp-in-one-container/).
 
@@ -22,7 +22,7 @@ For installation instructions, see [Pulp in One Container](/pulp-in-one-containe
 
 You can manually install Pulp using `pip` or from [source](https://github.com/pulp/pulpcore).
 
-For `pip` installation instructions, see [PyPI installation](https://docs.pulpproject.org/pulpcore/en/master/nightly/installation/instructions.html#pypi-installation).
+For `pip` installation instructions, see [PyPI installation](https://docs.pulpproject.org/pulpcore/installation/instructions.html#pypi-installation).
 
 
 ## Is there a Kubernetes/OpenShift deployment option?
@@ -55,3 +55,4 @@ You can also find us on [**pulp** on Matrix](https://matrix.to/#/!HWvLQmBGVPfJfT
 
 Moving from Pulp 2 to Pulp 3, the Pulp community decided to stop with RPM-based installations in favour of the Ansible installer.
 If you're interested in understanding the motivations for such a change, see [What motivated Pulp to change the primary installation method?](https://pulpproject.org/2021/03/22/pup-installer-overview/#what-motivated-pulp-to-change-the-primary-installation-method).
+The Pulp project has decided to deprecate Ansible installer in favour of containerized installations, see the motivations [here](https://discourse.pulpproject.org/t/pulp-installer-3-22-will-be-the-last-release-for-the-installer/706)

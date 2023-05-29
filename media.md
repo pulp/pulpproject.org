@@ -5,7 +5,7 @@ permalink: /media/
 toc: false
 ---
 
-Members of the Pulp community participate in conferences across the US and Europe. You can find the most recent talks here. Some talks are not necessarily related to Pulp but came about from experience working within the project.
+Members of the Pulp community participate in conferences across the US and Europe. Some talks are not necessarily related to Pulp but came about from experience working within the project.
 If you would like to submit a talk, please write to us on our [community forum](https://discourse.pulpproject.org/).
 
 ## Updating Edge devices using OSTree and Pulp - DevConf.CZ 2022

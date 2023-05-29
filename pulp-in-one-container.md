@@ -11,7 +11,7 @@ If you prefer multiple containers, we have [pulp-operator](https://docs.pulpproj
 
 The multi-process image is available under the `pulp` namespace on [Dockerhub](https://hub.docker.com/repository/docker/pulp/pulp/). This image includes the Ansible, Container, Deb, File, Maven, Python, and RPM plugins. A new version is published every time there is a plugin update available. You can update your environment to the latest version of the container using `podman pull`.
 
-If you experience any problems, check the [Known Issues](https://docs.pulpproject.org/pulp_oci_images/multi-process-images/#known-issues) section for workarounds, and file an [issue on Github](https://github.com/pulp/pulp-oci-images/issues). If you have any questions, feel free to reach out to us on `pulp-list@redhat.com` or the [`pulp`](/help/#chat-to-us) channel on Matrix.
+If you experience any problems, check the [Known Issues](https://docs.pulpproject.org/pulp_oci_images/multi-process-images/#known-issues) section for workarounds, and file an [issue on Github](https://github.com/pulp/pulp-oci-images/issues). If you have any questions, feel free to reach out to us via [discourse](https://discourse.pulpproject.org/) or the [pulp](/help/#chat-to-us) channel on Matrix.
 
 You can use either `podman` or `docker`. If you use `docker`, substitute `docker` for `podman` in the following examples.
 

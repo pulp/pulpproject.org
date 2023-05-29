@@ -28,22 +28,8 @@ You can connect load balancers like HA Proxy or DNS load balancing between the w
 With load balancing, you must use the Pulp status API to ensure that all the services that you deploy are online.
 For a high availability deployment, consider using a load balancer in front of your webservers to help distribute client requests efficiently.
 
-### High Availability Examples
+### Pulp Operator
 
-The Ansible installer documentation has example playbooks for four different deployment scenarios:
-
-* [The default “all-in-one” Pulp server that includes the Postgresql database, redis, and webserver](https://docs.pulpproject.org/pulp_installer/customizing/#all-in-one-pulp-server-example).
-* [Pulp on one server, while using existing servers for the database, redis, and webserver](https://docs.pulpproject.org/pulp_installer/customizing/#pulp-server-with-existing-infrastructure).
-* [Pulp on one server, with the database, redis & webserver on separate servers](https://docs.pulpproject.org/pulp_installer/customizing/#pulp-with-separate-servers-for-services).
-* [Each and every Pulp service on a separate server](https://docs.pulpproject.org/pulp_installer/customizing/#separate-servers-for-each-and-every-service).
-
-You can also use these examples as a base and further extend them to suit your needs.
-
-In the following example, each host contains a webserver, pulpcore-api, pulpcore-content application and pulpcore-worker.
-
-![](/images/pulp-workflow-architecture-ha/pulp-ha-example.png)
-
-The advantages of this setup is its homogeneity. You can keep adding more hosts with the uniform setup to extend your deployment as required.
-Your webserver configuration never needs to change as it can always communicate with pulpcore-api, and pulpcore-content applications via localhost.
-However, you can configure the webserver settings in the Ansible playbooks for the Pulp installer.
-For this to remain highly available, ensure that the hosts are distributed across availability zones in case of a failure scenario.
+Pulp operator endeavours to provide a scalable and robust cluster for Pulp 3.
+Pulp can be installed from [OperatorHub](https://operatorhub.io/operator/pulp-operator).
+For more information about using Pulp operator, see [Pulp on Openshift](https://pulpproject.org/insta-demo/)

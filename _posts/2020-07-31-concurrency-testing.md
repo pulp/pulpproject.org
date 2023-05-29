@@ -15,7 +15,7 @@ This document describes a set of tests, their environment, and some results, in 
 
 ## Methodology
 
-* Pick a repository of significant size and complexity, for example, [http://mirror.fileplanet.com/centos/7/os/x86_64/](http://mirror.fileplanet.com/centos/7/os/x86_64/)
+* Pick a repository of significant size and complexity, for example, [https://mirror.fileplanet.com/centos/7/os/x86_64/](https://mirror.fileplanet.com/centos/7/os/x86_64/)
 * Sync its content, using `sync-immediate`, into a ‘clean’ Pulp 3 instance, at `download_concurrency` values of 20, 15, 10, 7, 5, and 3
 * For each level, repeat the sync at least three times to average out general Internet non-determinism
 * Find the average sync-time for a given concurrency level

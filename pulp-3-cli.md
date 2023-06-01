@@ -18,6 +18,4 @@ For example, you can find Pulp 3 CLI commands for the following Pulp Python work
 
 For a list of plugin coverage, see **a-note-on-pulp-3-cli-coverage** on the [content plugins](/content-plugins/) homepage.
 
-If you have any feedback about the Pulp 3 CLI, [we would love to hear from you](https://forms.gle/NirgdhxvaoTucfBA6).
-
-If you find any bugs or want to request a specific CLI feature, file [an issue](https://github.com/pulp/pulp-cli/issues).
+If you have any feedback about the Pulp 3 CLI,  find any bugs or want to request a specific CLI feature, file [an issue](https://github.com/pulp/pulp-cli/issues).

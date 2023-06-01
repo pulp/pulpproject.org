@@ -43,14 +43,11 @@ Come chat to us on our [community forum](https://discourse.pulpproject.org/) or 
   <col style="width:35%">
   <thead>
     <tr>
-      <th>Quickstart</th>
-      <th>Fully Install Pulp</th>
+      <th>What next?</th>
     </tr>
   </thead>
   <tr>
-    <td>An easy way to get started with Pulp: <br />
-        <a href="https://pulpproject.org/pulp-in-one-container/">Pulp in One Container</a></td>
-    <td>Pulp 3: <a href="https://docs.pulpproject.org/installation/index.html">Instructions</a>
-        </td>
+    <td>New user?<br />
+        <a href="https://pulpproject.org/installation-introduction/">Start here</a></td>
   </tr>
 </table>

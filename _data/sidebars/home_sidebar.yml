@@ -68,14 +68,11 @@ entries:
     - title: Blog
       url: /blog/
       output: web
-    - title: Help
+    - title: Help/Get Involved
       url: /help/
       output: web
     - title: Related Tooling
       url: /related-tooling/
-      output: web
-    - title: Get Involved
-      url: /get_involved/
       output: web
     - title: Code of Conduct
       url: /conduct/

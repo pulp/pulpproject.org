@@ -10,8 +10,8 @@ toc: true
 ![](/images/pulp-workflow-architecture-ha/pulp-overview.png)
 
 As part of the Pulp installation, you must add a content plugin for each content type that you want
-to manage. The following sections contain information about the available content plugins for both
-Pulp 2 and Pulp 3. If you do not find the plugin for the content type you want to manage, consider
+to manage. The following sections contain information about the available content plugins. If you do
+not find the plugin for the content type you want to manage, consider 
 [writing a plugin](https://docs.pulpproject.org/plugins/plugin-writer/index.html).
 
 ## Plugin Changes between Pulp 2 and Pulp 3
@@ -22,35 +22,27 @@ Pulp 2 and Pulp 3. If you do not find the plugin for the content type you want t
 
 ## Pulp 3 CLI Coverage
 
-The [Pulp 3 CLI](https://github.com/pulp/pulp-cli) is a work in progress.
+The [Pulp 3 CLI](https://github.com/pulp/pulp-cli) is continuously being expanded.
 The CLI is implemented by the plugin writers, so the workflows that are possible with the CLI vary
 from plugin to plugin.
-At the moment, these plugins have the following coverage:
-
-* **RPM**: Sync workflow
-* **File**: Sync workflow; content upload
-* **Ansible**: Sync workflow (role & collection)
-* **Container**: Sync workflow
-* **Python**: Sync workflow
-* **Debian**: Sync workflow
-* **OSTree**: Sync workflow
+Please check the CLI directly to see the current workflow coverage for the desired plugin.
 
 ## Role Based Access Control Support
 
-Role Based Access Support (RBAC) is still under active development.
 While the functionality is available in Pulpcore, each plugin must add it separately.
-Currently, the only plugin that has a robust implementation is Pulp Container.
+Please check whether the plugin of your interest has already added RBAC support.
 
 ## Cloud Storage
 
-It is possible to configure Pulp to use [cloud
-storage](https://docs.pulpproject.org/pulpcore/installation/storage.html). However, plugins can
-introduce changes that are incompatible with, for example, S3 requirements. The Pulp Ansible, RPM,
-File, Debian, Python, and Container plugins are regularly tested to ensure they remain compatible
-but the level of coverage is lower for other plugins.
+It is possible to configure Pulp to use 
+[cloud storage](https://docs.pulpproject.org/pulpcore/installation/storage.html). However, plugins
+can introduce changes that are incompatible with, for example, S3 requirements. A number of plugins
+are regularly tested to ensure they remain compatible but the level of coverage might not cover our
+entire matrix of plugins.
 
 ## Pulp 3 Content Plugin Features
 
+Here are some highlights of each plugin's capabilities.
 
 ### RPM
 
@@ -119,10 +111,6 @@ Quay.io, and any other that is Docker Registry HTTP API V2-compatible in mirror 
 
 ### OSTree
 
-The Pulp OSTree plugin is the latest plugin added.
-At the moment, it has alpha status and is under active development.
-The initial release contains the following functionality:
-
 * Synchronize content from a remote OSTree repository and serve it via Pulp.
 * Import new OSTree commits to an existing Pulp repository.
 * Consume content imported to Pulp using the ostree utility.
@@ -131,17 +119,16 @@ The initial release contains the following functionality:
 
 * Use Pulp as a pull through cache for Maven content.
 
-
-### Unmaintained plugins
-
-The following plugins have been created and developed to some extent but have not been regularly maintained.
-If you're interested in extending or maintaining the basic functionality of these plugins, [let us know](/get_involved/).
-
 #### Ruby Gem
 
 * Synchronize remote repository content and metadata locally.
 * Upload your own content.
 * Publish content to one or more repositories.
+
+### Unmaintained plugins
+
+The following plugins have been created and developed to some extent but have not been regularly maintained.
+If you're interested in extending or maintaining the basic functionality of these plugins, [let us know](/help/#contribute-as-a-developer).
 
 #### Chef Cookbook
 
@@ -152,7 +139,7 @@ If you're interested in extending or maintaining the basic functionality of thes
 
 ## Pulp 3 Content Plugins Information
 
-This table contains links to information and sources for all Pulp 3 content plugins. If a plugin is missing [contact us](https://www.redhat.com/mailman/listinfo/pulp-list).
+This table contains links to information and sources for all Pulp 3 content plugins. If a plugin is missing [contact us](https://discourse.pulpproject.org/).
 
 | Pulp Plugin | Docs | Source | Tracker | Install with PyPI | Install with RPM |
 |-------|--------|---------|--------|---------|-------- |--------- |
@@ -171,17 +158,4 @@ This table contains links to information and sources for all Pulp 3 content plug
 
 ## Pulp 2 Content Plugins Information
 
-Pulp 2 will become End of Life in November 2021. For more information about migrating from Pulp 2 to Pulp 3, see the [migration plugin](https://docs.pulpproject.org/pulp_2to3_migration/) documentation.
-
-
-This table contains links to information and sources for all Pulp 2 content plugins. If a plugin is missing [contact us](https://www.redhat.com/mailman/listinfo/pulp-list).
-
-| Pulp Plugin | Docs | Source | Tracker | Install with PyPI | Install with RPM |
-|-------|--------|---------|--------|---------|-------- |--------- |
-| RPM plugin | <a href="https://docs.pulpproject.org/en/2.21/plugins/index.html#rpm">RPM plugin docs</a> | <a href="https://github.com/pulp/pulp_rpm/tree/2-master">RPM plugin source</a> | <a href="https://pulp.plan.io/projects/pulp_rpm?jump=welcome">RPM plugin tracker</a> | No | Yes |
-| Debian plugin | <a href="https://github.com/pulp/pulp_deb/blob/2-master/README.md">DEB plugin docs</a> | <a href="https://github.com/pulp/pulp_deb/tree/2-master">DEB plugin source</a> | <a href="https://pulp.plan.io/projects/pulp_deb?jump=welcome">DEB plugin tracker</a> | No | Yes |
-| Docker plugin | <a href="https://docs.pulpproject.org/en/2.21/plugins/pulp_docker/user-guide/installation.html">Docker plugin docs</a> | <a href="https://github.com/pulp/pulp_docker">Docker plugin source</a> | <a href="https://pulp.plan.io/projects/pulp_docker">Docker plugin tracker</a> | No | Yes |
-| Python plugin | <a href="https://docs.pulpproject.org/en/2.21/plugins/pulp_python/user-docs/getting_started.html">Python plugin docs</a> | <a href="https://github.com/pulp/pulp_python/tree/2-master">Python plugin source</a> | <a href="https://pulp.plan.io/projects/pulp_python?jump=welcome">Python plugin tracker</a> | No | Yes |
-| Puppet plugin | <a href="https://docs.pulpproject.org/en/2.21/plugins/pulp_puppet/user-guide/installation.html">Puppet plugin docs</a> | <a href="https://github.com/pulp/pulp_puppet">Puppet plugin source</a> | <a href="https://pulp.plan.io/projects/pulp_puppet">Puppet plugin tracker</a> | No | Yes |
-
-Are we missing a plugin? Let us know via the pulp-dev@redhat.com mailing list.
+Pulp 2 is EOL. For more information about migrating from Pulp 2 to Pulp 3, see the [migration plugin](https://docs.pulpproject.org/pulp_2to3_migration/) documentation.

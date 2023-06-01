@@ -64,15 +64,13 @@ topnav:
       url: /docs/
     - title: Blog
       url: /blog/
-    - title: Help
-      url: /help/
 topnav_dropdowns:
 - title: Topnav dropdowns
   folders:
-    - title: Contributing
+    - title:  Help/Get Involved
       folderitems:
-        - title: Get Involved
-          url: /get_involved/
+        - title:  Help/Get Involved
+          url: /help/
         - title: Code of Conduct
           url: /conduct/
         - title: Privacy

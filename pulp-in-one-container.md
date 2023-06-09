@@ -7,7 +7,7 @@ toc: false
 
 The quickest way to get started with Pulp is [multi-process image](https://docs.pulpproject.org/pulp_oci_images/multi-process-images/) that has all necessary services to run Pulp 3. It is intended to cover as many use cases for small-scale Pulp deployments.
 
-If you prefer multiple containers, we have [pulp-operator](https://docs.pulpproject.org/pulp_operator/), which is robust but requires a Kubernetes Infrastructure. We also have a [Podman Compose / Docker Compose](/podman-compose/) deployment option to run the [single-process image](https://docs.pulpproject.org/pulp_oci_images/multi-process-images/), however it is intended as a proof-of-concept, and you will likely need to modify the Compose file for your needs.
+If you prefer multiple containers, we have [pulp-operator](https://docs.pulpproject.org/pulp_operator/), which is robust but requires a Kubernetes Infrastructure. We also have a [Podman Compose / Docker Compose](/podman-compose/) deployment option to run the [single-process image](https://docs.pulpproject.org/pulp_oci_images/single-process-images/), however it is intended as a proof-of-concept, and you will likely need to modify the Compose file for your needs.
 
 The multi-process image is available under the `pulp` namespace on [Dockerhub](https://hub.docker.com/repository/docker/pulp/pulp/). This image includes the Ansible, Container, Deb, File, Maven, Python, and RPM plugins. A new version is published every time there is a plugin update available. You can update your environment to the latest version of the container using `podman pull`.
 

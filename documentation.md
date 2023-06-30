@@ -28,7 +28,7 @@ toc: false
 * [OSTree plugin](https://docs.pulpproject.org/pulp_ostree/)
 * [Chef Cookbook plugin](https://github.com/pulp/pulp_cookbook/blob/master/README.rst)
 * [Maven plugin](https://docs.pulpproject.org/pulp_maven/)
-* [RubyGem plugin](https://github.com/pulp/pulp_gem/blob/master/README.rst)
+* [RubyGem plugin](https://docs.pulpproject.org/pulp_gem/)
 * [Ansible GalaxyNG plugin](https://github.com/ansible/galaxy_ng/wiki)
 
 ## Other plugins

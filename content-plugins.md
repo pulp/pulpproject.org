@@ -11,7 +11,7 @@ toc: true
 
 As part of the Pulp installation, you must add a content plugin for each content type that you want
 to manage. The following sections contain information about the available content plugins. If you do
-not find the plugin for the content type you want to manage, consider 
+not find the plugin for the content type you want to manage, consider
 [writing a plugin](https://docs.pulpproject.org/plugins/plugin-writer/index.html).
 
 ## Plugin Changes between Pulp 2 and Pulp 3
@@ -20,12 +20,12 @@ not find the plugin for the content type you want to manage, consider
 * The Docker plugin in Pulp 2 has been replaced by the Container plugin.
 * Currently, there is no Pulp 3 plugin for Puppet content.
 
-## Pulp 3 CLI Coverage
+## Pulp CLI
 
-The [Pulp 3 CLI](https://github.com/pulp/pulp-cli) is continuously being expanded.
-The CLI is implemented by the plugin writers, so the workflows that are possible with the CLI vary
-from plugin to plugin.
-Please check the CLI directly to see the current workflow coverage for the desired plugin.
+The [Pulp CLI](https://github.com/pulp/pulp-cli) is continuously being expanded, so the workflow
+coverage with the CLI vary from plugin to plugin.
+Also support for some of them is maintained in separate
+[Pulp CLI Plugins](https://docs.pulpproject.org/pulp_cli/#cli-plugins).
 
 ## Role Based Access Control Support
 
@@ -34,7 +34,7 @@ Please check whether the plugin of your interest has already added RBAC support.
 
 ## Cloud Storage
 
-It is possible to configure Pulp to use 
+It is possible to configure Pulp to use
 [cloud storage](https://docs.pulpproject.org/pulpcore/installation/storage.html). However, plugins
 can introduce changes that are incompatible with, for example, S3 requirements. A number of plugins
 are regularly tested to ensure they remain compatible but the level of coverage might not cover our
@@ -93,8 +93,7 @@ Quay.io, and any other that is Docker Registry HTTP API V2-compatible in mirror 
 * Store private Ansible roles on-premise.
 * Install roles from pulp_ansible using the ansible-galaxy CLI.
 * Version content and rollback if necessary.
-* Support for the new multi-role content type from Galaxy.
-
+* Support for the Collections from Galaxy.
 
 ### Debian
 
@@ -115,11 +114,11 @@ Quay.io, and any other that is Docker Registry HTTP API V2-compatible in mirror 
 * Import new OSTree commits to an existing Pulp repository.
 * Consume content imported to Pulp using the ostree utility.
 
-#### Maven
+### Maven
 
 * Use Pulp as a pull through cache for Maven content.
 
-#### Ruby Gem
+### Ruby Gem
 
 * Synchronize remote repository content and metadata locally.
 * Upload your own content.

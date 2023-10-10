@@ -5,12 +5,9 @@ permalink: /pulp-squeezer/
 toc: false
 ---
 
-
 Pulp Squeezer, formerly known as Pulp Ansible Modules, is a collection of Ansible modules that you can use to manage Pulp.
 
-Previously, you could use Ansible modules only to manage File content in Pulp. With this release, you can fetch, upload, organize, and distribute File, Ansible, and Python content.
-
-Installing collections with `ansible-galaxy` is only supported in Ansible 2.9 and higher.
+You can fetch, upload, organize, and distribute File, Ansible, Python, Container, Debian and RPM content.
 
 Check out Pulp Squeezer on [Ansible Galaxy](https://galaxy.ansible.com/pulp/squeezer).
 
@@ -18,34 +15,4 @@ Check out Pulp Squeezer on [Ansible Galaxy](https://galaxy.ansible.com/pulp/sque
 
 ## Available modules
 
-For Ansible content:
-
-*  `ansible_distribution`
-*  `ansible_remote`
-*  `ansible_repository`
-*  `ansible_role`
-*  `ansible_sync`
-
-For File content:
-
-*  `file_content`
-*  `file_distribution`
-*  `file_publication`
-*  `file_remote`
-*  `file_repository`
-*  `file_sync`
-
-For Python content:
-
-*  `python_distribution`
-*  `python_publication`
-*  `python_remote`
-*  `python_repository`
-*  `python_sync`
-
-Pulp general:
-
-*  `artifact`
-*  `delete_orphans`
-*  `status`
-*  `task`
+The current list of available modules can be found at [Squeezer modules](https://galaxy.ansible.com/ui/repo/published/pulp/squeezer/content/?sort=-pulp_created&showing=module).

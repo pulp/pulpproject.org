@@ -23,8 +23,15 @@ $ mkdir settings pulp_storage pgsql containers
 $ echo "CONTENT_ORIGIN='http://$(hostname):8080'
 ANSIBLE_API_HOSTNAME='http://$(hostname):8080'
 ANSIBLE_CONTENT_HOSTNAME='http://$(hostname):8080/pulp/content'
+TOKEN_SERVER = "http://(hostname):8080/token/"
+TOKEN_SIGNATURE_ALGORITHM = 'ES256'
+PUBLIC_KEY_PATH = '/tmp/public_key.pem'
+PRIVATE_KEY_PATH = '/tmp/private_key.pem'
 CACHE_ENABLED=True" >> settings/settings.py
 ```
+
+Refer to plugin settings configuration docs for more before spunning the container.
+For example, [pulp_container plugin](https://docs.pulpproject.org/pulp_container/authentication.html#token-authentication-label) requires key pair generation.
 
 ## With SELinux
 

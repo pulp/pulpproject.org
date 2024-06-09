@@ -1,5 +1,5 @@
 ---
-title: Getting Help/ Getting Involved
+title: Getting Help / Getting Involved
 sidebar: home_sidebar
 permalink: /help/
 toc: false
@@ -45,7 +45,7 @@ The Pulp community's primary communication channel is Matrix.
 See the [developers guide](https://docs.pulpproject.org/contributing/index.html) for how
 to contribute code fixes.
 
-Follow the [discourse]((https://discourse.pulpproject.org/) for discussions about Pulp itself.
+Follow the [discourse](https://discourse.pulpproject.org/) for discussions about Pulp itself.
 
 ### Plugin Developer Matrix Channels
 
@@ -68,7 +68,7 @@ If you're interested in discussing the development of the following plugins, som
 relating to pulpcore or plugins. To participate, put a topic on
 [the agenda](https://hackmd.io/@pulp/triage/edit).
 
-**Bug Triage** - every Tuesday immediately after Open Floor in [pulp-meeting](https://matrix.to/#/#pulp_meeting:matrix.org?via=libera.chat&via=matrix.org) on Matrix . Come and
+**Bug Triage** - every Tuesday immediately after Open Floor in [pulp-meeting](https://matrix.to/#/#pulp_meeting:matrix.org?via=libera.chat&via=matrix.org) on Matrix. Come and
 participate in real-time.
 
 ## Upcoming Events
